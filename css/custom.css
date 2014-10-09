@@ -1,0 +1,63 @@
+body {
+	color: #747704;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.container {
+	max-width: 1030px;
+}
+
+hr {
+	border-color: #B9C1BF;
+	border-width: 5px;
+}
+
+/* Header */
+
+header {
+
+}
+
+/* Featured Image */
+
+.featured-image {
+	margin-top: 16px;
+	margin-bottom: 23px;
+}
+
+/* Featured Work */
+
+.featured-work h2 {
+  font-size: 39px;
+  margin-bottom: 16px;
+  margin-left: 12px;
+}
+
+.featured-work h3 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+/* Typography */
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+/* Buttons */
+
+
+

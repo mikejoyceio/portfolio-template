@@ -39,6 +39,12 @@ header {
   margin-top: 15px;
 }
 
+/* Footer */
+
+.footer {
+	padding: 30px 5px;
+}
+
 /* Typography */
 
 .text-muted {

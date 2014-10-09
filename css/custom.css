@@ -1,3 +1,7 @@
+* {
+	outline: 1px solid pink;
+}
+
 body {
 	color: #747704;
 	font-family: 'Lato', sans-serif;

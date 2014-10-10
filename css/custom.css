@@ -20,37 +20,21 @@ header {
 
 }
 
-/* Featured Image */
+/* Featured */
 
-.featured-image {
-	margin-top: 16px;
-	margin-bottom: 23px;
-}
+.featured {
 
-/* Featured Work */
-
-.featured-work h2 {
-  font-size: 39px;
-  margin-bottom: 16px;
-  margin-left: 12px;
-}
-
-.featured-work h3 {
-  font-size: 40px;
-  margin-top: 15px;
 }
 
 /* Footer */
 
 footer {
-	padding: 30px 5px;
+
 }
+
+/* Buttons */
 
 /* Typography */
-
-h1, h2, h3, h4, h5 {
-	font-family: 'texgyreadventorbold', sans-serif; 
-}
 
 .text-muted {
 	color: #bcbbbb;
@@ -67,8 +51,3 @@ h1, h2, h3, h4, h5 {
 .title-logo {
 	margin-top: 20px;
 }
-
-/* Buttons */
-
-
-

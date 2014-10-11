@@ -4,126 +4,133 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, intitial-scale=1">
+
     <title>Portfolio</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Twitter Card Data -->
+    <meta name="twitter:card" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Facebook Open Graph Data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" /> 
+    <meta property="og:site_name" content="" />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content=""> 
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/foundation.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+
   </head>
   <body>
-    <div class="container">
 
-      <!-- Header -->
-      <header class="row">
-        <div class="col-md-6">
-          <img class="title-logo" src="http://placehold.it/120x120" class="img-responsive" alt="" ></div>
-        <div class="col-md-6 text-right text-uppercase">
-          <h1 class="title-super text-thin">Mike Joyce</h1>
-          <h3>Front-End Developer</h3>
-        </div>
-      </header>
-
+    <!-- Header -->
+    <header>
       <div class="row">
-        <div class="col-md-12">
-          <hr>
-        </div>
-      </div>
 
-      <!-- Featured Image -->
-      <div class="featured-image row">
-        <div class="col-md-12">
-          <img src="http://placehold.it/1140x425" class="img-responsive" alt="">
+        <div class="large-6 columns">
+          <h1>Mike.</h1>
         </div>
-      </div>
 
-      <!-- Featured Work -->
-      <div class="featured-work row">
-        <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
+        <div class="large-6 columns">
+          <nav>
+            <ul class="inline-list">
+              <li>Link.</li>
+              <li>Link.</li>
+            </ul>
+          </nav>
         </div>
-      </div>
-      <div class="featured-work row text-center text-uppercase text-thin">
-        <div class="col-md-4">
-          <img src="http://placehold.it/720x475" class="img-responsive" alt="" data-toggle="modal" data-target="#feature-01">
-          <h3>Title</h3>
-          <p><a href="#">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/720x475" class="img-responsive" alt="" data-toggle="modal" data-target="#feature-02">
-          <h3>Title</h3>
-          <p><a href="#">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/720x475" class="img-responsive" alt="" data-toggle="modal" data-target="#feature-03">
-          <h3>Title</h3>
-          <p><a href="#">Link to Project</a></p>
-        </div>
-      </div>
 
-      <!-- Footer -->
-      <footer class="row">
-        <div class="col-md-12">
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Feature -->
+    <div class="feature">
+      <div class="row">
+
+        <div class="large-12 column">
+          <h2>Front-End Developer</h2>
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quaerat, fugiat dolorum, error facilis velit saepe odio iste.</p>
+          <div class="connect">
+            <ul class="inline-list">
+              <li><a href="#"><span class="">T</span></a></li>
+              <li><a href="#"><span class="">G</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /Feature -->
+
+    <!-- Featured Work -->
+    <div class="featured-work">
+      <div class="row">
+
+        <div class="large-12 column">
+          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+            <li>  
+              <figure>
+                <img src="http://placehold.it/400x400" alt="Alt Text">
+                <figcaption>Caption Text</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="http://placehold.it/400x400" alt="Alt Text">
+                <figcaption>Caption Text</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="http://placehold.it/400x400" alt="Alt Text">
+                <figcaption>Caption Text</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <!-- /Featured Work -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+
+        <div class="large-12 column">
+          <h4>If you'd like to get in touch, email me at hello@mikejoyce.me</h4>
+          <p>Or send me a message from here</p>
+          <div class="message">
+            <span class="">M</span>
+          </div>
           <small>&copy; Mike Joyce</small>
         </div>
-      </footer>
 
-  </div>
-
-  <!-- Modal Feature 01 -->
-  <div class="modal fade" id="feature-01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
       </div>
-    </div>
-  </div>
+    </footer>
+    <!-- /Footer -->
 
-  <!-- Modal Feature 02 -->
-  <div class="modal fade" id="feature-02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Feature 03 -->
-  <div class="modal fade" id="feature-03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>
   </body>
 </html>

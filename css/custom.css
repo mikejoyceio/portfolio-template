@@ -1,15 +1,12 @@
 * {
-	outline: 1px solid pink;
+	outline: 1px solid pink !important;
 }
 
 body {
+	background: #e8e8e8;
 	color: #747704;
-	font-family: 'Lato', sans-serif;
+	font-family: 'texgyreadventorregular', sans-serif;
 	font-weight: 300;
-}
-
-.container {
-	max-width: 1030px;
 }
 
 hr {
@@ -23,31 +20,25 @@ header {
 
 }
 
-/* Featured Image */
+/* Feature */
 
-.featured-image {
-	margin-top: 16px;
-	margin-bottom: 23px;
+.feature {
+
 }
 
 /* Featured Work */
 
-.featured-work h2 {
-  font-size: 39px;
-  margin-bottom: 16px;
-  margin-left: 12px;
-}
-
-.featured-work h3 {
-  font-size: 40px;
-  margin-top: 15px;
+.featured-work {
+	
 }
 
 /* Footer */
 
 footer {
-	padding: 30px 5px;
+
 }
+
+/* Buttons */
 
 /* Typography */
 
@@ -66,8 +57,3 @@ footer {
 .title-logo {
 	margin-top: 20px;
 }
-
-/* Buttons */
-
-
-

@@ -25,6 +25,9 @@ a {
 	@include link-colors(#222222, #222222);
 	font-family: $font-bold;
 	font-weight: 700;
+	&:hover {
+		border-bottom: 3px solid #222222;
+	}
 }
 
 // Header

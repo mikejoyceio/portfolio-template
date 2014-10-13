@@ -3649,15 +3649,15 @@ th.hide-for-touch {
 }
 @font-face {
   font-family: 'texgyreadventorregular';
-  src: url('/fonts/texgyreadventor-regular-webfont.eot?1412898964');
-  src: url('/fonts/texgyreadventor-regular-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('/fonts/texgyreadventor-regular-webfont.woff?1412898964') format("woff"), url('/fonts/texgyreadventor-regular-webfont.ttf?1412898964') format("truetype"), url('/fonts/texgyreadventor-regular-webfont.svg?1412898964#texgyreadventorregular') format("svg");
+  src: url('../fonts/texgyreadventor-regular-webfont.eot?1412898964');
+  src: url('../fonts/texgyreadventor-regular-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('../fonts/texgyreadventor-regular-webfont.woff?1412898964') format("woff"), url('../fonts/texgyreadventor-regular-webfont.ttf?1412898964') format("truetype"), url('../fonts/texgyreadventor-regular-webfont.svg?1412898964#texgyreadventorregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'texgyreadventorbold';
-  src: url('/fonts/texgyreadventor-bold-webfont.eot?1412898964');
-  src: url('/fonts/texgyreadventor-bold-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('/fonts/texgyreadventor-bold-webfont.woff?1412898964') format("woff"), url('/fonts/texgyreadventor-bold-webfont.ttf?1412898964') format("truetype"), url('/fonts/texgyreadventor-bold-webfont.svg?1412898964#texgyreadventorbold') format("svg");
+  src: url('../fonts/texgyreadventor-bold-webfont.eot?1412898964');
+  src: url('../fonts/texgyreadventor-bold-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('../fonts/texgyreadventor-bold-webfont.woff?1412898964') format("woff"), url('../fonts/texgyreadventor-bold-webfont.ttf?1412898964') format("truetype"), url('../fonts/texgyreadventor-bold-webfont.svg?1412898964#texgyreadventorbold') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3688,20 +3688,23 @@ header nav {
 
 /* line 33, ../scss/_custom.scss */
 .feature {
+  background: url('../img/bg.jpg?1396306560');
+  background-size: cover;
+  background-attachment: fixed;
   height: 100%;
 }
 
-/* line 39, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 42, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
-/* line 46, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: #fff;
   -moz-border-radius-bottomleft: 5px;
@@ -3715,7 +3718,7 @@ header nav {
   padding: 10px;
 }
 
-/* line 61, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

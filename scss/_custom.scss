@@ -31,6 +31,9 @@ header {
 // Feature
 
 .feature {
+	background: image-url('bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
 	height: 100%;
 }
 

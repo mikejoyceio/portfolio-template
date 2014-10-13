@@ -9060,12 +9060,41 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 1, ../scss/_layout.scss */
+@font-face {
+  font-family: 'texgyreadventorregular';
+  src: url('/fonts/texgyreadventor-regular-webfont.eot?1412898964');
+  src: url('/fonts/texgyreadventor-regular-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('/fonts/texgyreadventor-regular-webfont.woff?1412898964') format("woff"), url('/fonts/texgyreadventor-regular-webfont.ttf?1412898964') format("truetype"), url('/fonts/texgyreadventor-regular-webfont.svg?1412898964#texgyreadventorregular') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'texgyreadventorbold';
+  src: url('/fonts/texgyreadventor-bold-webfont.eot?1412898964');
+  src: url('/fonts/texgyreadventor-bold-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('/fonts/texgyreadventor-bold-webfont.woff?1412898964') format("woff"), url('/fonts/texgyreadventor-bold-webfont.ttf?1412898964') format("truetype"), url('/fonts/texgyreadventor-bold-webfont.svg?1412898964#texgyreadventorbold') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 4, ../scss/_custom.scss */
 * {
   outline: 1px solid pink !important;
 }
 
-/* line 5, ../scss/_layout.scss */
+/* line 8, ../scss/_custom.scss */
 body {
-  background: #e3e3e3;
+  background: #e8e8e8;
+  color: #747704;
+  font-family: 'texgyreadventorregular', sans-serif;
+  font-weight: 300;
 }
+
+/* line 15, ../scss/_custom.scss */
+hr {
+  border-color: #B9C1BF;
+  border-width: 5px;
+}
+
+/* Header */
+/* Feature */
+/* Featured Work */
+/* Footer */
+/* Buttons */

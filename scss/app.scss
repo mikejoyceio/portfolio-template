@@ -1,9 +1,9 @@
+
+// Foundation 
+
 @import "settings";
 @import "foundation";
 
-// Paritals
-@import "layout";
-@import "typography";
 
 // Or selectively include components
 // @import
@@ -42,3 +42,9 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+
+// Paritals
+
+@import "typography";
+@import "custom";

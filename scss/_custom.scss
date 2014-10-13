@@ -16,6 +16,12 @@ body {
 	font-weight: 700;
 }
 
+a {
+	@include link-colors(#222222, #222222);
+	font-family: $font-bold;
+	font-weight: 700;
+}
+
 // Header
 
 header {

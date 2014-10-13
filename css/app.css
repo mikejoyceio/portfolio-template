@@ -3696,13 +3696,13 @@ header {
 }
 /* line 30, ../scss/_custom.scss */
 header nav {
-  float: right;
-  overflow: hidden;
-  *zoom: 1;
-  margin-top: 15px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 150px;
 }
 
-/* line 40, ../scss/_custom.scss */
+/* line 41, ../scss/_custom.scss */
 .feature {
   background: url('../img/bg.jpg?1396306560');
   background-size: cover;
@@ -3711,17 +3711,17 @@ header nav {
   padding-top: 150px;
 }
 
-/* line 50, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 53, ../scss/_custom.scss */
+/* line 54, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
-/* line 57, ../scss/_custom.scss */
+/* line 58, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: #fff;
   -moz-border-radius-bottomleft: 5px;
@@ -3735,7 +3735,7 @@ header nav {
   padding: 10px;
 }
 
-/* line 72, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 footer {
   background: #2d2d2d;
   height: 400px;

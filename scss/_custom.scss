@@ -19,7 +19,8 @@ body {
 // Header
 
 header {
-
+	position: absolute;
+	width: 100%;
 	nav {
 		@include float-right;
 		@include clearfix;
@@ -35,6 +36,7 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
+	padding-top: 150px;
 }
 
 // Featured Work

@@ -3678,7 +3678,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* line 23, ../scss/_custom.scss */
+/* line 21, ../scss/_custom.scss */
+header {
+  position: absolute;
+  width: 100%;
+}
+/* line 24, ../scss/_custom.scss */
 header nav {
   float: right;
   overflow: hidden;
@@ -3686,25 +3691,26 @@ header nav {
   margin-top: 15px;
 }
 
-/* line 33, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
 .feature {
   background: url('../img/bg.jpg?1396306560');
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
+  padding-top: 150px;
 }
 
-/* line 42, ../scss/_custom.scss */
+/* line 44, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 45, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
-/* line 49, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: #fff;
   -moz-border-radius-bottomleft: 5px;
@@ -3718,7 +3724,7 @@ header nav {
   padding: 10px;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 footer {
   background: #2d2d2d;
   height: 400px;

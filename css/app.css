@@ -3720,6 +3720,7 @@ header nav {
 
 /* line 64, ../scss/_custom.scss */
 footer {
+  background: #2d2d2d;
   height: 400px;
   padding: 5% 0;
 }

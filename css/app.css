@@ -9087,29 +9087,23 @@ body {
   font-weight: 300;
 }
 
-/* line 15, ../scss/_custom.scss */
-hr {
-  border-color: #B9C1BF;
-  border-width: 5px;
-}
-
-/* line 28, ../scss/_custom.scss */
+/* line 23, ../scss/_custom.scss */
 .feature {
   height: 100%;
 }
 
-/* line 34, ../scss/_custom.scss */
+/* line 29, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 37, ../scss/_custom.scss */
+/* line 32, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
 
-/* line 47, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

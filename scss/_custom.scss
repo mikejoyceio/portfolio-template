@@ -44,7 +44,12 @@ header {
 	    padding: 0;
 	    max-width: 400px;
 	    figcaption {
+	    	background: #fff;
+	    	@include border-bottom-left-radius(5px);
+	    	@include border-bottom-right-radius(5px);
 	    	font-family: $font-bold, sans-serif;
+	    	font-weight: 700;
+	    	padding: 10px;
 	    }
 		}
 	

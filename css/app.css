@@ -3703,10 +3703,19 @@ header nav {
 }
 /* line 46, ../scss/_custom.scss */
 .featured-work figure figcaption {
+  background: #fff;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   font-family: texgyreadventorbold, sans-serif;
+  font-weight: 700;
+  padding: 10px;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 60, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

@@ -3669,13 +3669,12 @@ th.hide-for-touch {
 /* line 8, ../scss/_custom.scss */
 body {
   background: #e8e8e8;
-  font-family: 'texgyreadventorregular', sans-serif;
-  font-weight: 300;
+  font-family: texgyreadventorregular, sans-serif;
 }
 
 /* line 14, ../scss/_custom.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'texgyreadventorbold', sans-serif;
+  font-family: texgyreadventorbold, sans-serif;
   font-weight: 700;
 }
 
@@ -3702,8 +3701,12 @@ header nav {
   padding: 0;
   max-width: 400px;
 }
+/* line 46, ../scss/_custom.scss */
+.featured-work figure figcaption {
+  font-family: texgyreadventorbold, sans-serif;
+}
 
-/* line 52, ../scss/_custom.scss */
+/* line 55, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

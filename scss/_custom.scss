@@ -7,12 +7,12 @@
 
 body {
 	background: #e8e8e8;
-	font-family: 'texgyreadventorregular', sans-serif;
-	font-weight: 300;
+	font-family: $font-normal, sans-serif;
+
 }
 
 #{ headings(all) } {
-	font-family: 'texgyreadventorbold', sans-serif;
+	font-family: $font-bold, sans-serif;
 	font-weight: 700;
 }
 
@@ -43,6 +43,9 @@ header {
 	    margin: auto;
 	    padding: 0;
 	    max-width: 400px;
+	    figcaption {
+	    	font-family: $font-bold, sans-serif;
+	    }
 		}
 	
 }

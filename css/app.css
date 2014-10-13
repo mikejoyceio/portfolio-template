@@ -9092,3 +9092,10 @@ hr {
   border-color: #B9C1BF;
   border-width: 5px;
 }
+
+/* line 37, ../scss/_custom.scss */
+.featured-work figure {
+  margin: auto;
+  padding: 0;
+  max-width: 400px;
+}

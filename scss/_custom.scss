@@ -26,12 +26,13 @@ header {
 // Feature
 
 .feature {
-	text-align: center;
+	height: 100%;
 }
 
 // Featured Work
 
 .featured-work {
+		padding: 10% 0;
 	
 		figure {
 	    margin: auto;
@@ -44,5 +45,6 @@ header {
 // Footer
 
 footer {
-	text-align: center;
+	height: 400px;
+	padding: 5% 0;
 }

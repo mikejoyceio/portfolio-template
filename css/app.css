@@ -9095,17 +9095,22 @@ hr {
 
 /* line 28, ../scss/_custom.scss */
 .feature {
-  text-align: center;
+  height: 100%;
 }
 
-/* line 36, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
+.featured-work {
+  padding: 10% 0;
+}
+/* line 37, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
 
-/* line 46, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 footer {
-  text-align: center;
+  height: 400px;
+  padding: 5% 0;
 }

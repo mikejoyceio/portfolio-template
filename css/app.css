@@ -9082,34 +9082,33 @@ th.hide-for-touch {
 /* line 8, ../scss/_custom.scss */
 body {
   background: #e8e8e8;
-  color: #747704;
   font-family: 'texgyreadventorregular', sans-serif;
   font-weight: 300;
 }
 
-/* line 15, ../scss/_custom.scss */
+/* line 14, ../scss/_custom.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'texgyreadventorbold', sans-serif;
   font-weight: 700;
 }
 
-/* line 28, ../scss/_custom.scss */
+/* line 27, ../scss/_custom.scss */
 .feature {
   height: 100%;
 }
 
-/* line 34, ../scss/_custom.scss */
+/* line 33, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 37, ../scss/_custom.scss */
+/* line 36, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
 
-/* line 47, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

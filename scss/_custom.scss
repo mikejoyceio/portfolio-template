@@ -60,13 +60,13 @@ header {
 		padding: 10% 0;
 	
 		figure {
+			background: #fff;
+			@include border-radius(5px);
 	    margin: auto;
-	    padding: 0;
+	    padding: 5px;
 	    max-width: 400px;
 	    figcaption {
 	    	background: #fff;
-	    	@include border-bottom-left-radius(5px);
-	    	@include border-bottom-right-radius(5px);
 	    	font-family: $font-bold, sans-serif;
 	    	font-weight: 700;
 	    	padding: 10px;

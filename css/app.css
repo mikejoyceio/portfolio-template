@@ -9087,23 +9087,29 @@ body {
   font-weight: 300;
 }
 
-/* line 23, ../scss/_custom.scss */
+/* line 15, ../scss/_custom.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'texgyreadventorbold', sans-serif;
+  font-weight: 700;
+}
+
+/* line 28, ../scss/_custom.scss */
 .feature {
   height: 100%;
 }
 
-/* line 29, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 32, ../scss/_custom.scss */
+/* line 37, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
 
-/* line 42, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

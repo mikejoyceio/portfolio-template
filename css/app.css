@@ -9093,9 +9093,19 @@ hr {
   border-width: 5px;
 }
 
-/* line 37, ../scss/_custom.scss */
+/* line 28, ../scss/_custom.scss */
+.feature {
+  text-align: center;
+}
+
+/* line 36, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
+}
+
+/* line 46, ../scss/_custom.scss */
+footer {
+  text-align: center;
 }

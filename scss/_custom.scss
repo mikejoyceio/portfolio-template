@@ -20,6 +20,12 @@ body {
 
 header {
 
+	nav {
+		@include float-right;
+		@include clearfix;
+		margin-top: 15px;
+	}
+
 }
 
 // Feature

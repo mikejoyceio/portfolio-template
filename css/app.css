@@ -3679,23 +3679,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-/* line 27, ../scss/_custom.scss */
+/* line 23, ../scss/_custom.scss */
+header nav {
+  float: right;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 15px;
+}
+
+/* line 33, ../scss/_custom.scss */
 .feature {
   height: 100%;
 }
 
-/* line 33, ../scss/_custom.scss */
+/* line 39, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 36, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
 .featured-work figure {
   margin: auto;
   padding: 0;
   max-width: 400px;
 }
 
-/* line 46, ../scss/_custom.scss */
+/* line 52, ../scss/_custom.scss */
 footer {
   height: 400px;
   padding: 5% 0;

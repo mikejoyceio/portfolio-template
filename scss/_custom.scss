@@ -63,6 +63,14 @@ header {
 		font-size: 3rem;
 		font-weight: 700;
 	}
+	.toggle {
+		background: black;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
 	nav {
 		position: absolute;
 		right: 0;

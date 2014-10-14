@@ -5,15 +5,26 @@
 	outline: 1px solid pink !important;
 }
 
+// Vertical Rhythm
+
+$base-font-size: $rem-base;
+$base-line-height: floor( $base-font-size * 1.62 );
+@include establish-baseline;
+
 body {
 	background: #e8e8e8;
 	font-family: $font-normal, sans-serif;
+	@include debug-vertical-alignment;
 
 }
 
 #{ headings(all) } {
 	font-family: $font-bold, sans-serif;
 	font-weight: 700;
+}
+
+h1 {
+	@include adjust-font-size-to( $h1-font-size );
 }
 
 p {

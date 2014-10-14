@@ -3666,25 +3666,48 @@ th.hide-for-touch {
   outline: 1px solid pink !important;
 }
 
-/* line 8, ../scss/_custom.scss */
-body {
-  background: #e8e8e8;
-  font-family: texgyreadventorregular, sans-serif;
+/* line 106, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 100%;
+  line-height: 1.5625em;
 }
 
 /* line 14, ../scss/_custom.scss */
+body {
+  background: #e8e8e8;
+  font-family: texgyreadventorregular, sans-serif;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  -moz-background-size: 100% 1.5625em;
+  -o-background-size: 100% 1.5625em;
+  -webkit-background-size: 100% 1.5625em;
+  background-size: 100% 1.5625em;
+  background-position: left top;
+}
+
+/* line 21, ../scss/_custom.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: texgyreadventorbold, sans-serif;
   font-weight: 700;
 }
 
-/* line 19, ../scss/_custom.scss */
-p {
-  margin-top: 1.5;
-  margin-bottom: 1.5;
+/* line 26, ../scss/_custom.scss */
+h1 {
+  font-size: 2.75em;
+  line-height: 1.13636em;
 }
 
-/* line 24, ../scss/_custom.scss */
+/* line 30, ../scss/_custom.scss */
+p {
+  margin-top: 1.5625em;
+  margin-bottom: 1.5625em;
+}
+
+/* line 35, ../scss/_custom.scss */
 a {
   color: #222222;
   font-family: texgyreadventorbold;
@@ -3694,17 +3717,17 @@ a {
 a:hover {
   color: #222222;
 }
-/* line 28, ../scss/_custom.scss */
+/* line 39, ../scss/_custom.scss */
 a:hover {
   border-bottom: 3px solid #222222;
 }
 
-/* line 35, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 header {
   position: absolute;
   width: 100%;
 }
-/* line 38, ../scss/_custom.scss */
+/* line 49, ../scss/_custom.scss */
 header nav {
   position: absolute;
   right: 0;
@@ -3712,7 +3735,7 @@ header nav {
   width: 150px;
 }
 
-/* line 49, ../scss/_custom.scss */
+/* line 60, ../scss/_custom.scss */
 .feature {
   background: url('../img/bg.jpg?1396306560');
   background-size: cover;
@@ -3721,11 +3744,11 @@ header nav {
   padding-top: 150px;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 70, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 62, ../scss/_custom.scss */
+/* line 73, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3738,7 +3761,7 @@ header nav {
   padding: 5px;
   max-width: 400px;
 }
-/* line 68, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3749,7 +3772,7 @@ header nav {
   padding: 10px;
 }
 
-/* line 81, ../scss/_custom.scss */
+/* line 92, ../scss/_custom.scss */
 footer {
   background: #2d2d2d;
   height: 400px;

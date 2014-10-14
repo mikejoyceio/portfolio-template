@@ -39,6 +39,20 @@ a {
 	}
 }
 
+// Buttons 
+
+button {
+	@include background(linear-gradient(320deg, transparent 5px, #ffffff 5px));
+	border: none;
+	color: #222222;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-family: $font-bold;
+	word-spacing: 0.3rem;
+	border-radius: 5px;
+	font-size: 0.9rem;
+}
+
 // Header
 
 header {

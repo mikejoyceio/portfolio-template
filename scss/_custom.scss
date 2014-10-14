@@ -59,7 +59,9 @@ header {
 	position: absolute;
 	width: 100%;
 	.logo {
-		font-size: 2rem;
+		font-family: $font-bold;
+		font-size: 3rem;
+		font-weight: 700;
 	}
 	nav {
 		position: absolute;

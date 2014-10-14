@@ -56,10 +56,11 @@ header {
 // Feature
 
 .feature {
-	//background: image-url('bg.jpg');
+	background: image-url('bg.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
+	min-height: 500px;
 	padding-top: 150px;
 }
 
@@ -88,7 +89,7 @@ header {
 // Footer
 
 footer {
-	//background: #2d2d2d;
+	background: #2d2d2d;
 	height: 400px;
 	padding: 5% 0;
 }

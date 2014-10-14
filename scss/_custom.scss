@@ -90,6 +90,12 @@ header {
 
 footer {
 	background: #2d2d2d;
+	color: #888888;
 	height: 400px;
-	padding: 5% 0;
+	padding: 8% 0;
+	h4 {
+		color: #888888;
+		font-family: $font-normal;
+		font-weight: 300;
+	}
 }

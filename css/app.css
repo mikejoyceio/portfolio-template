@@ -3773,6 +3773,13 @@ header nav {
 /* line 91, ../scss/_custom.scss */
 footer {
   background: #2d2d2d;
+  color: #888888;
   height: 400px;
-  padding: 5% 0;
+  padding: 8% 0;
+}
+/* line 96, ../scss/_custom.scss */
+footer h4 {
+  color: #888888;
+  font-family: texgyreadventorregular;
+  font-weight: 300;
 }

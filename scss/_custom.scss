@@ -58,6 +58,9 @@ button {
 header {
 	position: absolute;
 	width: 100%;
+	.logo {
+		font-size: 2rem;
+	}
 	nav {
 		position: absolute;
 		right: 0;

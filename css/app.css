@@ -3570,12 +3570,18 @@ header nav a:hover {
   min-height: 500px;
   padding-top: 150px;
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 96, ../scss/_custom.scss */
+  .feature {
+    margin: 13px;
+  }
+}
 
-/* line 107, ../scss/_custom.scss */
+/* line 110, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 110, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3588,7 +3594,7 @@ header nav a:hover {
   padding: 5px;
   max-width: 400px;
 }
-/* line 116, ../scss/_custom.scss */
+/* line 119, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3600,43 +3606,43 @@ header nav a:hover {
   padding: 10px;
 }
 
-/* line 130, ../scss/_custom.scss */
+/* line 133, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
   margin-bottom: 3.5rem;
 }
-/* line 139, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 141, ../scss/_custom.scss */
+/* line 144, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 147, ../scss/_custom.scss */
+/* line 150, ../scss/_custom.scss */
 footer p {
   font-size: 0.8rem;
   margin-bottom: 4.5rem;
 }
-/* line 152, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 155, ../scss/_custom.scss */
+/* line 158, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 160, ../scss/_custom.scss */
+/* line 163, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

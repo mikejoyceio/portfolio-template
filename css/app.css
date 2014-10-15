@@ -3544,14 +3544,12 @@ header .logo {
 }
 /* line 76, ../scss/_custom.scss */
 header .toggle {
-  background: black;
-  width: 30px;
-  height: 30px;
+  font-size: 2rem;
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 10px;
+  top: 16px;
 }
-/* line 84, ../scss/_custom.scss */
+/* line 82, ../scss/_custom.scss */
 header nav {
   position: absolute;
   right: 0;
@@ -3559,7 +3557,7 @@ header nav {
   width: 150px;
 }
 
-/* line 95, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .feature {
   background: url('../img/bg.jpg?1396306560');
   background-size: cover;
@@ -3569,11 +3567,11 @@ header nav {
   padding-top: 150px;
 }
 
-/* line 106, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 109, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3586,7 +3584,7 @@ header nav {
   padding: 5px;
   max-width: 400px;
 }
-/* line 115, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3598,30 +3596,30 @@ header nav {
   padding: 10px;
 }
 
-/* line 129, ../scss/_custom.scss */
+/* line 127, ../scss/_custom.scss */
 footer {
   background: #2d2d2d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 133, ../scss/_custom.scss */
+/* line 131, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
   margin-bottom: 3.5rem;
 }
-/* line 139, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 footer p {
   font-size: 0.8rem;
   margin-bottom: 4.5rem;
 }
-/* line 144, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 149, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 300px;

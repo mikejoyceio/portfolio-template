@@ -67,6 +67,9 @@ header {
 		font-family: $font-bold;
 		font-size: 3rem;
 		font-weight: 700;
+		a {
+			@include link-colors(#222222, #222222);
+		}
 	}
 	.toggle {
 		font-size: 2rem;

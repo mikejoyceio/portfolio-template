@@ -30,15 +30,6 @@ p {
 	@include trailer;
 }
 
-a {
-	@include link-colors(#222222, #222222);
-	font-family: $font-bold;
-	font-weight: 700;
-	&:hover {
-		border-bottom: 3px solid #222222;
-	}
-}
-
 .screen-reader {
 	position: absolute;
 	top: -9999px;
@@ -88,6 +79,14 @@ header {
 		right: 0;
 		top: 23px;
 		width: 150px;
+		a {
+			@include link-colors(#222222, #222222);
+			font-family: $font-bold;
+			font-weight: 700;
+			&:hover {
+				border-bottom: 3px solid #222222;
+			}
+		}
 	}
 
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.4.6/";
@@ -3371,6 +3372,79 @@ th.hide-for-touch {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'icon-font';
+  src: url('../fonts/icon-font.eot?1413328632');
+  src: url('../fonts/icon-font.eot?1413328632#iefix') format("embedded-opentype"), url('../fonts/icon-font.woff?1413328632') format("woff"), url('../fonts/icon-font.ttf?1413328632') format("truetype"), url('../fonts/icon-font.svg?1413328632#icon-font') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icon-font';
+    src: url('../font/icon-font.svg?74473004#icon-font') format('svg');
+  }
+}
+*/
+/* line 22, ../scss/_icons.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "icon-font";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+/* line 53, ../scss/_icons.scss */
+.icon-menu:before {
+  content: '\e800';
+}
+
+/* '' */
+/* line 54, ../scss/_icons.scss */
+.icon-github:before {
+  content: '\e801';
+}
+
+/* '' */
+/* line 55, ../scss/_icons.scss */
+.icon-twitter:before {
+  content: '\e802';
+}
+
+/* '' */
+/* line 56, ../scss/_icons.scss */
+.icon-cancel:before {
+  content: '\e803';
+}
+
+/* '' */
+/* line 57, ../scss/_icons.scss */
+.icon-message:before {
+  content: '\e804';
+}
+
+/* '' */
 /* line 4, ../scss/_custom.scss */
 * {
   outline: 1px solid pink !important;

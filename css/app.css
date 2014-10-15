@@ -3646,11 +3646,11 @@ footer h5 a:hover {
 /* line 157, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4em;
 }
 /* line 161, ../scss/_custom.scss */
 footer button {
-  margin-bottom: 1.2rem;
+  margin-bottom: 3.8rem;
 }
 /* line 165, ../scss/_custom.scss */
 footer .social a {

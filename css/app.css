@@ -3416,7 +3416,7 @@ th.hide-for-touch {
 }
 
 /* line 53, ../scss/_icons.scss */
-.icon-menu:before {
+.icon-toggle:before {
   content: '\e800';
 }
 

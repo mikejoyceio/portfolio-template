@@ -3616,7 +3616,12 @@ footer p {
   font-size: 0.8rem;
   margin-bottom: 4.5rem;
 }
-/* line 146, ../scss/_custom.scss */
+/* line 144, ../scss/_custom.scss */
+footer .social a {
+  color: #888888;
+  font-size: 1.5rem;
+}
+/* line 149, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 300px;

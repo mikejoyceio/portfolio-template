@@ -153,6 +153,9 @@ footer {
 		a {
 			color: #888888;
 			font-size: 1.5rem;
+			&:hover {
+				color: #ffffff;
+			}
 		}
 	}
 	small {

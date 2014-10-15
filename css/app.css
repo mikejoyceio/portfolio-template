@@ -3633,7 +3633,11 @@ footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 158, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
+footer .social a:hover {
+  color: #ffffff;
+}
+/* line 161, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

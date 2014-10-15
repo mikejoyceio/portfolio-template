@@ -137,6 +137,13 @@ footer {
 		font-family: $font-normal;
 		font-weight: 300;
 		margin-bottom: 3.5rem;
+		a {
+			color: #a0a0a0;
+			&:hover {
+				border-bottom: 2px solid #f9f9f9;
+				color: white;
+			}
+		}
 	}
 	p {
 		font-size: 0.8rem;

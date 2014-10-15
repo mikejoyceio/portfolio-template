@@ -3614,17 +3614,26 @@ footer h5 {
   font-weight: 300;
   margin-bottom: 3.5rem;
 }
-/* line 141, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
+footer h5 a {
+  color: #a0a0a0;
+}
+/* line 142, ../scss/_custom.scss */
+footer h5 a:hover {
+  border-bottom: 2px solid #f9f9f9;
+  color: white;
+}
+/* line 148, ../scss/_custom.scss */
 footer p {
   font-size: 0.8rem;
   margin-bottom: 4.5rem;
 }
-/* line 146, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 151, ../scss/_custom.scss */
+/* line 158, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

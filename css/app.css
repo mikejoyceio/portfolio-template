@@ -3429,7 +3429,14 @@ a:hover {
   border-bottom: 3px solid #222222;
 }
 
-/* line 44, ../scss/_custom.scss */
+/* line 42, ../scss/_custom.scss */
+.screen-reader {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* line 50, ../scss/_custom.scss */
 button {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 5px, #ffffff 5px);
@@ -3445,18 +3452,18 @@ button {
   font-size: 0.9rem;
 }
 
-/* line 58, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 header {
   position: absolute;
   width: 100%;
 }
-/* line 61, ../scss/_custom.scss */
+/* line 67, ../scss/_custom.scss */
 header .logo {
   font-family: texgyreadventorbold;
   font-size: 3rem;
   font-weight: 700;
 }
-/* line 66, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 header .toggle {
   background: black;
   width: 30px;
@@ -3465,7 +3472,7 @@ header .toggle {
   right: 20px;
   top: 20px;
 }
-/* line 74, ../scss/_custom.scss */
+/* line 80, ../scss/_custom.scss */
 header nav {
   position: absolute;
   right: 0;
@@ -3473,7 +3480,7 @@ header nav {
   width: 150px;
 }
 
-/* line 85, ../scss/_custom.scss */
+/* line 91, ../scss/_custom.scss */
 .feature {
   background: url('../img/bg.jpg?1396306560');
   background-size: cover;
@@ -3483,11 +3490,11 @@ header nav {
   padding-top: 150px;
 }
 
-/* line 96, ../scss/_custom.scss */
+/* line 102, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 99, ../scss/_custom.scss */
+/* line 105, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3500,25 +3507,26 @@ header nav {
   padding: 5px;
   max-width: 400px;
 }
-/* line 105, ../scss/_custom.scss */
+/* line 111, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
   background: -webkit-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
   background: linear-gradient(320deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
   font-family: texgyreadventorbold, sans-serif;
+  font-size: 1.09rem;
   font-weight: 700;
   padding: 10px;
 }
 
-/* line 118, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 footer {
   background: #2d2d2d;
   color: #888888;
   height: 400px;
   padding: 8% 0;
 }
-/* line 123, ../scss/_custom.scss */
+/* line 130, ../scss/_custom.scss */
 footer h4 {
   color: #888888;
   font-family: texgyreadventorregular;

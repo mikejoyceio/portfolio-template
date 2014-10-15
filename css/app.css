@@ -3632,7 +3632,7 @@ footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.2rem;
 }
 /* line 149, ../scss/_custom.scss */
 footer h5 a {
@@ -3644,20 +3644,24 @@ footer h5 a:hover {
   color: white;
 }
 /* line 157, ../scss/_custom.scss */
-footer p {
+footer .or {
   font-size: 0.8rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 1.2rem;
 }
-/* line 162, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
+footer button {
+  margin-bottom: 1.2rem;
+}
+/* line 165, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 165, ../scss/_custom.scss */
+/* line 168, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 170, ../scss/_custom.scss */
+/* line 173, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

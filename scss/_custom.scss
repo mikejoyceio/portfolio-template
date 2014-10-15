@@ -145,7 +145,7 @@ footer {
 		color: #888888;
 		font-family: $font-normal;
 		font-weight: 300;
-		margin-bottom: 3.5rem;
+		margin-bottom: 1.2rem;
 		a {
 			color: #a0a0a0;
 			&:hover {
@@ -154,9 +154,12 @@ footer {
 			}
 		}
 	}
-	p {
+	.or {
 		font-size: 0.8rem;
-		margin-bottom: 4.5rem;
+		margin-bottom: 1.2rem;
+	}
+	button {
+		margin-bottom: 1.2rem;
 	}
 	.social {
 		a {

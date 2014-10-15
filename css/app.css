@@ -3591,21 +3591,25 @@ header nav a:hover {
     margin: 13px;
   }
 }
-/* line 114, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
+.feature button {
+  margin-bottom: 1.9rem;
+}
+/* line 117, ../scss/_custom.scss */
 .feature .social a {
   color: #222222;
   font-size: 2rem;
 }
-/* line 117, ../scss/_custom.scss */
+/* line 120, ../scss/_custom.scss */
 .feature .social a:hover {
   color: #222222;
 }
 
-/* line 126, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 129, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3618,7 +3622,7 @@ header nav a:hover {
   padding: 5px;
   max-width: 400px;
 }
-/* line 135, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3630,47 +3634,47 @@ header nav a:hover {
   padding: 10px;
 }
 
-/* line 149, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 153, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
   margin-bottom: 1.2rem;
 }
-/* line 158, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 160, ../scss/_custom.scss */
+/* line 163, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 166, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
   margin-bottom: 1.4em;
 }
-/* line 170, ../scss/_custom.scss */
+/* line 173, ../scss/_custom.scss */
 footer button {
   margin-bottom: 3.8rem;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 177, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 182, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

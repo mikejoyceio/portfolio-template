@@ -110,6 +110,15 @@ header {
 		height: 96.5%;
 		margin: 13px;
 	}
+	.social {
+		a {
+			color: #222222;
+			font-size: 2rem;
+			&:hover {
+				color: #222222;
+			}
+		}
+	}
 }
 
 // Featured Work

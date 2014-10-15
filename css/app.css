@@ -3523,20 +3523,21 @@ header nav {
 footer {
   background: #2d2d2d;
   color: #888888;
-  height: 400px;
-  padding: 8% 0;
+  padding: 7.5rem 0 0.5rem;
 }
-/* line 130, ../scss/_custom.scss */
-footer h4 {
+/* line 129, ../scss/_custom.scss */
+footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
+  margin-bottom: 3.5rem;
 }
 /* line 135, ../scss/_custom.scss */
-footer .social {
-  margin-top: 100px;
+footer p {
+  font-size: 0.8rem;
+  margin-bottom: 4.5rem;
 }
-/* line 138, ../scss/_custom.scss */
+/* line 142, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 300px;

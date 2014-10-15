@@ -125,15 +125,19 @@ header {
 footer {
 	background: #2d2d2d;
 	color: #888888;
-	height: 400px;
-	padding: 8% 0;
-	h4 {
+	padding: 7.5rem 0 0.5rem;
+	h5 {
 		color: #888888;
 		font-family: $font-normal;
 		font-weight: 300;
+		margin-bottom: 3.5rem;
+	}
+	p {
+		font-size: 0.8rem;
+		margin-bottom: 4.5rem;
 	}
 	.social {
-		margin-top: 100px;
+
 	}
 	small {
     display: block;

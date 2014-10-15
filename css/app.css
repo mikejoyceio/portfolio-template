@@ -3533,9 +3533,13 @@ footer h4 {
   font-weight: 300;
 }
 /* line 135, ../scss/_custom.scss */
+footer .social {
+  margin-top: 100px;
+}
+/* line 138, ../scss/_custom.scss */
 footer small {
   display: block;
-  margin-top: 200px;
+  margin-top: 300px;
   text-align: left;
   width: 100%;
 }

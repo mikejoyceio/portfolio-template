@@ -210,8 +210,10 @@ footer {
 	}
 	.end {
 		color: #101010;
+		font-family: $font-bold;
 		font-size: 1.5rem;
+		font-weight: 700;
 		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
-		margin: 4.3rem auto;
+		margin: 8rem auto;
 	}
 }

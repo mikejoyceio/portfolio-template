@@ -3374,8 +3374,8 @@ th.hide-for-touch {
 }
 @font-face {
   font-family: 'icon-font';
-  src: url('../fonts/icon-font.eot?1413429342');
-  src: url('../fonts/icon-font.eot?1413429342#iefix') format("embedded-opentype"), url('../fonts/icon-font.woff?1413429342') format("woff"), url('../fonts/icon-font.ttf?1413429342') format("truetype"), url('../fonts/icon-font.svg?1413429342#icon-font') format("svg");
+  src: url('../fonts/icon-font.eot?1413328632');
+  src: url('../fonts/icon-font.eot?1413328632#iefix') format("embedded-opentype"), url('../fonts/icon-font.woff?1413328632') format("woff"), url('../fonts/icon-font.ttf?1413328632') format("truetype"), url('../fonts/icon-font.svg?1413328632#icon-font') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3719,7 +3719,9 @@ footer .social a:hover {
 /* line 211, ../scss/_custom.scss */
 footer .end {
   color: #101010;
+  font-family: texgyreadventorbold;
   font-size: 1.5rem;
+  font-weight: 700;
   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
-  margin: 4.3rem auto;
+  margin: 8rem auto;
 }

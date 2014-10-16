@@ -7,24 +7,22 @@
 
 // Vertical Rhythm
 
+$rhythm-unit: 'rem';
+$font-unit: 1rem;
 $base-font-size: $rem-base;
-$base-line-height: floor( $base-font-size * 1.62 );
+$base-line-height: $rem-base * 1.5;
 @include establish-baseline;
 
 body {
 	background: #e8e8e8;
 	font-family: $font-normal, sans-serif;
 	@include debug-vertical-alignment;
-
 }
 
 #{ headings(all) } {
 	font-family: $font-bold, sans-serif;
 	font-weight: 700;
-}
-
-h1 {
-	@include adjust-font-size-to( $h1-font-size );
+	margin-bottom: rhythm(1);
 }
 
 p {
@@ -32,12 +30,28 @@ p {
 	@include trailer;
 }
 
-a {
-	@include link-colors(#222222, #222222);
-	font-family: $font-bold;
-	font-weight: 700;
+.screen-reader {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+// Buttons 
+
+button {
+	@include background(linear-gradient(320deg, transparent 5px, #ffffff 5px));
+	border: none;
+	color: #222222;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+	word-spacing: 0.04rem;
+	border-radius: 5px;
+	font-size: 0.9rem;
+	font-weight: bold;
+	opacity: 0.9;
 	&:hover {
-		border-bottom: 3px solid #222222;
+		cursor: pointer;
 	}
 }
 
@@ -46,11 +60,44 @@ a {
 header {
 	position: absolute;
 	width: 100%;
+	@media #{$large-up} {
+		padding: 0 15px;
+	}
+	.logo {
+		font-family: $font-bold;
+		font-size: 3rem;
+		font-weight: 700;
+		a {
+			@include link-colors(#222222, #222222);
+		}
+		@media #{$large-up} {
+			font-size: 4rem;
+			margin-top: -10px;
+		}
+	}
+	.toggle {
+		font-size: 2rem;
+		position: absolute;
+		right: 10px;
+		top: 16px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
 	nav {
 		position: absolute;
 		right: 0;
-		top: 23px;
-		width: 150px;
+		top: 45px;
+		width: 250px;
+		a {
+			@include link-colors(#222222, #222222);
+			font-family: $font-bold;
+			font-size: 1.1rem;
+			font-weight: 700;
+			&:hover {
+				border-bottom: 3px solid #222222;
+			}
+		}
 	}
 
 }
@@ -58,18 +105,46 @@ header {
 // Feature
 
 .feature {
-	background: image-url('bg.jpg');
+	background: image-url('background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
+	min-height: 500px;
 	padding-top: 150px;
+	@media #{$large-up} {
+		height: 96.5%;
+		margin: 13px;
+		padding-top: 178px;
+	}
+	p {
+  	max-width: 400px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	@media #{$medium-up} {
+  		margin: 1.9rem auto;
+  	}
+	}
+	button {
+		margin-bottom: 1.9rem;
+	}
+	.social {
+		a {
+			color: #222222;
+			font-size: 2rem;
+			&:hover {
+				color: #222222;
+			}
+		}
+	}
 }
 
 // Featured Work
 
 .featured-work {
 		padding: 10% 0;
-	
+		@media #{$large-up} {
+			padding: 60px 0;
+		}
 		figure {
 			@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 			@include border-radius(5px);
@@ -79,8 +154,12 @@ header {
 	    figcaption {
 			@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 	    	font-family: $font-bold, sans-serif;
+	    	font-size: 1.09rem;
 	    	font-weight: 700;
 	    	padding: 10px;
+	    	@media #{$large-up} {
+	    		font-size: 1.3rem;
+	    	}
 	    }
 
 		}
@@ -90,7 +169,42 @@ header {
 // Footer
 
 footer {
-	background: #2d2d2d;
-	height: 400px;
-	padding: 5% 0;
+	background: #3d3d3d;
+	color: #888888;
+	padding: 7.5rem 0 0.5rem;
+	h5 {
+		color: #888888;
+		font-family: $font-normal;
+		font-weight: 300;
+		margin-bottom: 1.2rem;
+		a {
+			color: #a0a0a0;
+			&:hover {
+				border-bottom: 2px solid #f9f9f9;
+				color: white;
+			}
+		}
+	}
+	.or {
+		font-size: 0.8rem;
+		margin-bottom: 1.4em;
+	}
+	button {
+		margin-bottom: 3.8rem;
+	}
+	.social {
+		a {
+			color: #888888;
+			font-size: 1.5rem;
+			&:hover {
+				color: #ffffff;
+			}
+		}
+	}
+	small {
+    display: block;
+    margin-top: 13rem;
+    text-align: left;
+    width: 100%;
+	}
 }

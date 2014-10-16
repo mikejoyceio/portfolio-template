@@ -3374,8 +3374,8 @@ th.hide-for-touch {
 }
 @font-face {
   font-family: 'icon-font';
-  src: url("../font/icon-font.eot?42773387");
-  src: url("../font/icon-font.eot?42773387#iefix") format("embedded-opentype"), url("../font/icon-font.woff?42773387") format("woff"), url("../font/icon-font.ttf?42773387") format("truetype"), url("../font/icon-font.svg?42773387#icon-font") format("svg");
+  src: url('../fonts/icon-font.eot?1413429342');
+  src: url('../fonts/icon-font.eot?1413429342#iefix') format("embedded-opentype"), url('../fonts/icon-font.woff?1413429342') format("woff"), url('../fonts/icon-font.ttf?1413429342') format("truetype"), url('../fonts/icon-font.svg?1413429342#icon-font') format("svg");
   font-weight: normal;
   font-style: normal;
 }

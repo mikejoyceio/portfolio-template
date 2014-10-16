@@ -211,7 +211,8 @@ footer {
 	.message {
 		color: #888888;
 		font-size: 4.2rem;
-		margin-bottom: 3.8rem;
+		margin: 0 auto 3.8rem auto;
+		max-width: 200px;
 		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
 		@include single-transition(all, .3s, ease-in-out);
 		&:hover {

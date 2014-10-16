@@ -3729,28 +3729,29 @@ footer .or {
 footer .message {
   color: #888888;
   font-size: 4.2rem;
-  margin-bottom: 3.8rem;
+  margin: 0 auto 3.8rem auto;
+  max-width: 200px;
   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 217, ../scss/_custom.scss */
+/* line 218, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 223, ../scss/_custom.scss */
+/* line 224, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 226, ../scss/_custom.scss */
+/* line 227, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 231, ../scss/_custom.scss */
+/* line 232, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

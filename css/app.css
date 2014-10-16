@@ -3704,19 +3704,20 @@ footer .or {
   margin-bottom: 1.4em;
 }
 /* line 199, ../scss/_custom.scss */
-footer button {
+footer .message {
+  color: #ffffff;
   margin-bottom: 3.8rem;
 }
-/* line 203, ../scss/_custom.scss */
+/* line 204, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 206, ../scss/_custom.scss */
+/* line 207, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 211, ../scss/_custom.scss */
+/* line 212, ../scss/_custom.scss */
 footer .end {
   color: #101010;
   font-family: texgyreadventorbold;

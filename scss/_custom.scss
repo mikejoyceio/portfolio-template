@@ -114,10 +114,12 @@ header {
 	@media #{$large-up} {
 		height: 96.5%;
 		margin: 13px;
-		p {
-			margin: 1.9rem auto;
-    	max-width: 400px;
-		}
+	}
+	p {
+  	max-width: 400px;
+  	@media #{$large-up} {
+  		margin: 1.9rem auto;
+  	}
 	}
 	button {
 		margin-bottom: 1.9rem;

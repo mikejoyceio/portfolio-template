@@ -5,7 +5,7 @@ $(document).foundation();
 $('.bw').BlackAndWhite({
     hoverEffect : true, // default true
     // set the path to BnWWorker.js for a superfast implementation
-    webworkerPath : false,
+    webworkerPath : 'js/',
     // to invert the hover effect
     invertHoverEffect: false,
     // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)

@@ -142,7 +142,9 @@ header {
 
 .featured-work {
 		padding: 10% 0;
-	
+		@media #{$large-up} {
+			padding: 60px 0;
+		}
 		figure {
 			@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 			@include border-radius(5px);

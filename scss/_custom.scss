@@ -155,6 +155,9 @@ header {
 	    	font-size: 1.09rem;
 	    	font-weight: 700;
 	    	padding: 10px;
+	    	@media #{$large-up} {
+	    		font-size: 1.3rem;
+	    	}
 	    }
 
 		}

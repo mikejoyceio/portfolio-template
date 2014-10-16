@@ -3654,48 +3654,54 @@ header nav a:hover {
   font-weight: 700;
   padding: 10px;
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 152, ../scss/_custom.scss */
+  .featured-work figure figcaption {
+    font-size: 1.3rem;
+  }
+}
 
-/* line 166, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 170, ../scss/_custom.scss */
+/* line 173, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
   margin-bottom: 1.2rem;
 }
-/* line 175, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 177, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 186, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
   margin-bottom: 1.4em;
 }
-/* line 187, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 footer button {
   margin-bottom: 3.8rem;
 }
-/* line 191, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 194, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 199, ../scss/_custom.scss */
+/* line 202, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

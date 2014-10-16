@@ -3667,48 +3667,52 @@ header nav a:hover {
   }
 }
 /* line 164, ../scss/_custom.scss */
+.featured-work figure:hover {
+  cursor: pointer;
+}
+/* line 167, ../scss/_custom.scss */
 .featured-work figure.bw {
   display: block;
   position: relative;
 }
 
-/* line 175, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 179, ../scss/_custom.scss */
+/* line 182, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
   margin-bottom: 1.2rem;
 }
-/* line 184, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 186, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 192, ../scss/_custom.scss */
+/* line 195, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
   margin-bottom: 1.4em;
 }
-/* line 196, ../scss/_custom.scss */
+/* line 199, ../scss/_custom.scss */
 footer button {
   margin-bottom: 3.8rem;
 }
-/* line 200, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 203, ../scss/_custom.scss */
+/* line 206, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }

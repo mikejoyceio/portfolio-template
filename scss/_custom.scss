@@ -161,6 +161,9 @@ header {
 	    		font-size: 1.3rem;
 	    	}
 	    }
+	    &:hover {
+	    	cursor: pointer;
+	    }
 	    &.bw {
 				display: block;
 				position: relative;

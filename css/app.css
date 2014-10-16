@@ -3712,10 +3712,3 @@ footer .social a {
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 208, ../scss/_custom.scss */
-footer small {
-  display: block;
-  margin-top: 13rem;
-  text-align: left;
-  width: 100%;
-}

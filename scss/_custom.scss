@@ -197,8 +197,14 @@ footer {
 		margin-bottom: 1.4em;
 	}
 	.message {
-		color: #ffffff;
+		color: #888888;
+		font-size: 4.2rem;
 		margin-bottom: 3.8rem;
+		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+		&:hover {
+			color: #ffffff;
+			cursor: pointer;
+		}
 	}
 	.social {
 		a {
@@ -215,6 +221,7 @@ footer {
 		font-size: 1.5rem;
 		font-weight: 700;
 		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
-		margin: 8rem auto;
+		margin-bottom: 8rem;
+		margin-top: -0.4rem;
 	}
 }

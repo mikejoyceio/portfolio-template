@@ -71,8 +71,8 @@ header {
 			@include link-colors(#222222, #222222);
 		}
 		@media #{$large-up} {
-			font-size: 4rem;
-			margin-top: -10px;
+			font-size: 3.8rem;
+			margin-top: -8px;
 		}
 	}
 	.toggle {

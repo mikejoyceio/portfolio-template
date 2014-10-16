@@ -1,9 +1,7 @@
 
 // Custom
 
-* {
-	outline: 1px solid pink !important;
-}
+
 
 // Vertical Rhythm
 
@@ -206,7 +204,6 @@ footer {
 		@media #{$large-up} {
 			font-size: 1.15rem;
 		}
-		margin-bottom: 1.4em;
 	}
 	.message {
 		color: #888888;

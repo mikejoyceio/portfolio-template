@@ -30,6 +30,10 @@ p {
 	@include trailer;
 }
 
+a {
+	@include single-transition(all, .4s, ease-in-out);
+}
+
 .screen-reader {
 	position: absolute;
 	top: -9999px;

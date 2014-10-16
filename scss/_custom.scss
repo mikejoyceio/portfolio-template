@@ -1,7 +1,9 @@
 
 // Custom
 
-
+* {
+	outline: 1px solid pink !important;
+}
 
 // Vertical Rhythm
 
@@ -182,12 +184,11 @@ footer {
 	background: #3d3d3d;
 	color: #888888;
 	padding: 7.5rem 0 0.5rem;
-	h4 {
+	h5 {
 		color: #888888;
-		font-family: $font-bold;
-		font-size: 1.2rem;
+		font-family: $font-normal;
 		@media #{$large-up} {
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 		}
 		font-weight: 300;
 		margin-bottom: 1.8rem;
@@ -200,9 +201,9 @@ footer {
 		}
 	}
 	.or {
-		font-size: 1rem;
+		font-size: 0.8rem;
 		@media #{$large-up} {
-			font-size: 1.15rem;
+			font-size: 0.9rem;
 		}
 	}
 	.message {

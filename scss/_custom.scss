@@ -161,6 +161,10 @@ header {
 	    		font-size: 1.3rem;
 	    	}
 	    }
+	    &.bw {
+				display: block;
+				position: relative;
+			}
 
 		}
 	
@@ -200,11 +204,5 @@ footer {
 				color: #ffffff;
 			}
 		}
-	}
-	small {
-    display: block;
-    margin-top: 13rem;
-    text-align: left;
-    width: 100%;
 	}
 }

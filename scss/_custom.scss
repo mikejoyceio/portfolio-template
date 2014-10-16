@@ -31,7 +31,7 @@ p {
 }
 
 a {
-	@include single-transition(all, .4s, ease-in-out);
+	@include single-transition(all, .3s, ease-in-out);
 }
 
 .screen-reader {
@@ -137,6 +137,7 @@ header {
 			font-size: 2rem;
 			&:hover {
 				color: #222222;
+				opacity: 0.8;
 			}
 		}
 	}
@@ -183,11 +184,15 @@ footer {
 	background: #3d3d3d;
 	color: #888888;
 	padding: 7.5rem 0 0.5rem;
-	h5 {
+	h4 {
 		color: #888888;
-		font-family: $font-normal;
+		font-family: $font-bold;
+		font-size: 1.2rem;
+		@media #{$large-up} {
+			font-size: 1.4rem;
+		}
 		font-weight: 300;
-		margin-bottom: 1.2rem;
+		margin-bottom: 1.8rem;
 		a {
 			color: #a0a0a0;
 			&:hover {
@@ -197,7 +202,10 @@ footer {
 		}
 	}
 	.or {
-		font-size: 0.8rem;
+		font-size: 1rem;
+		@media #{$large-up} {
+			font-size: 1.15rem;
+		}
 		margin-bottom: 1.4em;
 	}
 	.message {
@@ -205,6 +213,7 @@ footer {
 		font-size: 4.2rem;
 		margin-bottom: 3.8rem;
 		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+		@include single-transition(all, .3s, ease-in-out);
 		&:hover {
 			color: #ffffff;
 			cursor: pointer;
@@ -220,7 +229,7 @@ footer {
 		}
 	}
 	.end {
-		color: #101010;
+		color: #303030;
 		font-family: $font-bold;
 		font-size: 1.5rem;
 		font-weight: 700;

@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'icon-font';
-    src: url('../font/icon-font.svg?42773387#icon-font') format('svg');
+    src: url('../font/icon-font.svg?74473004#icon-font') format('svg');
   }
 }
 */
@@ -50,10 +50,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-menu:before { content: '\e800'; } /* '' */
+.icon-toggle:before { content: '\e800'; } /* '' */
 .icon-github:before { content: '\e801'; } /* '' */
 .icon-twitter:before { content: '\e802'; } /* '' */
 .icon-cancel:before { content: '\e803'; } /* '' */
 .icon-message:before { content: '\e804'; } /* '' */
-.icon-tools:before { content: '\e805'; } /* '' */
-.icon-asterisk:before { content: '\e806'; } /* '' */

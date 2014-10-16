@@ -3385,7 +3385,7 @@ th.hide-for-touch {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'icon-font';
-    src: url('../font/icon-font.svg?42773387#icon-font') format('svg');
+    src: url('../font/icon-font.svg?74473004#icon-font') format('svg');
   }
 }
 */
@@ -3416,7 +3416,7 @@ th.hide-for-touch {
 }
 
 /* line 53, ../scss/_icons.scss */
-.icon-menu:before {
+.icon-toggle:before {
   content: '\e800';
 }
 
@@ -3445,18 +3445,6 @@ th.hide-for-touch {
 }
 
 /* '' */
-/* line 58, ../scss/_icons.scss */
-.icon-tools:before {
-  content: '\e805';
-}
-
-/* '' */
-/* line 59, ../scss/_icons.scss */
-.icon-asterisk:before {
-  content: '\e806';
-}
-
-/* '' */
 /* line 4, ../scss/_custom.scss */
 * {
   outline: 1px solid pink !important;
@@ -3727,4 +3715,11 @@ footer .social a {
 /* line 206, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
+}
+/* line 211, ../scss/_custom.scss */
+footer .end {
+  color: #101010;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+  margin: 4.3rem auto;
 }

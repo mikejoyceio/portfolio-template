@@ -114,10 +114,13 @@ header {
 	@media #{$large-up} {
 		height: 96.5%;
 		margin: 13px;
+		padding-top: 178px;
 	}
 	p {
   	max-width: 400px;
-  	@media #{$large-up} {
+  	margin-left: auto;
+  	margin-right: auto;
+  	@media #{$medium-up} {
   		margin: 1.9rem auto;
   	}
 	}

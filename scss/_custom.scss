@@ -70,6 +70,10 @@ header {
 		a {
 			@include link-colors(#222222, #222222);
 		}
+		@media #{$large-up} {
+			font-size: 4rem;
+			margin-top: -10px;
+		}
 	}
 	.toggle {
 		font-size: 2rem;
@@ -83,11 +87,12 @@ header {
 	nav {
 		position: absolute;
 		right: 0;
-		top: 23px;
-		width: 150px;
+		top: 45px;
+		width: 250px;
 		a {
 			@include link-colors(#222222, #222222);
 			font-family: $font-bold;
+			font-size: 1.1rem;
 			font-weight: 700;
 			&:hover {
 				border-bottom: 3px solid #222222;
@@ -100,7 +105,7 @@ header {
 // Feature
 
 .feature {
-	background: image-url('background.jpg');
+	//background: image-url('background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;

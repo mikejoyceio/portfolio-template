@@ -3585,6 +3585,7 @@ header nav a:hover {
 
 /* line 107, ../scss/_custom.scss */
 .feature {
+  background: url('../img/background.jpg?1413399653');
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
@@ -3597,26 +3598,31 @@ header nav a:hover {
     height: 96.5%;
     margin: 13px;
   }
+  /* line 117, ../scss/_custom.scss */
+  .feature p {
+    margin: 1.9rem auto;
+    max-width: 400px;
+  }
 }
-/* line 118, ../scss/_custom.scss */
+/* line 122, ../scss/_custom.scss */
 .feature button {
   margin-bottom: 1.9rem;
 }
-/* line 122, ../scss/_custom.scss */
+/* line 126, ../scss/_custom.scss */
 .feature .social a {
   color: #222222;
   font-size: 2rem;
 }
-/* line 125, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .feature .social a:hover {
   color: #222222;
 }
 
-/* line 134, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
-/* line 137, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3629,7 +3635,7 @@ header nav a:hover {
   padding: 5px;
   max-width: 400px;
 }
-/* line 143, ../scss/_custom.scss */
+/* line 147, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3641,47 +3647,47 @@ header nav a:hover {
   padding: 10px;
 }
 
-/* line 157, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 161, ../scss/_custom.scss */
+/* line 165, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
   font-weight: 300;
   margin-bottom: 1.2rem;
 }
-/* line 166, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 168, ../scss/_custom.scss */
+/* line 172, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 178, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
   margin-bottom: 1.4em;
 }
-/* line 178, ../scss/_custom.scss */
+/* line 182, ../scss/_custom.scss */
 footer button {
   margin-bottom: 3.8rem;
 }
-/* line 182, ../scss/_custom.scss */
+/* line 186, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 185, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 190, ../scss/_custom.scss */
+/* line 194, ../scss/_custom.scss */
 footer small {
   display: block;
   margin-top: 13rem;

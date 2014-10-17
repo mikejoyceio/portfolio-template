@@ -3676,7 +3676,6 @@ header nav a:hover {
 
 /* line 183, ../scss/_custom.scss */
 .about {
-  height: 500px;
   margin-bottom: 8%;
 }
 @media only screen and (min-width: 64.063em) {
@@ -3685,20 +3684,20 @@ header nav a:hover {
     margin-bottom: 60px;
   }
 }
-/* line 189, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 .about h2 {
   border-bottom: 1px solid #202020;
   text-align: center;
   font-size: 2.8rem;
 }
 
-/* line 198, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 202, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
@@ -3706,31 +3705,31 @@ footer h5 {
   margin-bottom: 1.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 202, ../scss/_custom.scss */
+  /* line 201, ../scss/_custom.scss */
   footer h5 {
     font-size: 1.2rem;
   }
 }
-/* line 210, ../scss/_custom.scss */
+/* line 209, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 212, ../scss/_custom.scss */
+/* line 211, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 218, ../scss/_custom.scss */
+/* line 217, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 218, ../scss/_custom.scss */
+  /* line 217, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 224, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3742,21 +3741,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 231, ../scss/_custom.scss */
+/* line 230, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 237, ../scss/_custom.scss */
+/* line 236, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 240, ../scss/_custom.scss */
+/* line 239, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 245, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

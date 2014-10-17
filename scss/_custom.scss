@@ -110,7 +110,7 @@ header {
 
 .feature {
 	background: image-url('background.jpg');
-	background-size: cover;
+	@include background-size(cover);
 	background-attachment: fixed;
 	height: 100%;
 	min-height: 500px;

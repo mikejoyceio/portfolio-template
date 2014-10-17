@@ -3602,7 +3602,6 @@ header nav a:hover {
   background-position: center center;
   backgrond-repeat: no-repeat;
   height: 100%;
-  width: 100%;
   min-height: 500px;
   padding-top: 150px;
 }
@@ -3614,44 +3613,44 @@ header nav a:hover {
     padding-top: 178px;
   }
 }
-/* line 126, ../scss/_custom.scss */
+/* line 125, ../scss/_custom.scss */
 .feature p {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 126, ../scss/_custom.scss */
+  /* line 125, ../scss/_custom.scss */
   .feature p {
     margin: 1.9rem auto;
   }
 }
-/* line 134, ../scss/_custom.scss */
+/* line 133, ../scss/_custom.scss */
 .feature button {
   margin-bottom: 1.9rem;
 }
-/* line 138, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 .feature .social a {
   color: #222222;
   font-size: 1.5rem;
 }
-/* line 141, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
 .feature .social a:hover {
   color: #222222;
   opacity: 0.8;
 }
 
-/* line 151, ../scss/_custom.scss */
+/* line 150, ../scss/_custom.scss */
 .featured-work {
   padding: 10% 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 151, ../scss/_custom.scss */
+  /* line 150, ../scss/_custom.scss */
   .featured-work {
     padding: 60px 0;
   }
 }
-/* line 156, ../scss/_custom.scss */
+/* line 155, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3664,7 +3663,7 @@ header nav a:hover {
   padding: 5px;
   max-width: 400px;
 }
-/* line 162, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 .featured-work figure figcaption {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3676,32 +3675,32 @@ header nav a:hover {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 162, ../scss/_custom.scss */
+  /* line 161, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 172, ../scss/_custom.scss */
+/* line 171, ../scss/_custom.scss */
 .featured-work figure:hover {
   cursor: pointer;
 }
-/* line 175, ../scss/_custom.scss */
+/* line 174, ../scss/_custom.scss */
 .featured-work figure.bw {
   display: block;
   position: relative;
 }
 
-/* line 186, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .about {
   padding: 12% 0;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 186, ../scss/_custom.scss */
+  /* line 185, ../scss/_custom.scss */
   .about {
     padding: 70px 0 100px;
   }
 }
-/* line 191, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .about h2 {
   border-bottom: 1px solid #202020;
   text-align: center;
@@ -3710,23 +3709,23 @@ header nav a:hover {
   padding-bottom: 0.2rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 191, ../scss/_custom.scss */
+  /* line 190, ../scss/_custom.scss */
   .about h2 {
     font-size: 2.5rem;
   }
 }
-/* line 201, ../scss/_custom.scss */
+/* line 200, ../scss/_custom.scss */
 .about p {
   text-align: justify;
 }
 
-/* line 208, ../scss/_custom.scss */
+/* line 207, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.5rem 0 0.5rem;
 }
-/* line 212, ../scss/_custom.scss */
+/* line 211, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3737,31 +3736,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 212, ../scss/_custom.scss */
+  /* line 211, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 224, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 226, ../scss/_custom.scss */
+/* line 225, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 232, ../scss/_custom.scss */
+/* line 231, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 232, ../scss/_custom.scss */
+  /* line 231, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 238, ../scss/_custom.scss */
+/* line 237, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3772,21 +3771,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 244, ../scss/_custom.scss */
+/* line 243, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 250, ../scss/_custom.scss */
+/* line 249, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 253, ../scss/_custom.scss */
+/* line 252, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 258, ../scss/_custom.scss */
+/* line 257, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

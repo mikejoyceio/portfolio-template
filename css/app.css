@@ -3445,6 +3445,11 @@ th.hide-for-touch {
 }
 
 /* '' */
+/* line 4, ../scss/_custom.scss */
+* {
+  outline: 1px solid pink !important;
+}
+
 /* line 106, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;

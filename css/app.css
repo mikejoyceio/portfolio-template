@@ -3722,7 +3722,7 @@ footer {
 }
 /* line 209, ../scss/_custom.scss */
 footer h3 {
-  color: #303030;
+  color: #f1f1f1;
   font-family: texgyreadventorbold;
   font-size: 1.7rem;
   font-weight: 700;
@@ -3787,6 +3787,7 @@ footer .end {
   font-size: 1.5rem;
   font-weight: 700;
   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+  text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
   margin-bottom: 8rem;
   margin-top: -0.4rem;
 }

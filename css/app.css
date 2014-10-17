@@ -3687,12 +3687,12 @@ header nav a:hover {
 
 /* line 183, ../scss/_custom.scss */
 .about {
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 183, ../scss/_custom.scss */
   .about {
-    margin-bottom: 60px;
+    margin-bottom: 120px;
   }
 }
 /* line 188, ../scss/_custom.scss */

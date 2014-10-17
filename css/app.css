@@ -3695,12 +3695,12 @@ header nav a:hover {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  margin-bottom: 12%;
+  padding: 12% 0;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 183, ../scss/_custom.scss */
   .about {
-    margin-bottom: 120px;
+    padding: 70px 0 100px;
   }
 }
 /* line 190, ../scss/_custom.scss */

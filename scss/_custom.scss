@@ -208,12 +208,13 @@ footer {
 	padding: 7.5rem 0 0.5rem;
 	h3 {
 		color: #303030;
-		font-family: $font-normal;
+		font-family: $font-bold;
 		@media #{$large-up} {
 			font-size: 1.2rem;
 		}
-		font-weight: 300;
+		font-weight: 700;
 		margin-bottom: 1.8rem;
+		@include single-text-shadow(1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3));
 	}
 	p {
 		a {
@@ -235,7 +236,6 @@ footer {
 		font-size: 4.2rem;
 		margin: 0 auto 3.8rem auto;
 		max-width: 200px;
-		text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
 		@include single-transition(all, .3s, ease-in-out);
 		&:hover {
 			color: #ffffff;

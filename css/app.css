@@ -3460,6 +3460,17 @@ html {
 body {
   background: #e8e8e8;
   font-family: texgyreadventorregular, sans-serif;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
+  -moz-background-size: 100% 1.5rem;
+  -o-background-size: 100% 1.5rem;
+  -webkit-background-size: 100% 1.5rem;
+  background-size: 100% 1.5rem;
+  background-position: left top;
 }
 
 /* line 22, ../scss/_custom.scss */
@@ -3676,7 +3687,7 @@ header nav a:hover {
 
 /* line 183, ../scss/_custom.scss */
 .about {
-  margin-bottom: 8%;
+  margin-bottom: 10%;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 183, ../scss/_custom.scss */
@@ -3688,16 +3699,28 @@ header nav a:hover {
 .about h2 {
   border-bottom: 1px solid #202020;
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.2rem;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 188, ../scss/_custom.scss */
+  .about h2 {
+    font-size: 2.5rem;
+  }
+}
+/* line 198, ../scss/_custom.scss */
+.about p {
+  text-align: justify;
 }
 
-/* line 197, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 7.5rem 0 0.5rem;
 }
-/* line 201, ../scss/_custom.scss */
+/* line 209, ../scss/_custom.scss */
 footer h5 {
   color: #888888;
   font-family: texgyreadventorregular;
@@ -3705,31 +3728,31 @@ footer h5 {
   margin-bottom: 1.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 201, ../scss/_custom.scss */
+  /* line 209, ../scss/_custom.scss */
   footer h5 {
     font-size: 1.2rem;
   }
 }
-/* line 209, ../scss/_custom.scss */
+/* line 217, ../scss/_custom.scss */
 footer h5 a {
   color: #a0a0a0;
 }
-/* line 211, ../scss/_custom.scss */
+/* line 219, ../scss/_custom.scss */
 footer h5 a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 217, ../scss/_custom.scss */
+/* line 225, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 217, ../scss/_custom.scss */
+  /* line 225, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 223, ../scss/_custom.scss */
+/* line 231, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3741,21 +3764,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 230, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 236, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 239, ../scss/_custom.scss */
+/* line 247, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 244, ../scss/_custom.scss */
+/* line 252, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

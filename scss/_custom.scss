@@ -2,7 +2,7 @@
 // Custom
 
 * {
-	outline: 1px solid pink !important;
+	//outline: 1px solid pink !important;
 }
 
 // Vertical Rhythm
@@ -16,7 +16,7 @@ $base-line-height: $rem-base * 1.5;
 body {
 	background: #e8e8e8;
 	font-family: $font-normal, sans-serif;
-	@include debug-vertical-alignment;
+	//@include debug-vertical-alignment;
 }
 
 #{ headings(all) } {
@@ -176,6 +176,21 @@ header {
 
 		}
 	
+}
+
+// About 
+
+.about {
+	height: 500px;
+	margin-bottom: 8%;
+	@media #{$large-up} {
+		margin-bottom: 60px;
+	}
+	h2 {
+		border-bottom: 1px solid #202020;
+		text-align: center;
+		font-size: 2.8rem;
+	}
 }
 
 // Footer

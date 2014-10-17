@@ -181,6 +181,8 @@ header {
 // About 
 
 .about {
+	background: image-url('background.jpg');
+	@include background-size(cover);
 	margin-bottom: 12%;
 	@media #{$large-up} {
 		margin-bottom: 120px;

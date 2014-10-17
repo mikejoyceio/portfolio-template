@@ -3724,6 +3724,7 @@ footer {
 footer h3 {
   color: #303030;
   font-family: texgyreadventorbold;
+  font-size: 1.7rem;
   font-weight: 700;
   margin-bottom: 1.8rem;
   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
@@ -3732,29 +3733,29 @@ footer h3 {
 @media only screen and (min-width: 64.063em) {
   /* line 209, ../scss/_custom.scss */
   footer h3 {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
   }
 }
-/* line 220, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 222, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 228, ../scss/_custom.scss */
+/* line 229, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 228, ../scss/_custom.scss */
+  /* line 229, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 234, ../scss/_custom.scss */
+/* line 235, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3765,21 +3766,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 240, ../scss/_custom.scss */
+/* line 241, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 246, ../scss/_custom.scss */
+/* line 247, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 249, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 254, ../scss/_custom.scss */
+/* line 255, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

@@ -180,28 +180,6 @@ header {
 	
 }
 
-// Info
-
-.info {
-	padding: 12% 0;
-	@media #{$large-up} {
-		padding: 70px 0 100px;
-	}
-	h2 {
-		border-bottom: 1px solid #202020;
-		text-align: center;
-		font-size: 2.1rem;
-		margin-bottom: 1.5rem;
-		padding-bottom: 0.2rem;
-		@media #{$large-up} {
-			font-size: 2.5rem;
-		}
-	}
-	p {
-		text-align: justify;
-	}
-}
-
 // Footer
 
 footer {

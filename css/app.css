@@ -3685,41 +3685,12 @@ header nav a:hover {
 }
 
 /* line 185, ../scss/_custom.scss */
-.info {
-  padding: 12% 0;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 185, ../scss/_custom.scss */
-  .info {
-    padding: 70px 0 100px;
-  }
-}
-/* line 190, ../scss/_custom.scss */
-.info h2 {
-  border-bottom: 1px solid #202020;
-  text-align: center;
-  font-size: 2.1rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.2rem;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 190, ../scss/_custom.scss */
-  .info h2 {
-    font-size: 2.5rem;
-  }
-}
-/* line 200, ../scss/_custom.scss */
-.info p {
-  text-align: justify;
-}
-
-/* line 207, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 211, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3730,31 +3701,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 211, ../scss/_custom.scss */
+  /* line 189, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 223, ../scss/_custom.scss */
+/* line 201, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 225, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 231, ../scss/_custom.scss */
+/* line 209, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 231, ../scss/_custom.scss */
+  /* line 209, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 237, ../scss/_custom.scss */
+/* line 215, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3765,21 +3736,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 243, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 249, ../scss/_custom.scss */
+/* line 227, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 252, ../scss/_custom.scss */
+/* line 230, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 257, ../scss/_custom.scss */
+/* line 235, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -3790,7 +3761,7 @@ footer .end {
   margin-bottom: 8rem;
   margin-top: -0.4rem;
 }
-/* line 266, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 footer .legal {
   background: url('../img/dot.png?1413607185');
   background-color: #888888;

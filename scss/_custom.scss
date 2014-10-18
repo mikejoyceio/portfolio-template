@@ -150,6 +150,8 @@ header {
 .featured-work {
 		margin-top: -45px;
 		margin-bottom: 100px;
+		display: block;
+		position: relative;
 		@media #{$large-up} {
 	
 		}
@@ -172,11 +174,6 @@ header {
 	    &:hover {
 	    	cursor: pointer;
 	    }
-	    &.bw {
-				display: block;
-				position: relative;
-			}
-
 		}
 	
 }

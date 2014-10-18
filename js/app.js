@@ -2,7 +2,7 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-$('.bw').BlackAndWhite({
+$('figure').BlackAndWhite({
     hoverEffect : true, // default true
     // set the path to BnWWorker.js for a superfast implementation
     webworkerPath : 'js/',

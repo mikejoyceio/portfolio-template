@@ -3685,17 +3685,17 @@ header nav a:hover {
 }
 
 /* line 185, ../scss/_custom.scss */
-.about {
+.info {
   padding: 12% 0;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 185, ../scss/_custom.scss */
-  .about {
+  .info {
     padding: 70px 0 100px;
   }
 }
 /* line 190, ../scss/_custom.scss */
-.about h2 {
+.info h2 {
   border-bottom: 1px solid #202020;
   text-align: center;
   font-size: 2.1rem;
@@ -3704,12 +3704,12 @@ header nav a:hover {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 190, ../scss/_custom.scss */
-  .about h2 {
+  .info h2 {
     font-size: 2.5rem;
   }
 }
 /* line 200, ../scss/_custom.scss */
-.about p {
+.info p {
   text-align: justify;
 }
 

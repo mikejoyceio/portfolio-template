@@ -25,6 +25,6 @@ $(window).scroll(function(e){
 
 function parallax(){
     var scrolled = $(window).scrollTop();
-    $('.feature').css('background-position', -(scrolled * 0.2) + 'px');
+    $('.feature').css('background-position', -(scrolled * 0.1) + 'px');
 }
 

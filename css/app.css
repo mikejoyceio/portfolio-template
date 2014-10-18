@@ -3644,10 +3644,8 @@ header nav a:hover {
 .featured-work {
   margin-top: -45px;
   margin-bottom: 100px;
-  display: block;
-  position: relative;
 }
-/* line 158, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .featured-work figure {
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
@@ -3659,6 +3657,8 @@ header nav a:hover {
   margin: auto;
   padding: 5px;
   max-width: 400px;
+  display: block;
+  position: relative;
 }
 /* line 164, ../scss/_custom.scss */
 .featured-work figure figcaption {
@@ -3681,14 +3681,19 @@ header nav a:hover {
 .featured-work figure:hover {
   cursor: pointer;
 }
+/* line 177, ../scss/_custom.scss */
+.featured-work figure .greyscale {
+  display: block;
+  position: relative;
+}
 
-/* line 183, ../scss/_custom.scss */
+/* line 187, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 187, ../scss/_custom.scss */
+/* line 191, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3699,31 +3704,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 187, ../scss/_custom.scss */
+  /* line 191, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 199, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 201, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 207, ../scss/_custom.scss */
+/* line 211, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 207, ../scss/_custom.scss */
+  /* line 211, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 213, ../scss/_custom.scss */
+/* line 217, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3734,21 +3739,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 219, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 225, ../scss/_custom.scss */
+/* line 229, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 228, ../scss/_custom.scss */
+/* line 232, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 233, ../scss/_custom.scss */
+/* line 237, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

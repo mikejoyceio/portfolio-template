@@ -150,8 +150,6 @@ header {
 .featured-work {
 		margin-top: -45px;
 		margin-bottom: 100px;
-		display: block;
-		position: relative;
 		@media #{$large-up} {
 	
 		}
@@ -161,6 +159,8 @@ header {
 	    margin: auto;
 	    padding: 5px;
 	    max-width: 400px;
+			display: block;
+			position: relative;
 	    figcaption {
 			@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 	    	font-family: $font-bold, sans-serif;
@@ -174,6 +174,10 @@ header {
 	    &:hover {
 	    	cursor: pointer;
 	    }
+	    .greyscale {
+				display: block;
+				position: relative;
+			}
 		}
 	
 }

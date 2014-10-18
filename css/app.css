@@ -3790,3 +3790,10 @@ footer .end {
   margin-bottom: 8rem;
   margin-top: -0.4rem;
 }
+/* line 266, ../scss/_custom.scss */
+footer .legal {
+  background: url('../img/dot.png?1413607185');
+  background-color: #888888;
+  border-top: 1px solid #303030;
+  height: 60px;
+}

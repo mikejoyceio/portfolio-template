@@ -148,6 +148,7 @@ header {
 // Featured Work
 
 .featured-work {
+		margin-top: -60px;
 		padding: 10% 0;
 		@media #{$large-up} {
 			padding: 60px 0;

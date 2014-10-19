@@ -49,7 +49,7 @@ $(window).scroll(function(){
                 'margin-top' : '-3px'
             });
             $('header nav').css({
-                'top':'8px'
+                'top':'5px'
             });
             $('header nav a').css({
                 'font-size':'0.9rem'

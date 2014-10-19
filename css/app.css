@@ -3416,7 +3416,7 @@ th.hide-for-touch {
 }
 
 /* line 53, ../scss/_icons.scss */
-.icon-toggle:before {
+.icon-menu:before {
   content: '\e800';
 }
 
@@ -3445,6 +3445,12 @@ th.hide-for-touch {
 }
 
 /* '' */
+/* line 58, ../scss/_icons.scss */
+.icon-eye:before {
+  content: '\e805';
+}
+
+/* '' */
 /* line 106, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
@@ -3649,21 +3655,30 @@ header nav a:hover {
   display: none;
   position: absolute;
   background: url('../img/pattern.png?1409624647') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-  color: #fff;
   width: 70%;
   height: 65%;
   margin: auto;
   left: 0;
   right: 0;
-  text-align: center;
-  padding: 100px;
-  font-size: 20px;
 }
-/* line 180, ../scss/_custom.scss */
+/* line 176, ../scss/_custom.scss */
+.featured-work figure .figure-hover .content {
+  color: #fff;
+  font-family: texgyreadventorbold;
+  font-size: 1rem;
+  margin-top: 38%;
+  text-align: center;
+  opacity: .98;
+}
+/* line 183, ../scss/_custom.scss */
+.featured-work figure .figure-hover .content span {
+  display: block;
+}
+/* line 187, ../scss/_custom.scss */
 .featured-work figure:hover {
   cursor: pointer;
 }
-/* line 183, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .featured-work figure:hover .figure-hover {
   cursor: pointer;
   display: block;
@@ -3671,7 +3686,7 @@ header nav a:hover {
   -webkit-animation: slide-up 0.5s forwards;
   animation: slide-up 0.5s forwards;
 }
-/* line 188, ../scss/_custom.scss */
+/* line 195, ../scss/_custom.scss */
 .featured-work figure figcaption {
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3679,24 +3694,24 @@ header nav a:hover {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 188, ../scss/_custom.scss */
+  /* line 195, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 198, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 208, ../scss/_custom.scss */
+/* line 215, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 212, ../scss/_custom.scss */
+/* line 219, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3707,31 +3722,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 212, ../scss/_custom.scss */
+  /* line 219, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 224, ../scss/_custom.scss */
+/* line 231, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 226, ../scss/_custom.scss */
+/* line 233, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 232, ../scss/_custom.scss */
+/* line 239, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 232, ../scss/_custom.scss */
+  /* line 239, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 238, ../scss/_custom.scss */
+/* line 245, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3742,21 +3757,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 244, ../scss/_custom.scss */
+/* line 251, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 250, ../scss/_custom.scss */
+/* line 257, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 253, ../scss/_custom.scss */
+/* line 260, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 258, ../scss/_custom.scss */
+/* line 265, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -3769,34 +3784,34 @@ footer .end {
 }
 
 @-moz-keyframes slide-up {
-  /* line 272, ../scss/_custom.scss */
+  /* line 279, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 273, ../scss/_custom.scss */
+  /* line 280, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 272, ../scss/_custom.scss */
+  /* line 279, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 273, ../scss/_custom.scss */
+  /* line 280, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 272, ../scss/_custom.scss */
+  /* line 279, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 273, ../scss/_custom.scss */
+  /* line 280, ../scss/_custom.scss */
   100% {
     top: 10%;
   }

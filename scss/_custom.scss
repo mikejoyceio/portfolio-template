@@ -167,15 +167,22 @@ header {
 				display: none;
 				position: absolute;
 				background: image-url('pattern.png') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-				color: #fff;
 				width: 70%;
 				height: 65%;
 				margin: auto;
 				left: 0;
 				right: 0;
+			}
+			.figure-hover .content {
+				color: #fff;
+				font-family: $font-bold;
+				font-size: 1rem;
+				margin-top: 38%;
 				text-align: center;
-				padding: 100px;
-				font-size: 20px;
+				opacity: .98;
+				span {
+					display: block;
+				}
 			}
 			&:hover {
 				cursor: pointer;

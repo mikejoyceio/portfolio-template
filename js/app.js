@@ -60,7 +60,7 @@ $(window).scroll(function(){
             $('header').css({
                 'background': '#3d3d3d',
                 'position': 'fixed',
-                'top': '0',
+                'bottom': '0',
            
                 'z-index': '9999'
             });
@@ -86,6 +86,8 @@ $(window).scroll(function(){
             $('header').css({
                 'background': 'transparent',
                 'opacity': '1',
+                'top': 'auto',
+                'bottom': 'auto',
                 'position': 'absolute'
             });
         }  

@@ -114,11 +114,13 @@ header {
 	background-attachment: fixed;
 	background-position: center center;
 	backgrond-repeat: no-repeat;
-	height: 100%;
-	min-height: 500px;
-	padding-top: 150px;
-	@media #{$large-up} {
+	height: 580px;
+	padding-top: 140px;
+	@media #{$medium-up} {
 		height: 94.5%;
+		padding-top: 140px;
+	}
+	@media #{$large-up} {
 		margin: 13px;
 		padding-top: 178px;
 	}

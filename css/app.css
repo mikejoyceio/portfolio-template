@@ -3416,7 +3416,7 @@ th.hide-for-touch {
 }
 
 /* line 53, ../scss/_icons.scss */
-.icon-menu:before {
+.icon-toggle:before {
   content: '\e800';
 }
 
@@ -3791,7 +3791,7 @@ footer .end {
 @-moz-keyframes slide-up {
   /* line 282, ../scss/_custom.scss */
   0% {
-    top: 20%;
+    top: 15%;
   }
 
   /* line 283, ../scss/_custom.scss */
@@ -3802,7 +3802,7 @@ footer .end {
 @-webkit-keyframes slide-up {
   /* line 282, ../scss/_custom.scss */
   0% {
-    top: 20%;
+    top: 15%;
   }
 
   /* line 283, ../scss/_custom.scss */
@@ -3813,7 +3813,7 @@ footer .end {
 @keyframes slide-up {
   /* line 282, ../scss/_custom.scss */
   0% {
-    top: 20%;
+    top: 15%;
   }
 
   /* line 283, ../scss/_custom.scss */

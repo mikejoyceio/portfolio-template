@@ -45,10 +45,11 @@ $(window).scroll(function(){
         {
             $('header').data('size','small');
             $('header .logo').css({
-                'font-size': '1.5rem'
+                'font-size': '1.5rem',
+                'margin-top' : '-3px'
             });
             $('header nav').css({
-                'top':'0'
+                'top':'8px'
             });
             $('header nav a').css({
                 'font-size':'0.9rem'
@@ -57,10 +58,10 @@ $(window).scroll(function(){
                 'color': '#ffffff'
             });
             $('header').css({
-                'background': '#202020',
+                'background': '#3d3d3d',
                 'position': 'fixed',
                 'top': '0',
-                'opacity': '.7',
+           
                 'z-index': '9999'
             });
         }

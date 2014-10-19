@@ -3648,7 +3648,6 @@ header nav a:hover {
 .featured-work figure .figure-hover {
   display: none;
   position: absolute;
-  top: 10%;
   background: url('../img/dot2.png?1409624647') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
   color: #fff;
   width: 70%;
@@ -3660,14 +3659,17 @@ header nav a:hover {
   padding: 100px;
   font-size: 20px;
 }
-/* line 181, ../scss/_custom.scss */
+/* line 180, ../scss/_custom.scss */
 .featured-work figure:hover {
   cursor: pointer;
 }
-/* line 184, ../scss/_custom.scss */
+/* line 183, ../scss/_custom.scss */
 .featured-work figure:hover .figure-hover {
   cursor: pointer;
   display: block;
+  -moz-animation: slide-up 0.5s forwards;
+  -webkit-animation: slide-up 0.5s forwards;
+  animation: slide-up 0.5s forwards;
 }
 /* line 188, ../scss/_custom.scss */
 .featured-work figure figcaption {
@@ -3764,4 +3766,38 @@ footer .end {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
   margin-bottom: 6rem;
   margin-top: -0.4rem;
+}
+
+@-moz-keyframes slide-up {
+  /* line 272, ../scss/_custom.scss */
+  0% {
+    top: 20%;
+  }
+
+  /* line 273, ../scss/_custom.scss */
+  100% {
+    top: 10%;
+  }
+}
+@-webkit-keyframes slide-up {
+  /* line 272, ../scss/_custom.scss */
+  0% {
+    top: 20%;
+  }
+
+  /* line 273, ../scss/_custom.scss */
+  100% {
+    top: 10%;
+  }
+}
+@keyframes slide-up {
+  /* line 272, ../scss/_custom.scss */
+  0% {
+    top: 20%;
+  }
+
+  /* line 273, ../scss/_custom.scss */
+  100% {
+    top: 10%;
+  }
 }

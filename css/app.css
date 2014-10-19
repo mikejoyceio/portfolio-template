@@ -3648,7 +3648,7 @@ header nav a:hover {
 .featured-work figure .figure-hover {
   display: none;
   position: absolute;
-  background: url('../img/dot2.png') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  background: url('../img/pattern.png?1409624647') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
   color: #fff;
   width: 70%;
   height: 65%;

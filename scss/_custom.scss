@@ -189,10 +189,14 @@ header {
 					font-size: 1.4rem;
 				}
 			}
-			&:hover {
+			&:hover,
+			:focus,
+			:active {
 				cursor: pointer;
 			}
-			&:hover .figure-hover {
+			&:hover .figure-hover,
+			:focus .figure-hover,
+			:active .figure-hover {
 				cursor: pointer;
 				display: block;
 				@include animation(slide-up .5s forwards);

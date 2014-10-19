@@ -3685,18 +3685,22 @@ header nav a:hover {
   font-size: 1.4rem;
 }
 /* line 192, ../scss/_custom.scss */
-.featured-work figure:hover {
+.featured-work figure:hover,
+.featured-work figure :focus,
+.featured-work figure :active {
   cursor: pointer;
 }
-/* line 195, ../scss/_custom.scss */
-.featured-work figure:hover .figure-hover {
+/* line 197, ../scss/_custom.scss */
+.featured-work figure:hover .figure-hover,
+.featured-work figure :focus .figure-hover,
+.featured-work figure :active .figure-hover {
   cursor: pointer;
   display: block;
   -moz-animation: slide-up 0.5s forwards;
   -webkit-animation: slide-up 0.5s forwards;
   animation: slide-up 0.5s forwards;
 }
-/* line 200, ../scss/_custom.scss */
+/* line 204, ../scss/_custom.scss */
 .featured-work figure figcaption {
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3704,24 +3708,24 @@ header nav a:hover {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 200, ../scss/_custom.scss */
+  /* line 204, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 210, ../scss/_custom.scss */
+/* line 214, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 220, ../scss/_custom.scss */
+/* line 224, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 224, ../scss/_custom.scss */
+/* line 228, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3732,31 +3736,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 224, ../scss/_custom.scss */
+  /* line 228, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 236, ../scss/_custom.scss */
+/* line 240, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 238, ../scss/_custom.scss */
+/* line 242, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 244, ../scss/_custom.scss */
+/* line 248, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 244, ../scss/_custom.scss */
+  /* line 248, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 250, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3767,21 +3771,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 256, ../scss/_custom.scss */
+/* line 260, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 266, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 265, ../scss/_custom.scss */
+/* line 269, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 270, ../scss/_custom.scss */
+/* line 274, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -3794,162 +3798,162 @@ footer .end {
 }
 
 @-moz-keyframes slide-up {
-  /* line 284, ../scss/_custom.scss */
+  /* line 288, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 285, ../scss/_custom.scss */
+  /* line 289, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 284, ../scss/_custom.scss */
+  /* line 288, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 285, ../scss/_custom.scss */
+  /* line 289, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 284, ../scss/_custom.scss */
+  /* line 288, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 285, ../scss/_custom.scss */
+  /* line 289, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-moz-keyframes buzz-out {
-  /* line 289, ../scss/_custom.scss */
+  /* line 293, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 292, ../scss/_custom.scss */
+  /* line 296, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 295, ../scss/_custom.scss */
+  /* line 299, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 298, ../scss/_custom.scss */
+  /* line 302, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 301, ../scss/_custom.scss */
+  /* line 305, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 304, ../scss/_custom.scss */
+  /* line 308, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 307, ../scss/_custom.scss */
+  /* line 311, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 310, ../scss/_custom.scss */
+  /* line 314, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 313, ../scss/_custom.scss */
+  /* line 317, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 316, ../scss/_custom.scss */
+  /* line 320, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @-webkit-keyframes buzz-out {
-  /* line 289, ../scss/_custom.scss */
+  /* line 293, ../scss/_custom.scss */
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 292, ../scss/_custom.scss */
+  /* line 296, ../scss/_custom.scss */
   20% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 295, ../scss/_custom.scss */
+  /* line 299, ../scss/_custom.scss */
   30% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 298, ../scss/_custom.scss */
+  /* line 302, ../scss/_custom.scss */
   40% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 301, ../scss/_custom.scss */
+  /* line 305, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 304, ../scss/_custom.scss */
+  /* line 308, ../scss/_custom.scss */
   60% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 307, ../scss/_custom.scss */
+  /* line 311, ../scss/_custom.scss */
   70% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 310, ../scss/_custom.scss */
+  /* line 314, ../scss/_custom.scss */
   80% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 313, ../scss/_custom.scss */
+  /* line 317, ../scss/_custom.scss */
   90% {
     -webkit-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 316, ../scss/_custom.scss */
+  /* line 320, ../scss/_custom.scss */
   100% {
     -webkit-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @keyframes buzz-out {
-  /* line 289, ../scss/_custom.scss */
+  /* line 293, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -3957,7 +3961,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 292, ../scss/_custom.scss */
+  /* line 296, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -3965,7 +3969,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 295, ../scss/_custom.scss */
+  /* line 299, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -3973,7 +3977,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 298, ../scss/_custom.scss */
+  /* line 302, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -3981,7 +3985,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 301, ../scss/_custom.scss */
+  /* line 305, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -3989,7 +3993,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 304, ../scss/_custom.scss */
+  /* line 308, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -3997,7 +4001,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 307, ../scss/_custom.scss */
+  /* line 311, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4005,7 +4009,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 310, ../scss/_custom.scss */
+  /* line 314, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4013,7 +4017,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 313, ../scss/_custom.scss */
+  /* line 317, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     -ms-transform: translateX(1px) rotate(0);
@@ -4021,7 +4025,7 @@ footer .end {
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 316, ../scss/_custom.scss */
+  /* line 320, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     -ms-transform: translateX(-1px) rotate(0);
@@ -4030,33 +4034,33 @@ footer .end {
   }
 }
 @-moz-keyframes buzz {
-  /* line 322, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 325, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   100% {
     -moz-transform: transform;
     transform: transform;
   }
 }
 @-webkit-keyframes buzz {
-  /* line 322, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 325, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   100% {
     -webkit-transform: transform;
     transform: transform;
   }
 }
 @keyframes buzz {
-  /* line 322, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4064,7 +4068,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 325, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   100% {
     -moz-transform: transform;
     -webkit-transform: transform;

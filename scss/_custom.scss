@@ -2,7 +2,7 @@
 // Custom
 
 * {
-	//outline: 1px solid pink !important;
+	outline: 1px solid pink !important;
 }
 
 // Vertical Rhythm
@@ -90,9 +90,8 @@ header {
 	}
 	nav {
 		position: absolute;
-		right: 0;
+		right: 15px;
 		top: 45px;
-		width: 170px;
 		a {
 			@include link-colors(#222222, #222222);
 			font-family: $font-bold;

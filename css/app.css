@@ -3673,12 +3673,13 @@ header nav a:hover {
 /* line 183, ../scss/_custom.scss */
 .featured-work figure .figure-hover .content span {
   display: block;
+  font-size: 1.4rem;
 }
-/* line 187, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 .featured-work figure:hover {
   cursor: pointer;
 }
-/* line 190, ../scss/_custom.scss */
+/* line 191, ../scss/_custom.scss */
 .featured-work figure:hover .figure-hover {
   cursor: pointer;
   display: block;
@@ -3686,7 +3687,7 @@ header nav a:hover {
   -webkit-animation: slide-up 0.5s forwards;
   animation: slide-up 0.5s forwards;
 }
-/* line 195, ../scss/_custom.scss */
+/* line 196, ../scss/_custom.scss */
 .featured-work figure figcaption {
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3694,24 +3695,24 @@ header nav a:hover {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 195, ../scss/_custom.scss */
+  /* line 196, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 205, ../scss/_custom.scss */
+/* line 206, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 215, ../scss/_custom.scss */
+/* line 216, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 219, ../scss/_custom.scss */
+/* line 220, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3722,31 +3723,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 219, ../scss/_custom.scss */
+  /* line 220, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 231, ../scss/_custom.scss */
+/* line 232, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 233, ../scss/_custom.scss */
+/* line 234, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 239, ../scss/_custom.scss */
+/* line 240, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 239, ../scss/_custom.scss */
+  /* line 240, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 245, ../scss/_custom.scss */
+/* line 246, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3757,21 +3758,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 251, ../scss/_custom.scss */
+/* line 252, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 257, ../scss/_custom.scss */
+/* line 258, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 260, ../scss/_custom.scss */
+/* line 261, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 265, ../scss/_custom.scss */
+/* line 266, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -3784,34 +3785,34 @@ footer .end {
 }
 
 @-moz-keyframes slide-up {
-  /* line 279, ../scss/_custom.scss */
+  /* line 280, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 280, ../scss/_custom.scss */
+  /* line 281, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 279, ../scss/_custom.scss */
+  /* line 280, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 280, ../scss/_custom.scss */
+  /* line 281, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 279, ../scss/_custom.scss */
+  /* line 280, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 280, ../scss/_custom.scss */
+  /* line 281, ../scss/_custom.scss */
   100% {
     top: 10%;
   }

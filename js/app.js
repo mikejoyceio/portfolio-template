@@ -41,11 +41,15 @@ function anchorScroll(target) {
 }
 
 $('#work').click(function() {
-anchorScroll('#featured-work');
+    anchorScroll('#featured-work');
+});
+
+$('#view').click(function() {
+    anchorScroll('#featured-work');
 });
 
 $('#contact').click(function() {
-anchorScroll('footer');
+    anchorScroll('footer');
 });
 
 

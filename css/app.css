@@ -3618,24 +3618,27 @@ header nav a:hover {
 /* line 133, ../scss/_custom.scss */
 .feature button {
   margin-bottom: 1.9rem;
+  -moz-animation: buzz-out 0.55s 4s linear 1;
+  -webkit-animation: buzz-out 0.55s 4s linear 1;
+  animation: buzz-out 0.55s 4s linear 1;
 }
-/* line 137, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .feature .social a {
   color: #222222;
   font-size: 1.5rem;
 }
-/* line 140, ../scss/_custom.scss */
+/* line 141, ../scss/_custom.scss */
 .feature .social a:hover {
   color: #222222;
   opacity: 0.8;
 }
 
-/* line 150, ../scss/_custom.scss */
+/* line 151, ../scss/_custom.scss */
 .featured-work {
   margin: -75px 0 100px 0;
   padding: 30px 0 0 0;
 }
-/* line 156, ../scss/_custom.scss */
+/* line 157, ../scss/_custom.scss */
 .featured-work figure {
   background: #fff;
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -3650,7 +3653,7 @@ header nav a:hover {
   display: block;
   position: relative;
 }
-/* line 166, ../scss/_custom.scss */
+/* line 167, ../scss/_custom.scss */
 .featured-work figure .figure-hover {
   display: none;
   position: absolute;
@@ -3661,7 +3664,7 @@ header nav a:hover {
   left: 0;
   right: 0;
 }
-/* line 176, ../scss/_custom.scss */
+/* line 177, ../scss/_custom.scss */
 .featured-work figure .figure-hover .content {
   color: #fff;
   font-family: texgyreadventorbold;
@@ -3671,16 +3674,16 @@ header nav a:hover {
   text-align: center;
   opacity: .98;
 }
-/* line 184, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .featured-work figure .figure-hover .content span {
   display: block;
   font-size: 1.4rem;
 }
-/* line 189, ../scss/_custom.scss */
+/* line 190, ../scss/_custom.scss */
 .featured-work figure:hover {
   cursor: pointer;
 }
-/* line 192, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 .featured-work figure:hover .figure-hover {
   cursor: pointer;
   display: block;
@@ -3688,7 +3691,7 @@ header nav a:hover {
   -webkit-animation: slide-up 0.5s forwards;
   animation: slide-up 0.5s forwards;
 }
-/* line 197, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 .featured-work figure figcaption {
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3696,24 +3699,24 @@ header nav a:hover {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 197, ../scss/_custom.scss */
+  /* line 198, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 207, ../scss/_custom.scss */
+/* line 208, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 217, ../scss/_custom.scss */
+/* line 218, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 221, ../scss/_custom.scss */
+/* line 222, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3724,31 +3727,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 221, ../scss/_custom.scss */
+  /* line 222, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 233, ../scss/_custom.scss */
+/* line 234, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 235, ../scss/_custom.scss */
+/* line 236, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 241, ../scss/_custom.scss */
+/* line 242, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 241, ../scss/_custom.scss */
+  /* line 242, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 247, ../scss/_custom.scss */
+/* line 248, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3759,21 +3762,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 253, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 259, ../scss/_custom.scss */
+/* line 260, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 263, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 267, ../scss/_custom.scss */
+/* line 268, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -3786,35 +3789,280 @@ footer .end {
 }
 
 @-moz-keyframes slide-up {
-  /* line 281, ../scss/_custom.scss */
+  /* line 282, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 282, ../scss/_custom.scss */
+  /* line 283, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 281, ../scss/_custom.scss */
+  /* line 282, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 282, ../scss/_custom.scss */
+  /* line 283, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 281, ../scss/_custom.scss */
+  /* line 282, ../scss/_custom.scss */
   0% {
     top: 20%;
   }
 
-  /* line 282, ../scss/_custom.scss */
+  /* line 283, ../scss/_custom.scss */
   100% {
     top: 10%;
+  }
+}
+@-moz-keyframes buzz-out {
+  /* line 287, ../scss/_custom.scss */
+  10% {
+    -moz-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 290, ../scss/_custom.scss */
+  20% {
+    -moz-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  /* line 293, ../scss/_custom.scss */
+  30% {
+    -moz-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 296, ../scss/_custom.scss */
+  40% {
+    -moz-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  /* line 299, ../scss/_custom.scss */
+  50% {
+    -moz-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  /* line 302, ../scss/_custom.scss */
+  60% {
+    -moz-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  /* line 305, ../scss/_custom.scss */
+  70% {
+    -moz-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  /* line 308, ../scss/_custom.scss */
+  80% {
+    -moz-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  /* line 311, ../scss/_custom.scss */
+  90% {
+    -moz-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+
+  /* line 314, ../scss/_custom.scss */
+  100% {
+    -moz-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+@-webkit-keyframes buzz-out {
+  /* line 287, ../scss/_custom.scss */
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 290, ../scss/_custom.scss */
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  /* line 293, ../scss/_custom.scss */
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 296, ../scss/_custom.scss */
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  /* line 299, ../scss/_custom.scss */
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  /* line 302, ../scss/_custom.scss */
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  /* line 305, ../scss/_custom.scss */
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  /* line 308, ../scss/_custom.scss */
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  /* line 311, ../scss/_custom.scss */
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+
+  /* line 314, ../scss/_custom.scss */
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+@keyframes buzz-out {
+  /* line 287, ../scss/_custom.scss */
+  10% {
+    -moz-transform: translateX(3px) rotate(2deg);
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 290, ../scss/_custom.scss */
+  20% {
+    -moz-transform: translateX(-3px) rotate(-2deg);
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  /* line 293, ../scss/_custom.scss */
+  30% {
+    -moz-transform: translateX(3px) rotate(2deg);
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 296, ../scss/_custom.scss */
+  40% {
+    -moz-transform: translateX(-3px) rotate(-2deg);
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+
+  /* line 299, ../scss/_custom.scss */
+  50% {
+    -moz-transform: translateX(2px) rotate(1deg);
+    -ms-transform: translateX(2px) rotate(1deg);
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  /* line 302, ../scss/_custom.scss */
+  60% {
+    -moz-transform: translateX(-2px) rotate(-1deg);
+    -ms-transform: translateX(-2px) rotate(-1deg);
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  /* line 305, ../scss/_custom.scss */
+  70% {
+    -moz-transform: translateX(2px) rotate(1deg);
+    -ms-transform: translateX(2px) rotate(1deg);
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+
+  /* line 308, ../scss/_custom.scss */
+  80% {
+    -moz-transform: translateX(-2px) rotate(-1deg);
+    -ms-transform: translateX(-2px) rotate(-1deg);
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+
+  /* line 311, ../scss/_custom.scss */
+  90% {
+    -moz-transform: translateX(1px) rotate(0);
+    -ms-transform: translateX(1px) rotate(0);
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+
+  /* line 314, ../scss/_custom.scss */
+  100% {
+    -moz-transform: translateX(-1px) rotate(0);
+    -ms-transform: translateX(-1px) rotate(0);
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+@-moz-keyframes buzz {
+  /* line 320, ../scss/_custom.scss */
+  50% {
+    -moz-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 323, ../scss/_custom.scss */
+  100% {
+    -moz-transform: transform;
+    transform: transform;
+  }
+}
+@-webkit-keyframes buzz {
+  /* line 320, ../scss/_custom.scss */
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 323, ../scss/_custom.scss */
+  100% {
+    -webkit-transform: transform;
+    transform: transform;
+  }
+}
+@keyframes buzz {
+  /* line 320, ../scss/_custom.scss */
+  50% {
+    -moz-transform: translateX(3px) rotate(2deg);
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  /* line 323, ../scss/_custom.scss */
+  100% {
+    -moz-transform: transform;
+    -webkit-transform: transform;
+    transform: transform;
   }
 }

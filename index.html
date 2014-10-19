@@ -55,7 +55,6 @@
           <nav class="show-for-large-up">
             <ul class="inline-list">
               <li><a id="work">Work.</a></li>
-              <li><a id="about">About.</a></li>
               <li><a id="contact">Contact.</a></li>
             </ul>
           </nav>
@@ -73,7 +72,7 @@
         <div class="small-12 medium-12 large-12 column text-center">
           <h1>UX Conscious Front-End Developer</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quaerat, fugiat dolorum, error facilis velit saepe odio iste.</p>
-          <button>View My Work</button>
+          <button id="view">View My Work</button>
           <div class="social">
             <a href="http://github.com/mikejoycegit" target="_blank">
               <span class="icon-github"></span>
@@ -92,65 +91,62 @@
     <!-- /Feature -->
 
     <!-- Featured Work -->
-    <div class="featured-work">
+    <div class="featured-work" id="featured-work">
       <div class="row">
 
         <div class="small-12 medium-12 large-12 column">
           <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
             <li>  
-              <figure class="bw">
-                <img src="img/here-now.jpg" alt="Alt Text">
-                <figcaption>Here Now.</figcaption>
+              <figure>
+                <div class="greyscale">
+                  <img src="img/here-now.jpg" alt="Alt Text">
+                  <div class="figure-hover">
+                    <div class="content">
+                      View Project
+                      <span class="icon-eye"></span>
+                    </div>
+                  </div>
+                  <figcaption>Here Now.</figcaption>
+                </div>
               </figure>
             </li>
 
             <li>
-              <figure class="bw">
-                <img src="img/route-a-bus.jpg" alt="Alt Text">
-                <figcaption>RouteAbus.</figcaption>
+              <figure>
+                <div class="greyscale">
+                  <img src="img/route-a-bus.jpg" alt="Alt Text">
+                  <div class="figure-hover">
+                    <div class="content">
+                      View Project
+                      <span class="icon-eye"></span>
+                    </div>                    
+                  </div>
+                  <figcaption>RouteAbus.</figcaption>
+                </div>
               </figure>
             </li>
 
             <li>
-              <figure class="bw">
-                <img src="img/date-asia.jpg" alt="Alt Text">
-                <figcaption>Date Asia.</figcaption>
+              <figure>
+                <div class="greyscale">
+                  <img src="img/date-asia.jpg" alt="Alt Text">
+                  <div class="figure-hover">
+                     <div class="content">
+                      View Project
+                      <span class="icon-eye"></span>
+                    </div>                   
+                  </div>
+                  <figcaption>Date Asia.</figcaption>
+                </div>
               </figure>
             </li>
+
           </ul>
         </div>
 
       </div>
     </div>
     <!-- /Featured Work -->
-
-    <!-- About -->
-    <div class="about">
-      <div class="row">
-
-        <div class="small-12 medium-12 large-12 column">
-          <h2>About</h2>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="small-12 medium-12 large-12 column">
-
-          <div class="row">
-            <div class="small-12 medium-6 large-6 columns">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sapiente, alias dignissimos cupiditate. Quam temporibus ea earum, eaque magni dicta sapiente autem, exercitationem qui molestias excepturi quos, esse animi? Asperiores.</p>
-            </div>
-            <div class="small-12 medium-6 large-6 columns">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum odio odit, dolor reprehenderit placeat possimus magnam ab nesciunt dignissimos sapiente quas, consequatur repellat sit cumque at, rerum tempora! Voluptate, culpa.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-    <!-- /About -->
 
     <!-- Footer -->
     <footer>
@@ -178,7 +174,6 @@
             <span>Simplicity</span>
           </div>
         </div>
-
       </div>
     </footer>
     <!-- /Footer -->

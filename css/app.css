@@ -3445,11 +3445,6 @@ th.hide-for-touch {
 }
 
 /* '' */
-/* line 4, ../scss/_custom.scss */
-* {
-  outline: 1px solid pink !important;
-}
-
 /* line 106, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
@@ -3460,17 +3455,6 @@ html {
 body {
   background: #e8e8e8;
   font-family: texgyreadventorregular, sans-serif;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0)));
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%);
-  -moz-background-size: 100% 1.5rem;
-  -o-background-size: 100% 1.5rem;
-  -webkit-background-size: 100% 1.5rem;
-  background-size: 100% 1.5rem;
-  background-position: left top;
 }
 
 /* line 22, ../scss/_custom.scss */
@@ -3647,10 +3631,10 @@ header nav a:hover {
 }
 /* line 156, ../scss/_custom.scss */
 .featured-work figure {
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
-  background: -webkit-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
-  background: linear-gradient(320deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
+  background: #fff;
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -3660,40 +3644,36 @@ header nav a:hover {
   display: block;
   position: relative;
 }
-/* line 164, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .featured-work figure figcaption {
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background: -moz-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
-  background: -webkit-linear-gradient(130deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
-  background: linear-gradient(320deg, rgba(0, 0, 0, 0) 13px, #ffffff 13px);
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
   font-weight: 700;
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 164, ../scss/_custom.scss */
+  /* line 166, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 174, ../scss/_custom.scss */
+/* line 176, ../scss/_custom.scss */
 .featured-work figure:hover {
   cursor: pointer;
 }
-/* line 177, ../scss/_custom.scss */
+/* line 179, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 187, ../scss/_custom.scss */
+/* line 189, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 191, ../scss/_custom.scss */
+/* line 193, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3704,31 +3684,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 191, ../scss/_custom.scss */
+  /* line 193, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 203, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 205, ../scss/_custom.scss */
+/* line 207, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 211, ../scss/_custom.scss */
+/* line 213, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 211, ../scss/_custom.scss */
+  /* line 213, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 217, ../scss/_custom.scss */
+/* line 219, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3739,21 +3719,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 223, ../scss/_custom.scss */
+/* line 225, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 229, ../scss/_custom.scss */
+/* line 231, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 232, ../scss/_custom.scss */
+/* line 234, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 237, ../scss/_custom.scss */
+/* line 239, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

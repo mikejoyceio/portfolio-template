@@ -2,7 +2,7 @@
 // Custom
 
 * {
-	outline: 1px solid pink !important;
+	//outline: 1px solid pink !important;
 }
 
 // Vertical Rhythm
@@ -16,7 +16,7 @@ $base-line-height: $rem-base * 1.5;
 body {
 	background: #e8e8e8;
 	font-family: $font-normal, sans-serif;
-	@include debug-vertical-alignment;
+	//@include debug-vertical-alignment;
 }
 
 #{ headings(all) } {
@@ -154,7 +154,9 @@ header {
 	
 		}
 		figure {
-			@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
+			//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
+			background: #fff;
+			@include box-shadow(0 3px 5px rgba(0, 0, 0, 0.1));
 			@include border-radius(5px);
 	    margin: auto;
 	    padding: 5px;
@@ -162,7 +164,7 @@ header {
 			display: block;
 			position: relative;
 	    figcaption {
-			@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
+				//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 	    	font-family: $font-bold, sans-serif;
 	    	font-size: 1.09rem;
 	    	font-weight: 700;

@@ -163,6 +163,28 @@ header {
 	    max-width: 400px;
 			display: block;
 			position: relative;
+			.figure-hover {
+				display: none;
+				position: absolute;
+				top: 10%;
+				background: image-url('dot2.png') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+				color: #fff;
+				width: 70%;
+				height: 65%;
+				margin: auto;
+				left: 0;
+				right: 0;
+				text-align: center;
+				padding: 100px;
+				font-size: 20px;
+			}
+			&:hover {
+				cursor: pointer;
+			}
+			&:hover .figure-hover {
+				cursor: pointer;
+				display: block;
+			}
 	    figcaption {
 				//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 	    	font-family: $font-bold, sans-serif;
@@ -172,9 +194,6 @@ header {
 	    	@media #{$large-up} {
 	    		font-size: 1.3rem;
 	    	}
-	    }
-	    &:hover {
-	    	cursor: pointer;
 	    }
 	    .greyscale {
 				display: block;

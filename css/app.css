@@ -3645,6 +3645,31 @@ header nav a:hover {
   position: relative;
 }
 /* line 166, ../scss/_custom.scss */
+.featured-work figure .figure-hover {
+  display: none;
+  position: absolute;
+  top: 10%;
+  background: url('../img/dot2.png?1409624647') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 70%;
+  height: 65%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 100px;
+  font-size: 20px;
+}
+/* line 181, ../scss/_custom.scss */
+.featured-work figure:hover {
+  cursor: pointer;
+}
+/* line 184, ../scss/_custom.scss */
+.featured-work figure:hover .figure-hover {
+  cursor: pointer;
+  display: block;
+}
+/* line 188, ../scss/_custom.scss */
 .featured-work figure figcaption {
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3652,28 +3677,24 @@ header nav a:hover {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 166, ../scss/_custom.scss */
+  /* line 188, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 176, ../scss/_custom.scss */
-.featured-work figure:hover {
-  cursor: pointer;
-}
-/* line 179, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 189, ../scss/_custom.scss */
+/* line 208, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 193, ../scss/_custom.scss */
+/* line 212, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3684,31 +3705,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 193, ../scss/_custom.scss */
+  /* line 212, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 205, ../scss/_custom.scss */
+/* line 224, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 207, ../scss/_custom.scss */
+/* line 226, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 213, ../scss/_custom.scss */
+/* line 232, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 213, ../scss/_custom.scss */
+  /* line 232, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 219, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3719,21 +3740,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 225, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 231, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 234, ../scss/_custom.scss */
+/* line 253, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 239, ../scss/_custom.scss */
+/* line 258, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;

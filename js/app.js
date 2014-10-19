@@ -2,6 +2,8 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
+// Greyscale Images
+
 $('.greyscale').BlackAndWhite({
     hoverEffect : true, // default true
     // set the path to BnWWorker.js for a superfast implementation
@@ -19,6 +21,8 @@ $('.greyscale').BlackAndWhite({
     }
 });
 
+// Parallax
+
 $(window).scroll(function(e){
     parallax();
 });
@@ -27,4 +31,21 @@ function parallax(){
     var scrolled = $(window).scrollTop();
     $('.feature').css('background-position', -(scrolled * 0.1) + 'px');
 }
+
+// Scroll to Anchor
+
+function anchorScroll(target) {
+    $('html,body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
+}
+
+$('#work').click(function() {
+anchorScroll('#featured-work');
+});
+
+$('#contact').click(function() {
+anchorScroll('footer');
+});
+
 

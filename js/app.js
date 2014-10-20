@@ -45,7 +45,7 @@ $(window).scroll(function(){
         {
             $('header').data('size','small');
             $('header').addClass('sticky');
-            $('header nav ul').prepend('<li><a id="start">Start</a></li>')
+            $('header nav ul').prepend('<li><a id="start">Start.</a></li>')
             $('.toggle span:first').removeClass('icon-toggle').addClass('icon-up');
         }
     }

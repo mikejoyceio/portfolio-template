@@ -3643,11 +3643,6 @@ th.hide-for-touch {
 }
 
 /* '' */
-/* line 4, ../scss/_custom.scss */
-* {
-  outline: 1px solid pink !important;
-}
-
 /* line 106, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
@@ -4118,176 +4113,170 @@ footer .end {
   right: 25px;
   opacity: 0.8;
 }
-@media only screen and (min-width: 64.063em) {
-  /* line 371, ../scss/_custom.scss */
-  .reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
-    right: 105px;
-  }
-}
 
-/* line 383, ../scss/_custom.scss */
+/* line 380, ../scss/_custom.scss */
 .reveal-modal-bg {
   background: url('../img/pattern.png?1409624647');
   background-color: rgba(0, 0, 0, 0.85);
 }
 
 @-moz-keyframes slide-up {
-  /* line 391, ../scss/_custom.scss */
+  /* line 388, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 392, ../scss/_custom.scss */
+  /* line 389, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 391, ../scss/_custom.scss */
+  /* line 388, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 392, ../scss/_custom.scss */
+  /* line 389, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 391, ../scss/_custom.scss */
+  /* line 388, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 392, ../scss/_custom.scss */
+  /* line 389, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-moz-keyframes buzz-out {
-  /* line 396, ../scss/_custom.scss */
+  /* line 393, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 399, ../scss/_custom.scss */
+  /* line 396, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 402, ../scss/_custom.scss */
+  /* line 399, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 405, ../scss/_custom.scss */
+  /* line 402, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 408, ../scss/_custom.scss */
+  /* line 405, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 411, ../scss/_custom.scss */
+  /* line 408, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 414, ../scss/_custom.scss */
+  /* line 411, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 417, ../scss/_custom.scss */
+  /* line 414, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 420, ../scss/_custom.scss */
+  /* line 417, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 423, ../scss/_custom.scss */
+  /* line 420, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @-webkit-keyframes buzz-out {
-  /* line 396, ../scss/_custom.scss */
+  /* line 393, ../scss/_custom.scss */
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 399, ../scss/_custom.scss */
+  /* line 396, ../scss/_custom.scss */
   20% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 402, ../scss/_custom.scss */
+  /* line 399, ../scss/_custom.scss */
   30% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 405, ../scss/_custom.scss */
+  /* line 402, ../scss/_custom.scss */
   40% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 408, ../scss/_custom.scss */
+  /* line 405, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 411, ../scss/_custom.scss */
+  /* line 408, ../scss/_custom.scss */
   60% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 414, ../scss/_custom.scss */
+  /* line 411, ../scss/_custom.scss */
   70% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 417, ../scss/_custom.scss */
+  /* line 414, ../scss/_custom.scss */
   80% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 420, ../scss/_custom.scss */
+  /* line 417, ../scss/_custom.scss */
   90% {
     -webkit-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 423, ../scss/_custom.scss */
+  /* line 420, ../scss/_custom.scss */
   100% {
     -webkit-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @keyframes buzz-out {
-  /* line 396, ../scss/_custom.scss */
+  /* line 393, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4295,7 +4284,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 399, ../scss/_custom.scss */
+  /* line 396, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -4303,7 +4292,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 402, ../scss/_custom.scss */
+  /* line 399, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4311,7 +4300,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 405, ../scss/_custom.scss */
+  /* line 402, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -4319,7 +4308,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 408, ../scss/_custom.scss */
+  /* line 405, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4327,7 +4316,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 411, ../scss/_custom.scss */
+  /* line 408, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4335,7 +4324,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 414, ../scss/_custom.scss */
+  /* line 411, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4343,7 +4332,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 417, ../scss/_custom.scss */
+  /* line 414, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4351,7 +4340,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 420, ../scss/_custom.scss */
+  /* line 417, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     -ms-transform: translateX(1px) rotate(0);
@@ -4359,7 +4348,7 @@ footer .end {
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 423, ../scss/_custom.scss */
+  /* line 420, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     -ms-transform: translateX(-1px) rotate(0);
@@ -4368,33 +4357,33 @@ footer .end {
   }
 }
 @-moz-keyframes buzz {
-  /* line 429, ../scss/_custom.scss */
+  /* line 426, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 432, ../scss/_custom.scss */
+  /* line 429, ../scss/_custom.scss */
   100% {
     -moz-transform: transform;
     transform: transform;
   }
 }
 @-webkit-keyframes buzz {
-  /* line 429, ../scss/_custom.scss */
+  /* line 426, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 432, ../scss/_custom.scss */
+  /* line 429, ../scss/_custom.scss */
   100% {
     -webkit-transform: transform;
     transform: transform;
   }
 }
 @keyframes buzz {
-  /* line 429, ../scss/_custom.scss */
+  /* line 426, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4402,7 +4391,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 432, ../scss/_custom.scss */
+  /* line 429, ../scss/_custom.scss */
   100% {
     -moz-transform: transform;
     -webkit-transform: transform;

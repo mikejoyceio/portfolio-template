@@ -2,7 +2,7 @@
 // Custom
 
 * {
-	outline: 1px solid pink !important;
+	//outline: 1px solid pink !important;
 }
 
 // Vertical Rhythm
@@ -373,9 +373,6 @@ footer {
 		color: #f25e4f;
 		top: 45px;
 		right: 25px;
-		@media #{$large-up} {
-			right: 105px;
-		}
 		opacity: 0.8;
 	}
 }

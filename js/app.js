@@ -44,6 +44,10 @@ $(function(){
     $('header').data('size','big');
 });
 
+window.addEventListener('gesturechange', function() {
+    alert('ok');
+});
+
 $(window).scroll(function(){
 
     if($(document).scrollTop() > 100)

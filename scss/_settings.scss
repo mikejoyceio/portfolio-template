@@ -1090,12 +1090,12 @@ $h1-font-reduction: rem-calc(10) !default;
 // $reveal-overlay-bg-old: $black;
 
 // We use these to control the style of the modal itself.
-// $reveal-modal-bg: $white;
+$reveal-modal-bg: transparent;
 // $reveal-position-top: rem-calc(100);
 // $reveal-default-width: 80%;
 // $reveal-max-width: $row-width;
 // $reveal-modal-padding: rem-calc(20);
-// $reveal-box-shadow: 0 0 10px rgba($black,.4);
+$reveal-box-shadow: none;
 
 // We use these to style the reveal close button
 // $reveal-close-font-size: rem-calc(40);
@@ -1109,8 +1109,8 @@ $h1-font-reduction: rem-calc(10) !default;
 // $reveal-round: $global-rounded;
 
 // We use these to control the modal border
-// $reveal-border-style: solid;
-// $reveal-border-width: 1px;
+// i$reveal-border-style: solid;
+$reveal-border-width: 0;
 // $reveal-border-color: $steel;
 
 // $reveal-modal-class: "reveal-modal";

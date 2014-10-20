@@ -42,7 +42,7 @@ a {
 
 // Buttons 
 
-button {
+button, .button {
 	@include background(linear-gradient(320deg, transparent 5px, #ffffff 5px));
 	border: none;
 	color: #222222;
@@ -342,25 +342,34 @@ footer {
 // Modal 
 
 .reveal-modal {	
-	background-color: transparent;
 	color: #ffffff;
 	h2 {
-
+		color: #ffffff;
+		font-family: $font-bold;
+		font-weight: 700;
+		margin-left: 15px;
 	}
 	.technical {
-
+		font-family: $font-normal;
+		margin-left: 15px;
 	}
 	p {
-
+		font-family: $font-normal;
+		font-size: .96rem;
 	}
-	a {
-
+	.button {	
+			color: #ffffff;
+			@include background(linear-gradient(320deg, transparent 5px, #7cc576 5px));
 	}
 	figure {
-		
+		float: right;
 	}
 	.close-reveal-modal {
-
+		font-size: 1.5rem;
+		color: #f25e4f;
+		top: 45px;
+		right: 25px;
+		opacity: 0.8;
 	}
 }
 

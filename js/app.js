@@ -68,30 +68,6 @@ $(window).scroll(function(){
     }
 });
 
-// Scroll to Anchor
-
-function anchorScroll(target) {
-    $('html,body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
-}
-
-$(document).on('click', '#start', function() {
-    anchorScroll('#feature');
-});
-
-$('#work').click(function() {
-    anchorScroll('#featured-work');
-});
-
-$('#view').click(function() {
-    anchorScroll('#featured-work');
-});
-
-$('#contact').click(function() {
-    anchorScroll('footer');
-});
-
 // Mobile Toggle Menu
 
 $('#toggle').click(function() {
@@ -115,4 +91,28 @@ $('#toggle-close').click(function() {
         }, 100, function() {
    
         });
+});
+
+// Scroll to Anchor
+
+function anchorScroll(target) {
+    $('html,body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
+}
+
+$(document).on('click', '#start', function() {
+    anchorScroll('#feature');
+});
+
+$('#view').click(function() {
+    anchorScroll('#featured-work');
+});
+
+$('.work').click(function() {
+    anchorScroll('#featured-work');
+});
+
+$('.contact').click(function() {
+    anchorScroll('footer');
 });

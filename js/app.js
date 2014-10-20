@@ -67,6 +67,10 @@ function anchorScroll(target) {
     }, 2000);
 }
 
+$(document).on('click', '#start', function() {
+    anchorScroll('#feature');
+});
+
 $('#work').click(function() {
     anchorScroll('#featured-work');
 });

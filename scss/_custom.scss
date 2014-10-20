@@ -281,6 +281,13 @@ footer {
 	}
 }
 
+// Modal 
+
+.reveal-modal-bg {
+	background: image-url('pattern.png');
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
 // Key Frames 
 
 @include keyframes(slide-up) {

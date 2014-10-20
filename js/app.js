@@ -32,6 +32,35 @@ function parallax(){
     $('.feature').css('background-position', -(scrolled * 0.1) + 'px');
 }
 
+// Sticky Nav 
+
+$(function(){
+    $('header').data('size','big');
+});
+
+$(window).scroll(function(){
+    if($(document).scrollTop() > 100)
+    {
+        if($('header').data('size') == 'big')
+        {
+            $('header').data('size','small');
+            $('header').addClass('sticky');
+            $('header nav ul').prepend('<li><a id="start">Start.</a></li>')
+            $('.toggle span:first').removeClass('icon-toggle').addClass('icon-up');
+        }
+    }
+    else
+    {
+        if($('header').data('size') == 'small')
+        {
+            $('header').data('size','big');
+            $('header').removeClass('sticky');
+            $('header nav ul li:first').remove();
+            $('.toggle span:first').removeClass('icon-up').addClass('icon-toggle');
+        }  
+    }
+});
+
 // Scroll to Anchor
 
 function anchorScroll(target) {
@@ -39,6 +68,10 @@ function anchorScroll(target) {
         scrollTop: $(target).offset().top
     }, 2000);
 }
+
+$(document).on('click', '#start', function() {
+    anchorScroll('#feature');
+});
 
 $('#work').click(function() {
     anchorScroll('#featured-work');
@@ -51,5 +84,3 @@ $('#view').click(function() {
 $('#contact').click(function() {
     anchorScroll('footer');
 });
-
-

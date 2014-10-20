@@ -2,7 +2,7 @@
 // Custom
 
 * {
-	//outline: 1px solid pink !important;
+	outline: 1px solid pink !important;
 }
 
 // Vertical Rhythm
@@ -90,9 +90,8 @@ header {
 	}
 	nav {
 		position: absolute;
-		right: 0;
+		right: 15px;
 		top: 45px;
-		width: 170px;
 		a {
 			@include link-colors(#222222, #222222);
 			font-family: $font-bold;
@@ -101,6 +100,33 @@ header {
 			&:hover {
 				border-bottom: 3px solid #222222;
 			}
+		}
+	}
+
+	&.sticky {
+		background: #3d3d3d;
+		position: fixed;
+		bottom: 0;	
+		z-index: 9999;
+		.logo {
+			font-size: 1.5rem;
+			margin-top: -3px;	
+		}
+		.toggle {
+			color: #303030;
+			font-size: 1.7rem;
+			top: -5px;
+			right: 0;
+			@include single-text-shadow(1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3));
+		}
+		nav {
+			top: 5px;
+			a {
+				font-size: 0.9rem;
+			}
+		}
+		a {
+			color: #ffffff;
 		}
 	}
 
@@ -189,10 +215,14 @@ header {
 					font-size: 1.4rem;
 				}
 			}
-			&:hover {
+			&:hover,
+			:focus,
+			:active {
 				cursor: pointer;
 			}
-			&:hover .figure-hover {
+			&:hover .figure-hover,
+			:focus .figure-hover,
+			:active .figure-hover {
 				cursor: pointer;
 				display: block;
 				@include animation(slide-up .5s forwards);
@@ -276,6 +306,13 @@ footer {
 		margin-bottom: 6rem;
 		margin-top: -0.4rem;
 	}
+}
+
+// Modal 
+
+.reveal-modal-bg {
+	background: image-url('pattern.png');
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 // Key Frames 

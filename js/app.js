@@ -1,6 +1,12 @@
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
-$(document).foundation();
+$(document).foundation({
+    reveal: {
+        animation: 'fade',
+        animation_speed: '100'
+    }
+});
+
 
 // Greyscale Images
 
@@ -39,14 +45,20 @@ $(function(){
 });
 
 $(window).scroll(function(){
+
     if($(document).scrollTop() > 100)
     {
         if($('header').data('size') == 'big')
         {
             $('header').data('size','small');
             $('header').addClass('sticky');
-            $('header nav ul').prepend('<li><a id="start">Start.</a></li>')
+            $('header nav ul').prepend('<li><a id="start">Start.</a></li>');
             $('.toggle span:first').removeClass('icon-toggle').addClass('icon-up');
+            $('#toggle-menu').css({
+                'display': 'none',
+                'top': '-100px'
+            });
+
         }
     }
     else
@@ -57,8 +69,34 @@ $(window).scroll(function(){
             $('header').removeClass('sticky');
             $('header nav ul li:first').remove();
             $('.toggle span:first').removeClass('icon-up').addClass('icon-toggle');
+            $('#toggle-menu').show();
         }  
     }
+});
+
+// Mobile Toggle Menu
+
+$('#toggle').click(function() {
+
+    if($('header').data('size') == 'small') {
+         anchorScroll('#feature');
+    }
+    else {
+        $('#toggle-menu').animate({
+            top: 0
+        }, 500, function() {
+   
+        });
+    }
+  
+});
+
+$('#toggle-close').click(function() {
+        $('#toggle-menu').animate({
+            top: -100
+        }, 100, function() {
+   
+        });
 });
 
 // Scroll to Anchor
@@ -73,14 +111,14 @@ $(document).on('click', '#start', function() {
     anchorScroll('#feature');
 });
 
-$('#work').click(function() {
-    anchorScroll('#featured-work');
-});
-
 $('#view').click(function() {
     anchorScroll('#featured-work');
 });
 
-$('#contact').click(function() {
+$('.work').click(function() {
+    anchorScroll('#featured-work');
+});
+
+$('.contact').click(function() {
     anchorScroll('footer');
 });

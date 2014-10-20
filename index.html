@@ -52,10 +52,21 @@
             <span class="screen-reader">Menu Toggle</span>
           </div>
 
+          <div class="toggle-menu" id="toggle-menu">
+            <div class="toggle-close" id="toggle-close">
+              <span class="icon-cancel"></span>
+              <span class="screen-reader">Close Menu</span>
+            </div>
+            <ul>
+              <li><a class="work">Work.</a></li>
+              <li><a class="contact">Contact.</a></li>
+            </ul>
+          </div>
+
           <nav class="show-for-large-up">
             <ul class="inline-list">
-              <li><a id="work">Work.</a></li>
-              <li><a id="contact">Contact.</a></li>
+              <li><a class="work">Work.</a></li>
+              <li><a class="contact">Contact.</a></li>
             </ul>
           </nav>
 
@@ -114,7 +125,7 @@
               <figure>
                 <div class="greyscale">
                   <img src="img/route-a-bus.jpg" alt="Alt Text">
-                  <div class="figure-hover">
+                  <div class="figure-hover" data-reveal-id="modal-02">
                     <div class="content">
                       View Project
                       <span class="icon-eye"></span>
@@ -129,7 +140,7 @@
               <figure>
                 <div class="greyscale">
                   <img src="img/date-asia.jpg" alt="Alt Text">
-                  <div class="figure-hover">
+                  <div class="figure-hover" data-reveal-id="modal-03">
                      <div class="content">
                       View Project
                       <span class="icon-eye"></span>
@@ -144,7 +155,7 @@
               <figure>
                 <div class="greyscale">
                   <img src="img/here-now.jpg" alt="Alt Text">
-                  <div class="figure-hover">
+                  <div class="figure-hover" data-reveal-id="modal-01">
                     <div class="content">
                       View Project
                       <span class="icon-eye"></span>
@@ -159,7 +170,7 @@
               <figure>
                 <div class="greyscale">
                   <img src="img/route-a-bus.jpg" alt="Alt Text">
-                  <div class="figure-hover">
+                  <div class="figure-hover" data-reveal-id="modal-02">
                     <div class="content">
                       View Project
                       <span class="icon-eye"></span>
@@ -174,7 +185,7 @@
               <figure>
                 <div class="greyscale">
                   <img src="img/date-asia.jpg" alt="Alt Text">
-                  <div class="figure-hover">
+                  <div class="figure-hover" data-reveal-id="modal-03">
                      <div class="content">
                       View Project
                       <span class="icon-eye"></span>
@@ -223,14 +234,106 @@
     <!-- /Footer -->
 
     <!-- Modals -->
-    <div id="modal-01" class="reveal-modal xlarge" data-reveal>
-      <h2>Awesome. I have it.</h2>
-      <p class="lead">Your couch.  It is mine.</p>
-      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-      <a class="close-reveal-modal">&#215;</a>
-    </div>
-    <!-- /Modals -->
+    <div id="modal-01" class="reveal-modal large" data-reveal>
 
+      <a class="close-reveal-modal">
+        <span class="icon-cancel"></span>
+        <span class="screen-reader">Close</span>
+      </a>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project Title</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JQuery</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, nulla. Magni nam, adipisci voluptas ab et beatae alias, ea cum nihil labore fuga deserunt quasi ad quidem recusandae, officiis. Rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo autem similique nam omnis at facilis aut repudiandae, rem, assumenda sed quibusdam earum molestias quisquam eum maxime. Possimus tempore nisi eum.</p>
+          <a class="button" href="#">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">        
+          <figure>
+            <img src="http://placehold.it/400x400" alt="">
+          </figure>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="modal-02" class="reveal-modal large" data-reveal>
+    
+      <a class="close-reveal-modal">
+        <span class="icon-cancel"></span>
+        <span class="screen-reader">Close</span>
+      </a>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project Title</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JQuery</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, nulla. Magni nam, adipisci voluptas ab et beatae alias, ea cum nihil labore fuga deserunt quasi ad quidem recusandae, officiis. Rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo autem similique nam omnis at facilis aut repudiandae, rem, assumenda sed quibusdam earum molestias quisquam eum maxime. Possimus tempore nisi eum.</p>
+          <a class="button" href="#">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">        
+          <figure>
+            <img src="http://placehold.it/400x400" alt="">
+          </figure>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="modal-03" class="reveal-modal large" data-reveal>
+    
+      <a class="close-reveal-modal">
+        <span class="icon-cancel"></span>
+        <span class="screen-reader">Close</span>
+      </a>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project Title</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JQuery</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, nulla. Magni nam, adipisci voluptas ab et beatae alias, ea cum nihil labore fuga deserunt quasi ad quidem recusandae, officiis. Rem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo autem similique nam omnis at facilis aut repudiandae, rem, assumenda sed quibusdam earum molestias quisquam eum maxime. Possimus tempore nisi eum.</p>
+          <a class="button" href="#">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">        
+          <figure>
+            <img src="http://placehold.it/400x400" alt="">
+          </figure>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- /Modals -->
 
     <!-- Scripts -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

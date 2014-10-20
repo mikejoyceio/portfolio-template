@@ -46,7 +46,7 @@ $(window).scroll(function(){
             $('header').data('size','small');
             $('header').addClass('sticky');
             $('header nav ul').prepend('<li><a id="start">Start</a></li>')
-            $('.toggle span:first').removeClass('icon-toggle').addClass('icon-github');
+            $('.toggle span:first').removeClass('icon-toggle').addClass('icon-up');
         }
     }
     else
@@ -56,7 +56,7 @@ $(window).scroll(function(){
             $('header').data('size','big');
             $('header').removeClass('sticky');
             $('header nav ul li:first').remove();
-            $('.toggle span:first').removeClass('icon-github').addClass('icon-toggle');
+            $('.toggle span:first').removeClass('icon-up').addClass('icon-toggle');
         }  
     }
 });

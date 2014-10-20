@@ -3790,22 +3790,27 @@ header.sticky .logo {
 }
 /* line 115, ../scss/_custom.scss */
 header.sticky .toggle {
-  top: -10px;
+  color: #303030;
+  font-size: 1.7rem;
+  top: -5px;
+  right: 0;
+  text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+  text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
-/* line 118, ../scss/_custom.scss */
+/* line 122, ../scss/_custom.scss */
 header.sticky nav {
   top: 5px;
 }
-/* line 120, ../scss/_custom.scss */
+/* line 124, ../scss/_custom.scss */
 header.sticky nav a {
   font-size: 0.9rem;
 }
-/* line 124, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 header.sticky a {
   color: #ffffff;
 }
 
-/* line 133, ../scss/_custom.scss */
+/* line 137, ../scss/_custom.scss */
 .feature {
   background: url('../img/background.jpg?1413399653');
   -moz-background-size: cover;
@@ -3819,55 +3824,55 @@ header.sticky a {
   padding-top: 140px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 133, ../scss/_custom.scss */
+  /* line 137, ../scss/_custom.scss */
   .feature {
     height: 94.5%;
     padding-top: 140px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 133, ../scss/_custom.scss */
+  /* line 137, ../scss/_custom.scss */
   .feature {
     margin: 13px;
     padding-top: 178px;
   }
 }
-/* line 149, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 .feature p {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 149, ../scss/_custom.scss */
+  /* line 153, ../scss/_custom.scss */
   .feature p {
     margin: 1.9rem auto;
   }
 }
-/* line 157, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 .feature button {
   margin-bottom: 1.9rem;
   -moz-animation: buzz-out 0.55s 4s linear 1;
   -webkit-animation: buzz-out 0.55s 4s linear 1;
   animation: buzz-out 0.55s 4s linear 1;
 }
-/* line 162, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .feature .social a {
   color: #222222;
   font-size: 1.5rem;
 }
-/* line 165, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 .feature .social a:hover {
   color: #222222;
   opacity: 0.8;
 }
 
-/* line 175, ../scss/_custom.scss */
+/* line 179, ../scss/_custom.scss */
 .featured-work {
   margin: -75px 0 100px 0;
   padding: 30px 0 0 0;
 }
-/* line 181, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .featured-work figure {
   background: #fff;
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -3882,7 +3887,7 @@ header.sticky a {
   display: block;
   position: relative;
 }
-/* line 191, ../scss/_custom.scss */
+/* line 195, ../scss/_custom.scss */
 .featured-work figure .figure-hover {
   display: none;
   position: absolute;
@@ -3893,7 +3898,7 @@ header.sticky a {
   left: 0;
   right: 0;
 }
-/* line 201, ../scss/_custom.scss */
+/* line 205, ../scss/_custom.scss */
 .featured-work figure .figure-hover .content {
   color: #fff;
   font-family: texgyreadventorbold;
@@ -3903,18 +3908,18 @@ header.sticky a {
   text-align: center;
   opacity: .98;
 }
-/* line 209, ../scss/_custom.scss */
+/* line 213, ../scss/_custom.scss */
 .featured-work figure .figure-hover .content span {
   display: block;
   font-size: 1.4rem;
 }
-/* line 214, ../scss/_custom.scss */
+/* line 218, ../scss/_custom.scss */
 .featured-work figure:hover,
 .featured-work figure :focus,
 .featured-work figure :active {
   cursor: pointer;
 }
-/* line 219, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 .featured-work figure:hover .figure-hover,
 .featured-work figure :focus .figure-hover,
 .featured-work figure :active .figure-hover {
@@ -3924,7 +3929,7 @@ header.sticky a {
   -webkit-animation: slide-up 0.5s forwards;
   animation: slide-up 0.5s forwards;
 }
-/* line 226, ../scss/_custom.scss */
+/* line 230, ../scss/_custom.scss */
 .featured-work figure figcaption {
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3932,24 +3937,24 @@ header.sticky a {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 226, ../scss/_custom.scss */
+  /* line 230, ../scss/_custom.scss */
   .featured-work figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 236, ../scss/_custom.scss */
+/* line 240, ../scss/_custom.scss */
 .featured-work figure .greyscale {
   display: block;
   position: relative;
 }
 
-/* line 246, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 250, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -3960,31 +3965,31 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 250, ../scss/_custom.scss */
+  /* line 254, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 262, ../scss/_custom.scss */
+/* line 266, ../scss/_custom.scss */
 footer p a {
   color: #a0a0a0;
 }
-/* line 264, ../scss/_custom.scss */
+/* line 268, ../scss/_custom.scss */
 footer p a:hover {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 270, ../scss/_custom.scss */
+/* line 274, ../scss/_custom.scss */
 footer .or {
   font-size: 0.8rem;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 270, ../scss/_custom.scss */
+  /* line 274, ../scss/_custom.scss */
   footer .or {
     font-size: 0.9rem;
   }
 }
-/* line 276, ../scss/_custom.scss */
+/* line 280, ../scss/_custom.scss */
 footer .message {
   color: #888888;
   font-size: 4.2rem;
@@ -3995,21 +4000,21 @@ footer .message {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 282, ../scss/_custom.scss */
+/* line 286, ../scss/_custom.scss */
 footer .message:hover {
   color: #ffffff;
   cursor: pointer;
 }
-/* line 288, ../scss/_custom.scss */
+/* line 292, ../scss/_custom.scss */
 footer .social a {
   color: #888888;
   font-size: 1.5rem;
 }
-/* line 291, ../scss/_custom.scss */
+/* line 295, ../scss/_custom.scss */
 footer .social a:hover {
   color: #ffffff;
 }
-/* line 296, ../scss/_custom.scss */
+/* line 300, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -4021,169 +4026,169 @@ footer .end {
   margin-top: -0.4rem;
 }
 
-/* line 309, ../scss/_custom.scss */
+/* line 313, ../scss/_custom.scss */
 .reveal-modal-bg {
   background: url('../img/pattern.png?1409624647');
   background-color: rgba(0, 0, 0, 0.85);
 }
 
 @-moz-keyframes slide-up {
-  /* line 317, ../scss/_custom.scss */
+  /* line 321, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 318, ../scss/_custom.scss */
+  /* line 322, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 317, ../scss/_custom.scss */
+  /* line 321, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 318, ../scss/_custom.scss */
+  /* line 322, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 317, ../scss/_custom.scss */
+  /* line 321, ../scss/_custom.scss */
   0% {
     top: 15%;
   }
 
-  /* line 318, ../scss/_custom.scss */
+  /* line 322, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-moz-keyframes buzz-out {
-  /* line 322, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 325, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 328, ../scss/_custom.scss */
+  /* line 332, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 331, ../scss/_custom.scss */
+  /* line 335, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 334, ../scss/_custom.scss */
+  /* line 338, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 337, ../scss/_custom.scss */
+  /* line 341, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 340, ../scss/_custom.scss */
+  /* line 344, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 343, ../scss/_custom.scss */
+  /* line 347, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 346, ../scss/_custom.scss */
+  /* line 350, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 349, ../scss/_custom.scss */
+  /* line 353, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @-webkit-keyframes buzz-out {
-  /* line 322, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 325, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   20% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 328, ../scss/_custom.scss */
+  /* line 332, ../scss/_custom.scss */
   30% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 331, ../scss/_custom.scss */
+  /* line 335, ../scss/_custom.scss */
   40% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 334, ../scss/_custom.scss */
+  /* line 338, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 337, ../scss/_custom.scss */
+  /* line 341, ../scss/_custom.scss */
   60% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 340, ../scss/_custom.scss */
+  /* line 344, ../scss/_custom.scss */
   70% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 343, ../scss/_custom.scss */
+  /* line 347, ../scss/_custom.scss */
   80% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 346, ../scss/_custom.scss */
+  /* line 350, ../scss/_custom.scss */
   90% {
     -webkit-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 349, ../scss/_custom.scss */
+  /* line 353, ../scss/_custom.scss */
   100% {
     -webkit-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @keyframes buzz-out {
-  /* line 322, ../scss/_custom.scss */
+  /* line 326, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4191,7 +4196,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 325, ../scss/_custom.scss */
+  /* line 329, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -4199,7 +4204,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 328, ../scss/_custom.scss */
+  /* line 332, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4207,7 +4212,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 331, ../scss/_custom.scss */
+  /* line 335, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -4215,7 +4220,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 334, ../scss/_custom.scss */
+  /* line 338, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4223,7 +4228,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 337, ../scss/_custom.scss */
+  /* line 341, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4231,7 +4236,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 340, ../scss/_custom.scss */
+  /* line 344, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4239,7 +4244,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 343, ../scss/_custom.scss */
+  /* line 347, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4247,7 +4252,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 346, ../scss/_custom.scss */
+  /* line 350, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     -ms-transform: translateX(1px) rotate(0);
@@ -4255,7 +4260,7 @@ footer .end {
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 349, ../scss/_custom.scss */
+  /* line 353, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     -ms-transform: translateX(-1px) rotate(0);
@@ -4264,33 +4269,33 @@ footer .end {
   }
 }
 @-moz-keyframes buzz {
-  /* line 355, ../scss/_custom.scss */
+  /* line 359, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 358, ../scss/_custom.scss */
+  /* line 362, ../scss/_custom.scss */
   100% {
     -moz-transform: transform;
     transform: transform;
   }
 }
 @-webkit-keyframes buzz {
-  /* line 355, ../scss/_custom.scss */
+  /* line 359, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 358, ../scss/_custom.scss */
+  /* line 362, ../scss/_custom.scss */
   100% {
     -webkit-transform: transform;
     transform: transform;
   }
 }
 @keyframes buzz {
-  /* line 355, ../scss/_custom.scss */
+  /* line 359, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4298,7 +4303,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 358, ../scss/_custom.scss */
+  /* line 362, ../scss/_custom.scss */
   100% {
     -moz-transform: transform;
     -webkit-transform: transform;

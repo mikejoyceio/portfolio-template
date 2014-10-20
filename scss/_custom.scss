@@ -113,7 +113,11 @@ header {
 			margin-top: -3px;	
 		}
 		.toggle {
-			top: -10px;
+			color: #303030;
+			font-size: 1.7rem;
+			top: -5px;
+			right: 0;
+			@include single-text-shadow(1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3));
 		}
 		nav {
 			top: 5px;

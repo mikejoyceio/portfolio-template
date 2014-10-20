@@ -362,13 +362,20 @@ footer {
 			@include background(linear-gradient(320deg, transparent 5px, #7cc576 5px));
 	}
 	figure {
-		float: right;
+		margin: 50px auto;
+		@media #{$medium-up} {
+		 margin: auto;	
+		}
+		max-width: 400px;
 	}
 	.close-reveal-modal {
 		font-size: 1.5rem;
 		color: #f25e4f;
 		top: 45px;
 		right: 25px;
+		@media #{$large-up} {
+			right: 105px;
+		}
 		opacity: 0.8;
 	}
 }

@@ -45,6 +45,7 @@ $(window).scroll(function(){
         {
             $('header').data('size','small');
             $('header').addClass('sticky');
+            $('header nav ul').prepend('<li><a id="start">Start</a></li>')
         }
     }
     else
@@ -53,6 +54,7 @@ $(window).scroll(function(){
         {
             $('header').data('size','big');
             $('header').removeClass('sticky');
+            $('header nav ul li:first').remove();
         }  
     }
 });

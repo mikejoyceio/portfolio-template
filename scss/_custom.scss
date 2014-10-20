@@ -88,6 +88,37 @@ header {
 			cursor: pointer;
 		}
 	}
+	.toggle-menu {
+		background: #ffffff;
+		display: none;
+		@include border-radius(0 0 0 5px);
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 75px;
+		width: 100px;
+		padding: 5px;
+		.toggle-close {
+			background: #ffffff;
+			@include border-radius(999px);
+			font-size: 1.3rem;
+			position: absolute;
+			bottom: -15px;
+			left: 37px;
+		}
+		li {
+			list-style: none;
+			a {
+				@include link-colors(#222222, #222222);
+				font-family: $font-bold;
+				font-size: 0.9rem;
+				font-weight: 700;
+				&:hover {
+					border-bottom: 3px solid #222222;
+				}		
+			}
+		}
+	}
 	nav {
 		position: absolute;
 		right: 15px;

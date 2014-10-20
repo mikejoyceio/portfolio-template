@@ -341,6 +341,11 @@ footer {
 
 // Modal 
 
+.reveal-modal {	
+	background-color: transparent;
+	color: #ffffff;
+}
+
 .reveal-modal-bg {
 	background: image-url('pattern.png');
 	background-color: rgba(0, 0, 0, 0.85);

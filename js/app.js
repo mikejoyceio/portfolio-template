@@ -39,14 +39,20 @@ $(function(){
 });
 
 $(window).scroll(function(){
+
     if($(document).scrollTop() > 100)
     {
         if($('header').data('size') == 'big')
         {
             $('header').data('size','small');
             $('header').addClass('sticky');
-            $('header nav ul').prepend('<li><a id="start">Start.</a></li>')
+            $('header nav ul').prepend('<li><a id="start">Start.</a></li>');
             $('.toggle span:first').removeClass('icon-toggle').addClass('icon-up');
+            $('#toggle-menu').css({
+                'display': 'none',
+                'top': '-100px'
+            });
+
         }
     }
     else
@@ -57,6 +63,7 @@ $(window).scroll(function(){
             $('header').removeClass('sticky');
             $('header nav ul li:first').remove();
             $('.toggle span:first').removeClass('icon-up').addClass('icon-toggle');
+            $('#toggle-menu').show();
         }  
     }
 });
@@ -83,4 +90,29 @@ $('#view').click(function() {
 
 $('#contact').click(function() {
     anchorScroll('footer');
+});
+
+// Mobile Toggle Menu
+
+$('#toggle').click(function() {
+
+    if($('header').data('size') == 'small') {
+         anchorScroll('#feature');
+    }
+    else {
+        $('#toggle-menu').animate({
+            top: 0
+        }, 500, function() {
+   
+        });
+    }
+  
+});
+
+$('#toggle-close').click(function() {
+        $('#toggle-menu').animate({
+            top: -100
+        }, 100, function() {
+   
+        });
 });

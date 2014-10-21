@@ -4285,7 +4285,7 @@ header .logo a:hover {
   /* line 74, ../scss/_custom.scss */
   header .logo {
     font-size: 3.8rem;
-    margin-top: -8px;
+    margin-top: 5px;
   }
 }
 /* line 87, ../scss/_custom.scss */
@@ -4346,7 +4346,7 @@ header .toggle-menu li a:hover {
 header nav {
   position: absolute;
   right: 15px;
-  top: 45px;
+  top: 57px;
 }
 /* line 130, ../scss/_custom.scss */
 header nav a {

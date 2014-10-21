@@ -40,12 +40,12 @@ function parallax(){
 
 // Sticky Nav 
 
+window.addEventListener("touchmove", function(event) {
+    alert('touchmove');
+}, false);
+
 $(function(){
     $('header').data('size','big');
-});
-
-window.addEventListener('gesturechange', function() {
-    alert('ok');
 });
 
 $(window).scroll(function(){

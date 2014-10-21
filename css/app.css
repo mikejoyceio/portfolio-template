@@ -4409,7 +4409,7 @@ header.sticky a {
   /* line 168, ../scss/_custom.scss */
   .feature {
     height: 950px;
-    padding-top: 140px;
+    padding-top: 160px;
   }
 }
 @media only screen and (min-width: 64.063em) {

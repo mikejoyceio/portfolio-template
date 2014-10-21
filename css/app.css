@@ -3816,9 +3816,9 @@ header nav a:hover {
 }
 /* line 136, ../scss/_custom.scss */
 header.sticky {
-  background: #3d3d3d;
+  background: #e8e8e8;
   position: fixed;
-  bottom: 0;
+  top: 0;
   z-index: 9999;
 }
 /* line 141, ../scss/_custom.scss */
@@ -3845,7 +3845,7 @@ header.sticky nav a {
 }
 /* line 158, ../scss/_custom.scss */
 header.sticky a {
-  color: #f1f1f1;
+  color: #3f3f3f;
 }
 
 /* line 167, ../scss/_custom.scss */
@@ -3907,8 +3907,8 @@ header.sticky a {
 
 /* line 209, ../scss/_custom.scss */
 .featured-work {
-  margin: -75px 0 100px 0;
-  padding: 30px 0 0 0;
+  margin: -110px 0 100px 0;
+  padding: 65px 0 0 0;
 }
 /* line 215, ../scss/_custom.scss */
 .featured-work figure {
@@ -4061,7 +4061,7 @@ footer .end {
   font-weight: 700;
   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   margin-top: -0.4rem;
 }
 

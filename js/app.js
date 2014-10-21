@@ -95,12 +95,6 @@ $(document).on('close.fndtn.offcanvas', '[data-offcanvas]', function () {
 
 // Scroll to Anchor
 
-function anchorScroll(target) {
-    $('html,body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
-}
-
 $(document).on('click', '#start', function() {
     anchorScroll('#feature');
 });
@@ -116,3 +110,9 @@ $('.projects').click(function() {
 $('.contact').click(function() {
     anchorScroll('footer');
 });
+
+function anchorScroll(target) {
+    $('html,body').animate({
+        scrollTop: $(target).offset().top
+    }, 2000);
+}

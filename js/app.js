@@ -50,7 +50,7 @@ $(function(){
 
 $(window).on('scroll touchmove', function(){
 
-    if($(document).scrollTop() > 100)
+    if($(document).scrollTop() > 500)
     {
         if($('header').data('size') == 'big')
         {

@@ -3898,12 +3898,12 @@ header.sticky a {
 }
 
 /* line 205, ../scss/_custom.scss */
-.featured-work {
+.featured-projects {
   margin: -110px 0 100px 0;
   padding: 65px 0 0 0;
 }
 /* line 211, ../scss/_custom.scss */
-.featured-work figure {
+.featured-projects figure {
   background: #fff;
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -3918,7 +3918,7 @@ header.sticky a {
   position: relative;
 }
 /* line 221, ../scss/_custom.scss */
-.featured-work figure .figure-hover {
+.featured-projects figure .figure-hover {
   display: none;
   position: absolute;
   background: url('../img/pattern.png?1409624647') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
@@ -3929,7 +3929,7 @@ header.sticky a {
   right: 0;
 }
 /* line 231, ../scss/_custom.scss */
-.featured-work figure .figure-hover .content {
+.featured-projects figure .figure-hover .content {
   color: #fff;
   font-family: texgyreadventorbold;
   font-size: 1rem;
@@ -3939,20 +3939,20 @@ header.sticky a {
   opacity: .98;
 }
 /* line 239, ../scss/_custom.scss */
-.featured-work figure .figure-hover .content span {
+.featured-projects figure .figure-hover .content span {
   display: block;
   font-size: 1.4rem;
 }
 /* line 244, ../scss/_custom.scss */
-.featured-work figure:hover,
-.featured-work figure :focus,
-.featured-work figure :active {
+.featured-projects figure:hover,
+.featured-projects figure :focus,
+.featured-projects figure :active {
   cursor: pointer;
 }
 /* line 249, ../scss/_custom.scss */
-.featured-work figure:hover .figure-hover,
-.featured-work figure :focus .figure-hover,
-.featured-work figure :active .figure-hover {
+.featured-projects figure:hover .figure-hover,
+.featured-projects figure :focus .figure-hover,
+.featured-projects figure :active .figure-hover {
   cursor: pointer;
   display: block;
   -moz-animation: slide-up 0.5s forwards;
@@ -3960,7 +3960,7 @@ header.sticky a {
   animation: slide-up 0.5s forwards;
 }
 /* line 256, ../scss/_custom.scss */
-.featured-work figure figcaption {
+.featured-projects figure figcaption {
   color: #3f3f3f;
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -3969,12 +3969,12 @@ header.sticky a {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 256, ../scss/_custom.scss */
-  .featured-work figure figcaption {
+  .featured-projects figure figcaption {
     font-size: 1.3rem;
   }
 }
 /* line 267, ../scss/_custom.scss */
-.featured-work figure .greyscale {
+.featured-projects figure .greyscale {
   display: block;
   position: relative;
 }

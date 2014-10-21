@@ -41,14 +41,14 @@ function parallax(){
 // Sticky Nav 
 
 $(document).on('touchmove', function(event) {
-    alert('move');
+
 });
 
 $(function(){
     $('header').data('size','big');
 });
 
-$(window).scroll(function(){
+$(window).on('scroll touchmove', function(){
 
     if($(document).scrollTop() > 100)
     {

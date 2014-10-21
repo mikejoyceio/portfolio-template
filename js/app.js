@@ -29,7 +29,7 @@ $('.greyscale').BlackAndWhite({
 
 // Parallax
 
-$(window).scroll(function(e){
+$(window).on('scroll touchmove', function(event){
     parallax();
 });
 
@@ -40,15 +40,11 @@ function parallax(){
 
 // Sticky Nav 
 
-$(document).on('touchmove', function(event) {
-
-});
-
 $(function(){
     $('header').data('size','big');
 });
 
-$(window).on('scroll touchmove', function(){
+$(window).on('scroll touchmove', function(event){
 
     if($(document).scrollTop() > 500)
     {

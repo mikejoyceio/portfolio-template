@@ -1,4 +1,4 @@
-// ToDo: Refactor JS to use HTML5 data
+// TODO: Refactor JS to use HTML5 data
 
 // Foundation JavaScript
 

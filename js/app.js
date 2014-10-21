@@ -114,7 +114,10 @@ $('.contact').click(function() {
 });
 
 function anchorScroll(target) {
-    $('html,body').animate({
-        scrollTop: $(target).offset().top
-    }, 2000);
+    $('.exit-off-canvas').click();
+    setTimeout(function() {
+        $('html,body').animate({
+            scrollTop: $(target).offset().top
+        }, 2000);
+    }, 300);
 }

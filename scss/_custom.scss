@@ -128,6 +128,7 @@ header {
 			font-family: $font-bold;
 			font-size: 1.1rem;
 			font-weight: 700;
+			@include transition(border .3s, ease-in-out); 
 			&:hover {
 				border-bottom: 3px solid #222222;
 			}

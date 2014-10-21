@@ -40,9 +40,9 @@ function parallax(){
 
 // Sticky Nav 
 
-window.addEventListener("touchmove", function(event) {
-    alert('touchmove');
-}, false);
+$(document).on('touchmove', function(event) {
+    alert('move');
+});
 
 $(function(){
     $('header').data('size','big');

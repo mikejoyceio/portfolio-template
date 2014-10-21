@@ -37,156 +37,174 @@
   </head>
   <body>
 
-    <!-- Header -->
-    <header>
-      <div class="row">
+    <!-- Off Canvas Wrap -->
+    <div class="off-canvas-wrap" data-offcanvas>
 
-        <div class="small-6 medium-6 large-6 columns">
-          <div class="logo"><a href="http://www.mikejoyce.me">Mike.</a></div>
-        </div>
+      <!-- Inner Wrap -->
+      <div class="inner-wrap">
 
-        <div class="small-6 medium-6 large-6 columns">
-          
-          <div class="toggle hide-for-large-up" id="toggle">
-            <span class="icon-toggle"></span>
-            <span class="screen-reader">Menu Toggle</span>
-          </div>
-
-          <div class="toggle-menu" id="toggle-menu">
-            <div class="toggle-close" id="toggle-close">
-              <span class="icon-cancel"></span>
-              <span class="screen-reader">Close Menu</span>
-            </div>
-            <ul>
-              <li><a class="projects">Projects.</a></li>
-              <li><a class="contact">Contact.</a></li>
-            </ul>
-          </div>
-
-          <nav class="show-for-large-up">
-            <ul class="inline-list">
-              <li><a class="projects">Projects.</a></li>
-              <li><a class="contact">Contact.</a></li>
-            </ul>
-          </nav>
-
-        </div>
-
-      </div>
-    </header>
-    <!-- /Header -->
-
-    <!-- Feature -->
-    <div class="feature" id="feature">
-      <div class="row">
-
-        <div class="small-12 medium-12 large-12 column text-center">
-          <h1>UX Conscious Front-End Developer</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quaerat, fugiat dolorum, error facilis velit saepe odio iste.</p>
-          <button id="view">View Projects</button>
-          <div class="social">
-            <a href="http://github.com/mikejoycegit" target="_blank">
-              <span class="icon-github"></span>
-              <span class="screen-reader">Link to Mike Joyce's Github Profile</span>
-            </a>
-            <a href="http://twitter.com/iammikejoyce" target="_blank">
-              <span class="icon-twitter"></span>
-              <span class="screen-reader">Link to Mike Joyce's Twitter Profile</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- /Feature -->
-
-    <!-- Featured Projects -->
-    <div class="featured-projects" id="featured-projects">
-      <div class="row">
-
-        <div class="small-12 medium-12 large-12 column">
-          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
-            <li>  
-              <figure data-reveal-id="modal-01">
-                <div class="greyscale">
-                  <img src="img/here-now.jpg" alt="Alt Text">
-                  <div class="figure-hover">
-                    <div class="content">
-                      View Project
-                      <span class="icon-eye"></span>
-                    </div>
-                  </div>
-                  <figcaption>Here Now.</figcaption>
-                </div>
-              </figure>
-            </li>
-
-            <li>
-              <figure data-reveal-id="modal-02">
-                <div class="greyscale">
-                  <img src="img/route-a-bus.jpg" alt="Alt Text">
-                  <div class="figure-hover">
-                    <div class="content">
-                      View Project
-                      <span class="icon-eye"></span>
-                    </div>                    
-                  </div>
-                  <figcaption>RouteAbus.</figcaption>
-                </div>
-              </figure>
-            </li>
-
-            <li>
-              <figure data-reveal-id="modal-03">
-                <div class="greyscale">
-                  <img src="img/date-asia.jpg" alt="Alt Text">
-                  <div class="figure-hover">
-                     <div class="content">
-                      View Project
-                      <span class="icon-eye"></span>
-                    </div>                   
-                  </div>
-                  <figcaption>Date Asia.</figcaption>
-                </div>
-              </figure>
-            </li>
-
+        <!-- Off Canvas Menu -->
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Menu</label></li>
+            <li><a id="start">Start</a></li>
+            <li><a class="projects">Projects</a></li>
+            <li><a class="contact">Contact</a></li>
           </ul>
+        </aside>
+        <!-- /Off Canvas Menu -->
+
+        <!-- Header -->
+        <header>
+          <div class="row">
+
+            <div class="small-6 medium-6 large-6 columns">
+              <div class="logo"><a href="http://www.mikejoyce.me">Mike.</a></div>
+            </div>
+
+            <div class="small-6 medium-6 large-6 columns">
+              
+              <div class="toggle hide-for-large-up" id="toggle">
+                <span class="icon-toggle right-off-canvas-toggle"></span>
+                <span class="screen-reader">Menu Toggle</span>
+              </div>
+
+              <nav class="show-for-large-up">
+                <ul class="inline-list">
+                  <li><a class="projects">Projects.</a></li>
+                  <li><a class="contact">Contact.</a></li>
+                </ul>
+              </nav>
+
+            </div>
+
+          </div>
+        </header>
+        <!-- /Header -->
+
+        <!-- Feature -->
+        <div class="feature" id="feature">
+          <div class="row">
+
+            <div class="small-12 medium-12 large-12 column text-center">
+              <h1>UX Conscious Front-End Developer</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quaerat, fugiat dolorum, error facilis velit saepe odio iste.</p>
+              <button id="view">View Projects</button>
+              <div class="social">
+                <a href="http://github.com/mikejoycegit" target="_blank">
+                  <span class="icon-github"></span>
+                  <span class="screen-reader">Link to Mike Joyce's Github Profile</span>
+                </a>
+                <a href="http://twitter.com/iammikejoyce" target="_blank">
+                  <span class="icon-twitter"></span>
+                  <span class="screen-reader">Link to Mike Joyce's Twitter Profile</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
         </div>
+        <!-- /Feature -->
+
+        <!-- Featured Projects -->
+        <div class="featured-projects" id="featured-projects">
+          <div class="row">
+
+            <div class="small-12 medium-12 large-12 column">
+              <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+                <li>  
+                  <figure data-reveal-id="modal-01">
+                    <div class="greyscale">
+                      <img src="img/here-now.jpg" alt="Alt Text">
+                      <div class="figure-hover">
+                        <div class="content">
+                          View Project
+                          <span class="icon-eye"></span>
+                        </div>
+                      </div>
+                      <figcaption>Here Now.</figcaption>
+                    </div>
+                  </figure>
+                </li>
+
+                <li>
+                  <figure data-reveal-id="modal-02">
+                    <div class="greyscale">
+                      <img src="img/route-a-bus.jpg" alt="Alt Text">
+                      <div class="figure-hover">
+                        <div class="content">
+                          View Project
+                          <span class="icon-eye"></span>
+                        </div>                    
+                      </div>
+                      <figcaption>RouteAbus.</figcaption>
+                    </div>
+                  </figure>
+                </li>
+
+                <li>
+                  <figure data-reveal-id="modal-03">
+                    <div class="greyscale">
+                      <img src="img/date-asia.jpg" alt="Alt Text">
+                      <div class="figure-hover">
+                         <div class="content">
+                          View Project
+                          <span class="icon-eye"></span>
+                        </div>                   
+                      </div>
+                      <figcaption>Date Asia.</figcaption>
+                    </div>
+                  </figure>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <!-- /Featured Projects -->
+
+        <!-- Footer -->
+        <footer>
+          <div class="row">
+
+            <div class="small-12 medium-12 large-12 column text-center">
+              <h3>Drop Me a Line.</h3>
+              <p>If you'd like to collaborate on a project together or ask me any questions, feel free to shoot me an email.</p>
+              <div class="email">
+                <a href="mailto:hello@mikejoyce.me">hello@mikejoyce.me</a>
+              </div>
+              <div class="message">
+                <a href="mailto:hello@mikejoyce">
+                  <span class="icon-message"></span>
+                  <span class="screen-reader">Send Me a Message</span>
+                </a>
+              </div>
+              <div class="social">
+                <a href="http://github.com/mikejoycegit" target="_blank">
+                  <span class="icon-github"></span>
+                  <span class="screen-reader">Link to Mike Joyce's Github Profile</span>
+                </a>
+                <a href="http://twitter.com/iammikejoyce" target="_blank">
+                  <span class="icon-twitter"></span>
+                  <span class="screen-reader">Link to Mike Joyce's Twitter Profile</span>
+                </a>
+              </div>
+              <div class="end">
+                <span>Simplicity</span>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- /Footer -->
+
+        <a class="exit-off-canvas"></a>
 
       </div>
+      <!-- /Inner Wrap -->
+
     </div>
-    <!-- /Featured Projects -->
-
-    <!-- Footer -->
-    <footer>
-      <div class="row">
-
-        <div class="small-12 medium-12 large-12 column text-center">
-          <h3>Drop Me a Line.</h3>
-          <p>If you'd like to get in touch, email me at <a href="mailto:hello@mikejoyce.me">hello@mikejoyce.me</a></p>
-          <div class="or">Or message me</div>
-          <div class="message">
-            <span class="icon-message"></span>
-            <span class="screen-reader">Send Me a Message</span>
-          </div>
-          <div class="social">
-            <a href="http://github.com/mikejoycegit" target="_blank">
-              <span class="icon-github"></span>
-              <span class="screen-reader">Link to Mike Joyce's Github Profile</span>
-            </a>
-            <a href="http://twitter.com/iammikejoyce" target="_blank">
-              <span class="icon-twitter"></span>
-              <span class="screen-reader">Link to Mike Joyce's Twitter Profile</span>
-            </a>
-          </div>
-          <div class="end">
-            <span>Simplicity</span>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- /Footer -->
+    <!-- /Off Canvas Wrap -->
 
     <!-- Modals -->
     <div id="modal-01" class="reveal-modal large" data-reveal>

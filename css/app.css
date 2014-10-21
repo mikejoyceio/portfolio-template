@@ -4408,7 +4408,7 @@ header.sticky a {
 @media only screen and (min-width: 40.063em) {
   /* line 168, ../scss/_custom.scss */
   .feature {
-    height: 94.5%;
+    height: 950px;
     padding-top: 140px;
   }
 }

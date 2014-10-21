@@ -45,7 +45,7 @@ function parallax(){
     $feature.css('background-position', -(scrolled * 0.1) + 'px');
 }
 
-// Sticky Nav 
+// Sticky Navigation
 
 $(function(){
     $header.data('size','big');
@@ -83,7 +83,7 @@ $toggle.click(function() {
     }
 });
 
-// Toggle mobile menu icon
+// Toggle Mobile Menu Icon
 
 $(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
     $toggleIcon.removeClass('icon-toggle').addClass('icon-cancel');

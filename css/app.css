@@ -4122,7 +4122,7 @@ footer .end {
 @-moz-keyframes slide-up {
   /* line 389, ../scss/_custom.scss */
   0% {
-    top: 15%;
+    top: 13%;
   }
 
   /* line 390, ../scss/_custom.scss */
@@ -4133,7 +4133,7 @@ footer .end {
 @-webkit-keyframes slide-up {
   /* line 389, ../scss/_custom.scss */
   0% {
-    top: 15%;
+    top: 13%;
   }
 
   /* line 390, ../scss/_custom.scss */
@@ -4144,7 +4144,7 @@ footer .end {
 @keyframes slide-up {
   /* line 389, ../scss/_custom.scss */
   0% {
-    top: 15%;
+    top: 13%;
   }
 
   /* line 390, ../scss/_custom.scss */

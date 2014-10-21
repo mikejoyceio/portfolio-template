@@ -25,6 +25,10 @@ body {
 	margin-bottom: rhythm(1);
 }
 
+a {
+	@include single-transition(all, .3s, ease-in-out);
+}
+
 p {
 	@include leader;
 	@include trailer;
@@ -69,6 +73,7 @@ header {
 		font-weight: 700;
 		a {
 			@include link-colors(#222222, #222222);
+			@include transition(none);
 		}
 		@media #{$large-up} {
 			font-size: 3.8rem;
@@ -306,7 +311,6 @@ footer {
 	.message {
 		a {
 			color: #888888;
-			@include single-transition(all, .3s, ease-in-out);
 			&:hover {
 				color: #ffffff;
 				cursor: pointer;

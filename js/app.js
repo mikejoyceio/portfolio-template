@@ -74,21 +74,25 @@ $(window).on('scroll touchmove', function(event){
     }
 });
 
-// Mobile Toggle Menu
+// Mobile Menu
 
-$('#toggle').click(function() {
+var $toggle = $('#toggle');
+var $toggleIcon = $('#toggle span:first');
 
+$toggle.click(function() {
     if($('header').data('size') == 'small') {
          anchorScroll('#feature');
     }
-    else {
-        $('#toggle-menu').animate({
-            top: 0
-        }, 500, function() {
-   
-        });
-    }
-  
+});
+
+// Toggle mobile menu icon
+
+$(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
+    $toggleIcon.removeClass('icon-toggle').addClass('icon-cancel');
+});
+
+$(document).on('close.fndtn.offcanvas', '[data-offcanvas]', function () {
+    $toggleIcon.removeClass('icon-cancel').addClass('icon-toggle');
 });
 
 // Scroll to Anchor

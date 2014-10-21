@@ -1,3 +1,5 @@
+// ToDo: Refactor JS to use HTML5 data
+
 // Foundation JavaScript
 
 $(document).foundation({

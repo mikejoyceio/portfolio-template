@@ -91,14 +91,6 @@ $('#toggle').click(function() {
   
 });
 
-$('#toggle-close').click(function() {
-        $('#toggle-menu').animate({
-            top: -100
-        }, 100, function() {
-   
-        });
-});
-
 // Scroll to Anchor
 
 function anchorScroll(target) {

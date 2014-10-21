@@ -3818,7 +3818,7 @@ header nav a:hover {
 header.sticky {
   background: #3d3d3d;
   position: fixed;
-  bottom: 0;
+  top: 0;
   z-index: 9999;
 }
 /* line 141, ../scss/_custom.scss */
@@ -3845,7 +3845,7 @@ header.sticky nav a {
 }
 /* line 158, ../scss/_custom.scss */
 header.sticky a {
-  color: #f1f1f1;
+  color: #3f3f3f;
 }
 
 /* line 167, ../scss/_custom.scss */

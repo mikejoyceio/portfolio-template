@@ -136,7 +136,7 @@ header {
 	&.sticky {
 		background: #3d3d3d;
 		position: fixed;
-		bottom: 0;	
+		top: 0;	
 		z-index: 9999;
 		.logo {
 			font-size: 1.5rem;
@@ -156,7 +156,7 @@ header {
 			}
 		}
 		a {
-			color: #f1f1f1;
+			color: #3f3f3f;
 		}
 	}
 

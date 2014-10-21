@@ -19,10 +19,6 @@ body {
 	//@include debug-vertical-alignment;
 }
 
-.inner-wrap {
-	height: 950px;
-}
-
 #{ headings(all) } {
 	font-family: $font-bold, sans-serif;
 	font-weight: 700;

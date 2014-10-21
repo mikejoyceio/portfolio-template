@@ -119,5 +119,5 @@ function anchorScroll(target) {
         $('html,body').animate({
             scrollTop: $(target).offset().top
         }, 2000);
-    }, 300);
+    }, 500);
 }

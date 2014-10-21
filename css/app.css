@@ -3816,7 +3816,7 @@ header nav a:hover {
 }
 /* line 136, ../scss/_custom.scss */
 header.sticky {
-  background: #3d3d3d;
+  background: #e8e8e8;
   position: fixed;
   top: 0;
   z-index: 9999;

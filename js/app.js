@@ -112,11 +112,11 @@ $(document).on('click', '#start', function() {
 });
 
 $('#view').click(function() {
-    anchorScroll('#featured-work');
+    anchorScroll('#featured-projects');
 });
 
-$('.work').click(function() {
-    anchorScroll('#featured-work');
+$('.projects').click(function() {
+    anchorScroll('#featured-projects');
 });
 
 $('.contact').click(function() {

@@ -3,6 +3,18 @@
 
 **Reponsive Framework:** Foundation
 
+Listed below are the resources that I referenced while completing this project.
+
+I would ideally like to have separate pages for each featured project as opposed to providing further information in a modal, but I wasn't to sure if it was a requirement to include modals in the project or not.
+
+** Foundation Docs **
+
+http://foundation.zurb.com/docs/
+
+**Foundation Off Canvas Menu**
+
+http://foundation.zurb.com/docs/components/offcanvas.html
+
 **Font:**
 
 http://www.fontsquirrel.com/fonts/TeX-Gyre-Adventor
@@ -31,25 +43,18 @@ http://stackoverflow.com/questions/16442016/jquery-sticky-header-that-shrinks-wh
 
 http://gianlucaguarini.github.io/jQuery.BlackAndWhite/
 
-**Prepend new list item to navigation**
-
-http://api.jquery.com/append/
-
-**Remove new list item**
-
-http://api.jquery.com/first-selector/
-
-**Adding a click event to the prepended list item**
-
-http://api.jquery.com/on/
-
 **Event handler issues on mobile**
 
 http://www.ludlowthompson.com/property_advice/Whats_the_difference_between_freehold_and_leasehold/art	icle.htm?id=16
 
-**Foundation Off Canvas Menu**
+**JQuery**
 
-http://foundation.zurb.com/docs/components/offcanvas.html
+http://api.jquery.com/append/
+
+http://api.jquery.com/first-selector/
+
+http://api.jquery.com/on/
+
 
 
 

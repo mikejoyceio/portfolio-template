@@ -3,11 +3,14 @@
 
 **Reponsive Framework:** Foundation
 
+**CSS Preprocessor:** SASS with Compass
+
 Listed below are the resources that I referenced while completing this project.
 
 I would ideally like to have separate pages for each featured project as opposed to providing further information in a modal, but I wasn't to sure if it was a requirement to include modals in the project or not.
 
-** Foundation Docs **
+
+**Foundation Docs**
 
 http://foundation.zurb.com/docs/
 

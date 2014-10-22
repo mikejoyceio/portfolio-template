@@ -44,7 +44,7 @@ $(window).on('scroll touchmove', function(event){
 
 function parallax(){
     var scrolled = $(window).scrollTop();
-    $feature.css('background-position', -(scrolled * 0.1) + 'px');
+    $feature.css('background-position', -(scrolled * 0.03) + 'px');
 }
 
 // Sticky Navigation

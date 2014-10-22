@@ -128,6 +128,7 @@ header {
 			font-family: $font-bold;
 			font-size: 1.1rem;
 			font-weight: 700;
+			@include transition(border .3s, ease-in-out); 
 			&:hover {
 				border-bottom: 3px solid #222222;
 			}
@@ -169,7 +170,7 @@ header {
 	background: image-url('background.jpg');
 	@include background-size(cover);
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: 0 0;
 	backgrond-repeat: no-repeat;
 	height: 580px;
 	padding-top: 140px;

@@ -4458,9 +4458,9 @@ header.sticky a {
 .feature button:hover,
 .feature button :focus,
 .feature button :active {
-  -moz-animation: buzz-out 0.55s 4s linear 1;
-  -webkit-animation: buzz-out 0.55s 4s linear 1;
-  animation: buzz-out 0.55s 4s linear 1;
+  -moz-animation: buzz-out 0.55s 0.1s linear 1;
+  -webkit-animation: buzz-out 0.55s 0.1s linear 1;
+  animation: buzz-out 0.55s 0.1s linear 1;
 }
 /* line 215, ../scss/_custom.scss */
 .feature .social a {

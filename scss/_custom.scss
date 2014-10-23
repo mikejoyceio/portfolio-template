@@ -189,11 +189,14 @@ header {
 	padding-top: 140px;
 	@media #{$medium-up} {
 		height: 950px;
-		padding-top: 200px;
+		padding-top: 180px;
 	}
 	@media #{$large-up} {
 		margin: 13px;
-		padding-top: 230px;
+		padding-top: 190px;
+	}
+	@media #{$xlarge-up} {
+		padding-top: 200px;
 	}
 	p {
   	max-width: 400px;
@@ -208,7 +211,7 @@ header {
 		&:hover,
 		:focus,
 		:active {
-			@include animation(buzz-out .55s .1s linear 1);
+			@include animation(buzz-out .55s 4s linear 1);
 		}
 	}
 	.social {

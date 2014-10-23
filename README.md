@@ -3,13 +3,15 @@
 
 **Reponsive Framework:** Foundation
 
+**CSS Preprocessor:** SASS with Compass
+
 Listed below are the resources that referenced while completing this project.
 
 I started the project using Boostrap which matched the provided mockup, but decided that I wanted to do something a little more challenging with Foundation. All changes and the switch to foundation are detailed in the commit history. 
 
 I would ideally like to have separate pages for each featured project as opposed to providing further information on each project in a modal, but I wasn't 100% sure if it was a requirement to include modals in the project or not. For brevity I have included them in the meantime
 
-** Foundation Docs **
+**Foundation Docs**
 
 http://foundation.zurb.com/docs/
 
@@ -94,10 +96,3 @@ http://api.jquery.com/append/
 http://api.jquery.com/first-selector/
 
 http://api.jquery.com/on/
-
-
-
-
-
-
-

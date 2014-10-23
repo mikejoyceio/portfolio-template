@@ -208,7 +208,7 @@ header {
 		&:hover,
 		:focus,
 		:active {
-			@include animation(buzz-out .55s 4s linear 1);
+			@include animation(buzz-out .55s .1s linear 1);
 		}
 	}
 	.social {

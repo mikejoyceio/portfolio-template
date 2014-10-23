@@ -102,5 +102,3 @@ http://api.jquery.com/on/
 ###Validation
 
 [HTML5 Validation Result](<http://validator.w3.org/check?uri=http%3A%2F%2Fmikejoyce.me%2F>)
-
-[]

@@ -200,7 +200,11 @@ header {
 	}
 	button {
 		margin-bottom: 1.9rem;
-		@include animation(buzz-out .55s 4s linear 1);
+		&:hover,
+		:focus,
+		:active {
+			@include animation(buzz-out .55s 4s linear 1);
+		}
 	}
 	.social {
 		a {

@@ -4086,22 +4086,22 @@ th.hide-for-touch {
 }
 @font-face {
   font-family: 'texgyreadventorregular';
-  src: url('../fonts/texgyreadventor-regular-webfont.eot?1412898964');
-  src: url('../fonts/texgyreadventor-regular-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('../fonts/texgyreadventor-regular-webfont.woff?1412898964') format("woff"), url('../fonts/texgyreadventor-regular-webfont.ttf?1412898964') format("truetype"), url('../fonts/texgyreadventor-regular-webfont.svg?1412898964#texgyreadventorregular') format("svg");
+  src: url('../fonts/texgyreadventor-regular-webfont.eot?1414042161');
+  src: url('../fonts/texgyreadventor-regular-webfont.eot?&1414042161#iefix') format("embedded-opentype"), url('../fonts/texgyreadventor-regular-webfont.woff?1414042161') format("woff"), url('../fonts/texgyreadventor-regular-webfont.ttf?1414042161') format("truetype"), url('../fonts/texgyreadventor-regular-webfont.svg?1414042161#texgyreadventorregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'texgyreadventorbold';
-  src: url('../fonts/texgyreadventor-bold-webfont.eot?1412898964');
-  src: url('../fonts/texgyreadventor-bold-webfont.eot?&1412898964#iefix') format("embedded-opentype"), url('../fonts/texgyreadventor-bold-webfont.woff?1412898964') format("woff"), url('../fonts/texgyreadventor-bold-webfont.ttf?1412898964') format("truetype"), url('../fonts/texgyreadventor-bold-webfont.svg?1412898964#texgyreadventorbold') format("svg");
+  src: url('../fonts/texgyreadventor-bold-webfont.eot?1414042161');
+  src: url('../fonts/texgyreadventor-bold-webfont.eot?&1414042161#iefix') format("embedded-opentype"), url('../fonts/texgyreadventor-bold-webfont.woff?1414042161') format("woff"), url('../fonts/texgyreadventor-bold-webfont.ttf?1414042161') format("truetype"), url('../fonts/texgyreadventor-bold-webfont.svg?1414042161#texgyreadventorbold') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'icon-font';
-  src: url('../fonts/icon-font.eot?1413758344');
-  src: url('../fonts/icon-font.eot?1413758344#iefix') format("embedded-opentype"), url('../fonts/icon-font.woff?1413758344') format("woff"), url('../fonts/icon-font.ttf?1413758344') format("truetype"), url('../fonts/icon-font.svg?1413758344#icon-font') format("svg");
+  src: url('../fonts/icon-font.eot?1414042161');
+  src: url('../fonts/icon-font.eot?1414042161#iefix') format("embedded-opentype"), url('../fonts/icon-font.woff?1414042161') format("woff"), url('../fonts/icon-font.ttf?1414042161') format("truetype"), url('../fonts/icon-font.svg?1414042161#icon-font') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -4413,14 +4413,14 @@ header.sticky a {
 
 /* line 182, ../scss/_custom.scss */
 .feature {
-  background: url('../img/background.jpg?1413399653');
+  background: url('../img/background.jpg?1414042161');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 0;
-  backgrond-repeat: no-repeat;
+  background-repeat: no-repeat;
   height: 580px;
   padding-top: 140px;
 }
@@ -4504,7 +4504,7 @@ header.sticky a {
   .featured-projects figure .figure-hover {
     display: none;
     position: absolute;
-    background: url('../img/pattern.png?1409624647') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    background: url('../img/pattern.png?1414042161') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     width: 70%;
     height: 65%;
     margin: auto;
@@ -4692,7 +4692,7 @@ footer .end {
 
 /* line 414, ../scss/_custom.scss */
 .reveal-modal-bg {
-  background: url('../img/pattern.png?1409624647');
+  background: url('../img/pattern.png?1414042161');
   background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -4941,8 +4941,8 @@ footer .end {
 
   /* line 463, ../scss/_custom.scss */
   100% {
-    -moz-transform: transform;
-    transform: transform;
+    -moz-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
   }
 }
 @-webkit-keyframes buzz {
@@ -4954,8 +4954,8 @@ footer .end {
 
   /* line 463, ../scss/_custom.scss */
   100% {
-    -webkit-transform: transform;
-    transform: transform;
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
   }
 }
 @keyframes buzz {
@@ -4969,8 +4969,9 @@ footer .end {
 
   /* line 463, ../scss/_custom.scss */
   100% {
-    -moz-transform: transform;
-    -webkit-transform: transform;
-    transform: transform;
+    -moz-transform: translateX(-3px) rotate(-2deg);
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
   }
 }

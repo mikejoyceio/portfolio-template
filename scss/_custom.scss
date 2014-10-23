@@ -184,7 +184,7 @@ header {
 	@include background-size(cover);
 	background-attachment: fixed;
 	background-position: 0 0;
-	backgrond-repeat: no-repeat;
+	background-repeat: no-repeat;
 	height: 580px;
 	padding-top: 140px;
 	@media #{$medium-up} {
@@ -461,6 +461,6 @@ footer {
 		@include transform(translateX(3px) rotate(2deg));
 	}
 	100% {
-		@include transform(transform, translateX(-3px) rotate(-2deg));
+		@include transform(translateX(-3px) rotate(-2deg));
 	}
 }

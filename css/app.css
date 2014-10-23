@@ -4428,14 +4428,14 @@ header.sticky a {
   /* line 182, ../scss/_custom.scss */
   .feature {
     height: 950px;
-    padding-top: 160px;
+    padding-top: 200px;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 182, ../scss/_custom.scss */
   .feature {
     margin: 13px;
-    padding-top: 178px;
+    padding-top: 230px;
   }
 }
 /* line 198, ../scss/_custom.scss */

@@ -65,7 +65,7 @@ http://stackoverflow.com/questions/3707918/cant-get-rid-of-dotted-outline-in-fir
 
 http://css-tricks.com/html-for-icon-font-usage/
 
-**Figure / figcaption HTML elements**
+**Figure / Figcaption HTML5 Elements**
 
 http://html5doctor.com/the-figure-figcaption-elements/
 
@@ -102,3 +102,5 @@ http://api.jquery.com/on/
 ###Validation
 
 [HTML5 Validation Result](<http://validator.w3.org/check?uri=http%3A%2F%2Fmikejoyce.me%2F>)
+
+[]

@@ -49,6 +49,7 @@ p {
 
 button, .button {
 	@include background(linear-gradient(320deg, transparent 5px, #fff 5px));
+	@include single-transition(all, .3s, ease-in-out);
 	border: none;
 	color: #222;
 	padding: 5px 20px;
@@ -211,7 +212,7 @@ header {
 		&:hover,
 		:focus,
 		:active {
-			@include animation(buzz-out .55s 4s linear 1);
+			@include animation(buzz-out .55s 1s linear 1);
 		}
 	}
 	.social {
@@ -280,8 +281,8 @@ header {
 				cursor: pointer;
 			}
 	    figcaption {
-				//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
-				color: #3f3f3f;
+			//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
+			color: #3f3f3f;
 	    	font-family: $font-bold, sans-serif;
 	    	font-size: 1.09rem;
 	    	font-weight: 700;

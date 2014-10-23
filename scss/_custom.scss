@@ -54,7 +54,9 @@ button, .button {
 	font-size: 0.9rem;
 	font-weight: bold;
 	opacity: 0.9;
-	&:hover {
+	&:hover,
+	:focus,
+	:active {
 		cursor: pointer;
 	}
 }
@@ -85,7 +87,9 @@ header {
 		position: absolute;
 		right: 10px;
 		top: 16px;
-		&:hover {
+		&:hover,
+		:focus,
+		:active {
 			cursor: pointer;
 		}
 	}
@@ -113,7 +117,9 @@ header {
 				font-family: $font-bold;
 				font-size: 0.9rem;
 				font-weight: 700;
-				&:hover {
+				&:hover,
+				:focus,
+				:active {
 					border-bottom: 3px solid #222;
 				}		
 			}
@@ -129,7 +135,9 @@ header {
 			font-size: 1.1rem;
 			font-weight: 700;
 			@include transition(border .3s, ease-in-out); 
-			&:hover {
+			&:hover,
+			:focus,
+			:active{
 				border-bottom: 3px solid #222;
 			}
 		}
@@ -198,7 +206,9 @@ header {
 		a {
 			color: #222;
 			font-size: 1.5rem;
-			&:hover {
+			&:hover,
+			:focus,
+			:active{
 				color: #222;
 				opacity: 0.8;
 			}
@@ -309,7 +319,9 @@ footer {
 			a {
 			color: #a0a0a0;
 			font-size: 1.1rem;
-			&:hover {
+			&:hover,
+			:focus,
+			:active {
 				border-bottom: 2px solid #f9f9f9;
 				color: white;
 			}
@@ -318,7 +330,9 @@ footer {
 	.message {
 		a {
 			color: #888;
-			&:hover {
+			&:hover,
+			:focus,
+			:active {
 				color: #fff;
 				cursor: pointer;
 			}
@@ -331,7 +345,9 @@ footer {
 		a {
 			color: #303030;
 			font-size: 1.8rem;
-			&:hover {
+			&:hover,
+			:focus,
+			:active {
 				color: #fff;
 			}
 		}

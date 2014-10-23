@@ -29,6 +29,18 @@ http://compass-style.org/
 
 http://bower.io/
 
+**Modernizr Docs**
+
+http://modernizr.com/docs/
+
+**IE9 HTML5 Support**
+
+http://www.impressivewebs.com/html5-support-ie9/
+
+**IE9 CSS3 Support**
+
+http://www.impressivewebs.com/css3-support-ie9/
+
 **Node.js**
 
 http://howtonode.org/how-to-install-nodejs

@@ -238,9 +238,9 @@ header {
 			background: #fff;
 			@include box-shadow(0 3px 5px rgba(0, 0, 0, 0.1));
 			@include border-radius(5px);
-	    margin: auto;
-	    padding: 5px;
-	    max-width: 400px;
+	   		margin: auto;
+		    padding: 5px;
+		    max-width: 400px;
 			display: block;
 			position: relative;
 			.figure-hover {

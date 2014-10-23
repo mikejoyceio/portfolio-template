@@ -9,7 +9,7 @@ I started the project by using Boostrap which in the end matched the provided mo
 
 Ideally, I would like to have separate pages for each individual featured project as opposed to providing further information on each in a modal, but I wasn't 100% sure if it was a project requirement to include modals or not. For brevity I have included them in the meantime.
 
-Listed below are resources I referred to during this project.
+Listed below are resources referred to during this project.
 
 ###Resources
 

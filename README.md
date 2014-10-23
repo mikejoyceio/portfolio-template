@@ -11,6 +11,8 @@ Ideally, I would like to have separate pages for each individual featured projec
 
 Listed below are the resources referenced while completing this project.
 
+###Resources
+
 **Foundation Docs**
 
 http://foundation.zurb.com/docs/
@@ -96,3 +98,7 @@ http://api.jquery.com/append/
 http://api.jquery.com/first-selector/
 
 http://api.jquery.com/on/
+
+###Validation
+
+[HTML5 Validation Result](<http://validator.w3.org/check?uri=http%3A%2F%2Fmikejoyce.me%2F>)

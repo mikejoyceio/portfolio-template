@@ -273,13 +273,6 @@ header {
 						font-size: 1.4rem;
 					}
 				}
-				&:hover .figure-hover,
-				:focus .figure-hover,
-				:active .figure-hover {
-					cursor: pointer;
-					display: block;
-					@include animation(slide-up .5s forwards);
-				}
 			}
 			&:hover,
 			:focus,
@@ -301,8 +294,24 @@ header {
 				display: block;
 				position: relative;
 			}
+		}	
+}
+
+// Only show on browsers that support CSS3 animations
+.cssanimations {
+	@media #{$large-up} {
+		.featured-projects {
+			figure {
+				&:hover .figure-hover,
+				:focus .figure-hover,
+				:active .figure-hover {
+					cursor: pointer;
+					display: block;
+					@include animation(slide-up .5s forwards);
+				}
+			}
 		}
-	
+	}
 }
 
 // Footer

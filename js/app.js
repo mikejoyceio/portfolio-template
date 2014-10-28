@@ -102,11 +102,11 @@ $(document).on('click', '#start', function() {
 });
 
 $('#view').click(function() {
-    anchorScroll('#featured-projects');
+    anchorScroll('#projects');
 });
 
 $('.projects').click(function() {
-    anchorScroll('#featured-projects');
+    anchorScroll('#projects');
 });
 
 $('.contact').click(function() {

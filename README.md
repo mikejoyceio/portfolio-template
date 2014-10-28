@@ -105,6 +105,14 @@ http://stackoverflow.com/questions/25945068/is-it-ok-to-have-section-tag-within-
 
 http://moz.com/blog/meta-data-templates-123
 
+**Twitter Card Validator**
+
+https://cards-dev.twitter.com/validator
+
+**Facebook Open Graph Debugger**
+
+https://developers.facebook.com/tools/debug/
+
 **Parallax Effect**
 
 http://www.webdesignerdepot.com/2013/07/how-to-create-a-simple-parallax-effect/

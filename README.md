@@ -81,6 +81,10 @@ http://css-tricks.com/html-for-icon-font-usage/
 
 http://html5doctor.com/the-figure-figcaption-elements/
 
+**Section HTML5 Element**
+
+http://html5doctor.com/the-section-element/
+
 **Social Meta Tags**
 
 http://moz.com/blog/meta-data-templates-123

@@ -81,6 +81,10 @@ http://css-tricks.com/html-for-icon-font-usage/
 
 http://html5doctor.com/tag/header/
 
+**HTML5 Footer Element**
+
+http://html5doctor.com/the-footer-element-update/
+
 **Figure / Figcaption HTML5 Elements**
 
 http://html5doctor.com/the-figure-figcaption-elements/
@@ -92,6 +96,10 @@ http://html5doctor.com/the-section-element/
 **Common HTML5 Mistakes**
 
 http://html5doctor.com/avoiding-common-html5-mistakes/
+
+**Section Element in Footer**
+
+http://stackoverflow.com/questions/25945068/is-it-ok-to-have-section-tag-within-footer-tag-in-html5
 
 **Social Meta Tags**
 

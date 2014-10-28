@@ -2639,7 +2639,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 1.6875rem;
+  font-size: 2.125rem;
 }
 
 /* line 270, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2889,7 +2889,7 @@ blockquote p {
 
   /* line 456, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 2.3125rem;
+    font-size: 2.75rem;
   }
 
   /* line 457, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -4272,13 +4272,15 @@ header {
   }
 }
 /* line 78, ../scss/_custom.scss */
-header .logo {
+header h1 {
   font-family: texgyreadventorbold;
   font-size: 3rem;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
-/* line 82, ../scss/_custom.scss */
-header .logo a {
+/* line 84, ../scss/_custom.scss */
+header h1 a {
   color: #222222;
   -moz-transition: none;
   -o-transition: none;
@@ -4286,30 +4288,30 @@ header .logo a {
   transition: none;
 }
 /* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/links/_link-colors.scss */
-header .logo a:hover {
+header h1 a:hover {
   color: #222222;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 78, ../scss/_custom.scss */
-  header .logo {
+  header h1 {
     font-size: 3.8rem;
     margin-top: 5px;
   }
 }
-/* line 91, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 header .toggle {
   font-size: 2rem;
   position: absolute;
   right: 10px;
   top: 16px;
 }
-/* line 96, ../scss/_custom.scss */
+/* line 98, ../scss/_custom.scss */
 header .toggle:hover,
 header .toggle :focus,
 header .toggle :active {
   cursor: pointer;
 }
-/* line 102, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 header .toggle-menu {
   background: #fff;
   -moz-border-radius: 5px;
@@ -4322,7 +4324,7 @@ header .toggle-menu {
   width: 100px;
   padding: 5px;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 header .toggle-menu .toggle-close {
   background: #fff;
   -moz-border-radius: 999px;
@@ -4333,11 +4335,11 @@ header .toggle-menu .toggle-close {
   bottom: -15px;
   left: 37px;
 }
-/* line 119, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 header .toggle-menu li {
   list-style: none;
 }
-/* line 121, ../scss/_custom.scss */
+/* line 123, ../scss/_custom.scss */
 header .toggle-menu li a {
   color: #222222;
   font-family: texgyreadventorbold;
@@ -4348,19 +4350,19 @@ header .toggle-menu li a {
 header .toggle-menu li a:hover {
   color: #222222;
 }
-/* line 126, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 header .toggle-menu li a:hover,
 header .toggle-menu li a :focus,
 header .toggle-menu li a :active {
   border-bottom: 3px solid #222;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 136, ../scss/_custom.scss */
 header nav {
   position: absolute;
   right: 15px;
   top: 57px;
 }
-/* line 138, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
 header nav a {
   color: #222222;
   font-family: texgyreadventorbold;
@@ -4375,25 +4377,25 @@ header nav a {
 header nav a:hover {
   color: #222222;
 }
-/* line 144, ../scss/_custom.scss */
+/* line 146, ../scss/_custom.scss */
 header nav a:hover,
 header nav a :focus,
 header nav a :active {
   border-bottom: 3px solid #222;
 }
-/* line 152, ../scss/_custom.scss */
+/* line 154, ../scss/_custom.scss */
 header.sticky {
   background: #e8e8e8;
   position: fixed;
   top: 0;
   z-index: 9999;
 }
-/* line 157, ../scss/_custom.scss */
-header.sticky .logo {
+/* line 159, ../scss/_custom.scss */
+header.sticky h1 {
   font-size: 1.5rem;
   margin-top: -3px;
 }
-/* line 161, ../scss/_custom.scss */
+/* line 163, ../scss/_custom.scss */
 header.sticky .toggle {
   color: #303030;
   font-size: 1.7rem;
@@ -4402,20 +4404,20 @@ header.sticky .toggle {
   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
-/* line 168, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 header.sticky nav {
   top: 5px;
 }
-/* line 170, ../scss/_custom.scss */
+/* line 172, ../scss/_custom.scss */
 header.sticky nav a {
   font-size: 0.9rem;
 }
-/* line 174, ../scss/_custom.scss */
+/* line 176, ../scss/_custom.scss */
 header.sticky a {
   color: #3f3f3f;
 }
 
-/* line 183, ../scss/_custom.scss */
+/* line 185, ../scss/_custom.scss */
 .feature {
   background: url('../img/background.jpg?1414042161');
   -moz-background-size: cover;
@@ -4429,42 +4431,42 @@ header.sticky a {
   padding-top: 140px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 183, ../scss/_custom.scss */
+  /* line 185, ../scss/_custom.scss */
   .feature {
     height: 950px;
     padding-top: 180px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 183, ../scss/_custom.scss */
+  /* line 185, ../scss/_custom.scss */
   .feature {
     margin: 13px;
     padding-top: 190px;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 183, ../scss/_custom.scss */
+  /* line 185, ../scss/_custom.scss */
   .feature {
     padding-top: 200px;
   }
 }
-/* line 202, ../scss/_custom.scss */
+/* line 204, ../scss/_custom.scss */
 .feature p {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 202, ../scss/_custom.scss */
+  /* line 204, ../scss/_custom.scss */
   .feature p {
     margin: 1.9rem auto;
   }
 }
-/* line 210, ../scss/_custom.scss */
+/* line 212, ../scss/_custom.scss */
 .feature button {
   margin-bottom: 1.9rem;
 }
-/* line 212, ../scss/_custom.scss */
+/* line 214, ../scss/_custom.scss */
 .feature button:hover,
 .feature button :focus,
 .feature button :active {
@@ -4477,12 +4479,12 @@ header.sticky a {
   -webkit-animation: buzz-out 0.55s 0.1s linear 1;
   animation: buzz-out 0.55s 0.1s linear 1;
 }
-/* line 221, ../scss/_custom.scss */
+/* line 223, ../scss/_custom.scss */
 .feature .social a {
   color: #222;
   font-size: 1.5rem;
 }
-/* line 224, ../scss/_custom.scss */
+/* line 226, ../scss/_custom.scss */
 .feature .social a:hover,
 .feature .social a :focus,
 .feature .social a :active {
@@ -4490,12 +4492,12 @@ header.sticky a {
   opacity: 0.8;
 }
 
-/* line 236, ../scss/_custom.scss */
+/* line 238, ../scss/_custom.scss */
 .featured-projects {
   margin: -110px 0 100px 0;
   padding: 65px 0 0 0;
 }
-/* line 242, ../scss/_custom.scss */
+/* line 244, ../scss/_custom.scss */
 .featured-projects figure {
   background: #fff;
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -4510,12 +4512,12 @@ header.sticky a {
   display: block;
   position: relative;
 }
-/* line 252, ../scss/_custom.scss */
+/* line 254, ../scss/_custom.scss */
 .featured-projects figure .figure-hover {
   display: none;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 256, ../scss/_custom.scss */
+  /* line 258, ../scss/_custom.scss */
   .featured-projects figure .figure-hover {
     display: none;
     position: absolute;
@@ -4526,7 +4528,7 @@ header.sticky a {
     left: 0;
     right: 0;
   }
-  /* line 266, ../scss/_custom.scss */
+  /* line 268, ../scss/_custom.scss */
   .featured-projects figure .figure-hover .content {
     color: #fff;
     font-family: texgyreadventorbold;
@@ -4536,19 +4538,19 @@ header.sticky a {
     text-align: center;
     opacity: .98;
   }
-  /* line 274, ../scss/_custom.scss */
+  /* line 276, ../scss/_custom.scss */
   .featured-projects figure .figure-hover .content span {
     display: block;
     font-size: 1.4rem;
   }
 }
-/* line 280, ../scss/_custom.scss */
+/* line 282, ../scss/_custom.scss */
 .featured-projects figure:hover,
 .featured-projects figure :focus,
 .featured-projects figure :active {
   cursor: pointer;
 }
-/* line 285, ../scss/_custom.scss */
+/* line 287, ../scss/_custom.scss */
 .featured-projects figure figcaption {
   color: #3f3f3f;
   font-family: texgyreadventorbold, sans-serif;
@@ -4557,19 +4559,19 @@ header.sticky a {
   padding: 10px;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 285, ../scss/_custom.scss */
+  /* line 287, ../scss/_custom.scss */
   .featured-projects figure figcaption {
     font-size: 1.3rem;
   }
 }
-/* line 296, ../scss/_custom.scss */
+/* line 298, ../scss/_custom.scss */
 .featured-projects figure .greyscale {
   display: block;
   position: relative;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 308, ../scss/_custom.scss */
+  /* line 310, ../scss/_custom.scss */
   .cssanimations .featured-projects figure:hover .figure-hover,
   .cssanimations .featured-projects figure :focus .figure-hover,
   .cssanimations .featured-projects figure :active .figure-hover {
@@ -4581,13 +4583,13 @@ header.sticky a {
   }
 }
 
-/* line 322, ../scss/_custom.scss */
+/* line 324, ../scss/_custom.scss */
 footer {
   background: #3d3d3d;
   color: #888;
   padding: 4.85rem 0 0.5rem;
 }
-/* line 326, ../scss/_custom.scss */
+/* line 328, ../scss/_custom.scss */
 footer h3 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
@@ -4598,58 +4600,58 @@ footer h3 {
   text-shadow: 1px 1px 1px inset rgba(127, 127, 127, 0.3);
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 326, ../scss/_custom.scss */
+  /* line 328, ../scss/_custom.scss */
   footer h3 {
     font-size: 1.9rem;
   }
 }
-/* line 337, ../scss/_custom.scss */
+/* line 339, ../scss/_custom.scss */
 footer p {
   margin-left: auto;
   margin-right: auto;
   max-width: 450px;
 }
-/* line 343, ../scss/_custom.scss */
+/* line 345, ../scss/_custom.scss */
 footer .email a {
   color: #a0a0a0;
   font-size: 1.1rem;
 }
-/* line 346, ../scss/_custom.scss */
+/* line 348, ../scss/_custom.scss */
 footer .email a:hover,
 footer .email a :focus,
 footer .email a :active {
   border-bottom: 2px solid #f9f9f9;
   color: white;
 }
-/* line 354, ../scss/_custom.scss */
+/* line 356, ../scss/_custom.scss */
 footer .message {
   font-size: 4.2rem;
   margin: 0 auto 3.8rem auto;
   max-width: 200px;
 }
-/* line 355, ../scss/_custom.scss */
+/* line 357, ../scss/_custom.scss */
 footer .message a {
   color: #888;
 }
-/* line 357, ../scss/_custom.scss */
+/* line 359, ../scss/_custom.scss */
 footer .message a:hover,
 footer .message a :focus,
 footer .message a :active {
   color: #fff;
   cursor: pointer;
 }
-/* line 369, ../scss/_custom.scss */
+/* line 371, ../scss/_custom.scss */
 footer .social a {
   color: #303030;
   font-size: 1.8rem;
 }
-/* line 372, ../scss/_custom.scss */
+/* line 374, ../scss/_custom.scss */
 footer .social a:hover,
 footer .social a :focus,
 footer .social a :active {
   color: #fff;
 }
-/* line 379, ../scss/_custom.scss */
+/* line 381, ../scss/_custom.scss */
 footer .end {
   color: #303030;
   font-family: texgyreadventorbold;
@@ -4661,26 +4663,26 @@ footer .end {
   margin-top: -0.4rem;
 }
 
-/* line 393, ../scss/_custom.scss */
+/* line 395, ../scss/_custom.scss */
 .reveal-modal h2, dialog h2 {
   color: #fff;
   font-family: texgyreadventorbold;
   font-weight: 700;
   margin-left: 15px;
 }
-/* line 399, ../scss/_custom.scss */
+/* line 401, ../scss/_custom.scss */
 .reveal-modal .technical, dialog .technical {
   color: #fff;
   font-family: texgyreadventorregular;
   margin-left: 15px;
 }
-/* line 404, ../scss/_custom.scss */
+/* line 406, ../scss/_custom.scss */
 .reveal-modal p, dialog p {
   color: #fff;
   font-family: texgyreadventorregular;
   font-size: .96rem;
 }
-/* line 409, ../scss/_custom.scss */
+/* line 411, ../scss/_custom.scss */
 .reveal-modal .button, dialog .button {
   color: #fff;
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuOTUyNzkiIHkxPSIxLjAzOTYxNCIgeDI9IjAuMDQ3MjEiIHkyPSItMC4wMzk2MTQiPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3Y2M1NzYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
@@ -4688,18 +4690,18 @@ footer .end {
   background: -webkit-linear-gradient(130deg, rgba(0, 0, 0, 0) 5px, #7cc576 5px);
   background: linear-gradient(320deg, rgba(0, 0, 0, 0) 5px, #7cc576 5px);
 }
-/* line 413, ../scss/_custom.scss */
+/* line 415, ../scss/_custom.scss */
 .reveal-modal figure, dialog figure {
   margin: 50px auto;
   max-width: 400px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 413, ../scss/_custom.scss */
+  /* line 415, ../scss/_custom.scss */
   .reveal-modal figure, dialog figure {
     margin: auto;
   }
 }
-/* line 420, ../scss/_custom.scss */
+/* line 422, ../scss/_custom.scss */
 .reveal-modal .close-reveal-modal, dialog .close-reveal-modal {
   font-size: 1.5rem;
   color: #f25e4f;
@@ -4708,169 +4710,169 @@ footer .end {
   opacity: 0.8;
 }
 
-/* line 429, ../scss/_custom.scss */
+/* line 431, ../scss/_custom.scss */
 .reveal-modal-bg {
   background: url('../img/pattern.png?1414042161');
   background-color: rgba(0, 0, 0, 0.85);
 }
 
 @-moz-keyframes slide-up {
-  /* line 437, ../scss/_custom.scss */
+  /* line 439, ../scss/_custom.scss */
   0% {
     top: 13%;
   }
 
-  /* line 438, ../scss/_custom.scss */
+  /* line 440, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-webkit-keyframes slide-up {
-  /* line 437, ../scss/_custom.scss */
+  /* line 439, ../scss/_custom.scss */
   0% {
     top: 13%;
   }
 
-  /* line 438, ../scss/_custom.scss */
+  /* line 440, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @keyframes slide-up {
-  /* line 437, ../scss/_custom.scss */
+  /* line 439, ../scss/_custom.scss */
   0% {
     top: 13%;
   }
 
-  /* line 438, ../scss/_custom.scss */
+  /* line 440, ../scss/_custom.scss */
   100% {
     top: 10%;
   }
 }
 @-moz-keyframes buzz-out {
-  /* line 442, ../scss/_custom.scss */
+  /* line 444, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 445, ../scss/_custom.scss */
+  /* line 447, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 448, ../scss/_custom.scss */
+  /* line 450, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 451, ../scss/_custom.scss */
+  /* line 453, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 454, ../scss/_custom.scss */
+  /* line 456, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 457, ../scss/_custom.scss */
+  /* line 459, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 460, ../scss/_custom.scss */
+  /* line 462, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 463, ../scss/_custom.scss */
+  /* line 465, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 466, ../scss/_custom.scss */
+  /* line 468, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 469, ../scss/_custom.scss */
+  /* line 471, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @-webkit-keyframes buzz-out {
-  /* line 442, ../scss/_custom.scss */
+  /* line 444, ../scss/_custom.scss */
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 445, ../scss/_custom.scss */
+  /* line 447, ../scss/_custom.scss */
   20% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 448, ../scss/_custom.scss */
+  /* line 450, ../scss/_custom.scss */
   30% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 451, ../scss/_custom.scss */
+  /* line 453, ../scss/_custom.scss */
   40% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 454, ../scss/_custom.scss */
+  /* line 456, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 457, ../scss/_custom.scss */
+  /* line 459, ../scss/_custom.scss */
   60% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 460, ../scss/_custom.scss */
+  /* line 462, ../scss/_custom.scss */
   70% {
     -webkit-transform: translateX(2px) rotate(1deg);
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 463, ../scss/_custom.scss */
+  /* line 465, ../scss/_custom.scss */
   80% {
     -webkit-transform: translateX(-2px) rotate(-1deg);
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 466, ../scss/_custom.scss */
+  /* line 468, ../scss/_custom.scss */
   90% {
     -webkit-transform: translateX(1px) rotate(0);
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 469, ../scss/_custom.scss */
+  /* line 471, ../scss/_custom.scss */
   100% {
     -webkit-transform: translateX(-1px) rotate(0);
     transform: translateX(-1px) rotate(0);
   }
 }
 @keyframes buzz-out {
-  /* line 442, ../scss/_custom.scss */
+  /* line 444, ../scss/_custom.scss */
   10% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4878,7 +4880,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 445, ../scss/_custom.scss */
+  /* line 447, ../scss/_custom.scss */
   20% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -4886,7 +4888,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 448, ../scss/_custom.scss */
+  /* line 450, ../scss/_custom.scss */
   30% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4894,7 +4896,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 451, ../scss/_custom.scss */
+  /* line 453, ../scss/_custom.scss */
   40% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);
@@ -4902,7 +4904,7 @@ footer .end {
     transform: translateX(-3px) rotate(-2deg);
   }
 
-  /* line 454, ../scss/_custom.scss */
+  /* line 456, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4910,7 +4912,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 457, ../scss/_custom.scss */
+  /* line 459, ../scss/_custom.scss */
   60% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4918,7 +4920,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 460, ../scss/_custom.scss */
+  /* line 462, ../scss/_custom.scss */
   70% {
     -moz-transform: translateX(2px) rotate(1deg);
     -ms-transform: translateX(2px) rotate(1deg);
@@ -4926,7 +4928,7 @@ footer .end {
     transform: translateX(2px) rotate(1deg);
   }
 
-  /* line 463, ../scss/_custom.scss */
+  /* line 465, ../scss/_custom.scss */
   80% {
     -moz-transform: translateX(-2px) rotate(-1deg);
     -ms-transform: translateX(-2px) rotate(-1deg);
@@ -4934,7 +4936,7 @@ footer .end {
     transform: translateX(-2px) rotate(-1deg);
   }
 
-  /* line 466, ../scss/_custom.scss */
+  /* line 468, ../scss/_custom.scss */
   90% {
     -moz-transform: translateX(1px) rotate(0);
     -ms-transform: translateX(1px) rotate(0);
@@ -4942,7 +4944,7 @@ footer .end {
     transform: translateX(1px) rotate(0);
   }
 
-  /* line 469, ../scss/_custom.scss */
+  /* line 471, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-1px) rotate(0);
     -ms-transform: translateX(-1px) rotate(0);
@@ -4951,33 +4953,33 @@ footer .end {
   }
 }
 @-moz-keyframes buzz {
-  /* line 475, ../scss/_custom.scss */
+  /* line 477, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 478, ../scss/_custom.scss */
+  /* line 480, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 }
 @-webkit-keyframes buzz {
-  /* line 475, ../scss/_custom.scss */
+  /* line 477, ../scss/_custom.scss */
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 478, ../scss/_custom.scss */
+  /* line 480, ../scss/_custom.scss */
   100% {
     -webkit-transform: translateX(-3px) rotate(-2deg);
     transform: translateX(-3px) rotate(-2deg);
   }
 }
 @keyframes buzz {
-  /* line 475, ../scss/_custom.scss */
+  /* line 477, ../scss/_custom.scss */
   50% {
     -moz-transform: translateX(3px) rotate(2deg);
     -ms-transform: translateX(3px) rotate(2deg);
@@ -4985,7 +4987,7 @@ footer .end {
     transform: translateX(3px) rotate(2deg);
   }
 
-  /* line 478, ../scss/_custom.scss */
+  /* line 480, ../scss/_custom.scss */
   100% {
     -moz-transform: translateX(-3px) rotate(-2deg);
     -ms-transform: translateX(-3px) rotate(-2deg);

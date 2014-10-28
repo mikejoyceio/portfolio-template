@@ -75,10 +75,12 @@ header {
 	@media #{$large-up} {
 		padding: 0 15px;
 	}
-	.logo {
+	h1 {
 		font-family: $font-bold;
 		font-size: 3rem;
 		font-weight: 700;
+		margin: 0;
+		padding: 0;
 		a {
 			@include link-colors(#222, #222);
 			@include transition(none);
@@ -154,7 +156,7 @@ header {
 		position: fixed;
 		top: 0;	
 		z-index: 9999;
-		.logo {
+		h1 {
 			font-size: 1.5rem;
 			margin-top: -3px;	
 		}

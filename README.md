@@ -77,6 +77,10 @@ http://stackoverflow.com/questions/3707918/cant-get-rid-of-dotted-outline-in-fir
 
 http://css-tricks.com/html-for-icon-font-usage/
 
+**HTML5 Header Element**
+
+http://html5doctor.com/tag/header/
+
 **Figure / Figcaption HTML5 Elements**
 
 http://html5doctor.com/the-figure-figcaption-elements/
@@ -84,6 +88,10 @@ http://html5doctor.com/the-figure-figcaption-elements/
 **Section HTML5 Element**
 
 http://html5doctor.com/the-section-element/
+
+**Common HTML5 Mistakes**
+
+http://html5doctor.com/avoiding-common-html5-mistakes/
 
 **Social Meta Tags**
 

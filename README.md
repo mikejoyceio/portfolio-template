@@ -97,6 +97,18 @@ http://html5doctor.com/the-section-element/
 
 http://html5doctor.com/avoiding-common-html5-mistakes/
 
+**HTML5 Titles in Section Elements**
+
+http://stackoverflow.com/questions/5523194/html5-titles-in-sectioning-elements-document-outline-and-seo-implications
+
+**The Most Semantic Way to Display Portfolio Projects**
+
+http://stackoverflow.com/questions/10123553/whats-the-most-semantic-way-to-display-a-single-portfolio-item-in-html5
+
+**HTML5 Outliner**
+
+https://gsnedders.html5.org/outliner/
+
 **Section Element in Footer**
 
 http://stackoverflow.com/questions/25945068/is-it-ok-to-have-section-tag-within-footer-tag-in-html5

@@ -101,6 +101,10 @@ http://www.brucelawson.co.uk/2012/best-of-time/
 
 http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-time-element
 
+http://css-tricks.com/time-element/
+
+https://wiki.whatwg.org/wiki/Time_element
+
 **Common HTML5 Mistakes**
 
 http://html5doctor.com/avoiding-common-html5-mistakes/

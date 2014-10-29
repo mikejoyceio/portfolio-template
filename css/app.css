@@ -4498,7 +4498,7 @@ header.sticky a {
   padding: 65px 0 0 0;
 }
 /* line 244, ../scss/_custom.scss */
-.featured-projects figure {
+.featured-projects .project {
   background: #fff;
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
@@ -4513,12 +4513,12 @@ header.sticky a {
   position: relative;
 }
 /* line 254, ../scss/_custom.scss */
-.featured-projects figure .figure-hover {
+.featured-projects .project .project-hover {
   display: none;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 258, ../scss/_custom.scss */
-  .featured-projects figure .figure-hover {
+  .featured-projects .project .project-hover {
     display: none;
     position: absolute;
     background: url('../img/pattern.png?1414042161') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
@@ -4529,7 +4529,7 @@ header.sticky a {
     right: 0;
   }
   /* line 268, ../scss/_custom.scss */
-  .featured-projects figure .figure-hover .content {
+  .featured-projects .project .project-hover .content {
     color: #fff;
     font-family: texgyreadventorbold;
     font-size: 1rem;
@@ -4539,19 +4539,19 @@ header.sticky a {
     opacity: .98;
   }
   /* line 276, ../scss/_custom.scss */
-  .featured-projects figure .figure-hover .content span {
+  .featured-projects .project .project-hover .content span {
     display: block;
     font-size: 1.4rem;
   }
 }
 /* line 282, ../scss/_custom.scss */
-.featured-projects figure:hover,
-.featured-projects figure :focus,
-.featured-projects figure :active {
+.featured-projects .project:hover,
+.featured-projects .project :focus,
+.featured-projects .project :active {
   cursor: pointer;
 }
 /* line 287, ../scss/_custom.scss */
-.featured-projects figure figcaption {
+.featured-projects .project h4 {
   color: #3f3f3f;
   font-family: texgyreadventorbold, sans-serif;
   font-size: 1.09rem;
@@ -4560,21 +4560,21 @@ header.sticky a {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 287, ../scss/_custom.scss */
-  .featured-projects figure figcaption {
+  .featured-projects .project h4 {
     font-size: 1.3rem;
   }
 }
 /* line 298, ../scss/_custom.scss */
-.featured-projects figure .greyscale {
+.featured-projects .project .greyscale {
   display: block;
   position: relative;
 }
 
 @media only screen and (min-width: 64.063em) {
   /* line 310, ../scss/_custom.scss */
-  .cssanimations .featured-projects figure:hover .figure-hover,
-  .cssanimations .featured-projects figure :focus .figure-hover,
-  .cssanimations .featured-projects figure :active .figure-hover {
+  .cssanimations .featured-projects .project:hover .project-hover,
+  .cssanimations .featured-projects .project :focus .project-hover,
+  .cssanimations .featured-projects .project :active .project-hover {
     cursor: pointer;
     display: block;
     -moz-animation: slide-up 0.5s forwards;
@@ -4590,7 +4590,7 @@ footer {
   padding: 4.85rem 0 0.5rem;
 }
 /* line 328, ../scss/_custom.scss */
-footer h3 {
+footer h4 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
   font-size: 1.7rem;
@@ -4601,7 +4601,7 @@ footer h3 {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 328, ../scss/_custom.scss */
-  footer h3 {
+  footer h4 {
     font-size: 1.9rem;
   }
 }

@@ -241,7 +241,7 @@ header {
 		@media #{$large-up} {
 	
 		}
-		figure {
+		.project {
 			//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 			background: #fff;
 			@include box-shadow(0 3px 5px rgba(0, 0, 0, 0.1));
@@ -251,11 +251,11 @@ header {
 		    max-width: 400px;
 			display: block;
 			position: relative;
-			.figure-hover {
+			.project-hover {
 				display: none;
 			}
 			@media #{$large-up} {
-				.figure-hover {
+				.project-hover {
 					display: none;
 					position: absolute;
 					background: image-url('pattern.png') repeat scroll 0 0 rgba(0, 0, 0, 0.5);
@@ -265,7 +265,7 @@ header {
 					left: 0;
 					right: 0;
 				}
-				.figure-hover .content {
+				.project-hover .content {
 					color: #fff;
 					font-family: $font-bold;
 					font-size: 1rem;
@@ -284,7 +284,7 @@ header {
 			:active {
 				cursor: pointer;
 			}
-	    figcaption {
+	    h4 {
 			//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 			color: #3f3f3f;
 	    	font-family: $font-bold, sans-serif;
@@ -306,10 +306,10 @@ header {
 .cssanimations {
 	@media #{$large-up} {
 		.featured-projects {
-			figure {
-				&:hover .figure-hover,
-				:focus .figure-hover,
-				:active .figure-hover {
+			.project {
+				&:hover .project-hover,
+				:focus .project-hover,
+				:active .project-hover {
 					cursor: pointer;
 					display: block;
 					@include animation(slide-up .5s forwards);
@@ -325,7 +325,7 @@ footer {
 	background: #3d3d3d;
 	color: #888;
 	padding: 4.85rem 0 0.5rem;
-	h3 {
+	h4 {
 		color: #f1f1f1;
 		font-family: $font-bold;
 		font-size: 1.7rem;

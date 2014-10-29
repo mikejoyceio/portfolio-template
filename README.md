@@ -93,6 +93,14 @@ http://html5doctor.com/the-figure-figcaption-elements/
 
 http://html5doctor.com/the-section-element/
 
+**HTML5 Time Element**
+
+http://html5doctor.com/the-time-element/
+
+http://www.brucelawson.co.uk/2012/best-of-time/
+
+http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-time-element
+
 **Common HTML5 Mistakes**
 
 http://html5doctor.com/avoiding-common-html5-mistakes/

@@ -1,7 +1,7 @@
 #P01 - Portfolio Project
 
 
-**Reponsive Framework:** Foundation
+**Responsive Framework:** Foundation
 
 **CSS Preprocessor:** SASS with Compass
 

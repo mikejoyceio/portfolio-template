@@ -343,9 +343,14 @@ footer {
 		max-width: 450px;
 	}
 	.email {
-			a {
+		margin-bottom: 40px;
+		a {
 			color: #a0a0a0;
+			font-family: $font-bold;
 			font-size: 1.1rem;
+			@media #{$medium-up} {
+				font-size: 1.2rem;
+			}
 			&:hover,
 			:focus,
 			:active {
@@ -369,6 +374,7 @@ footer {
 		max-width: 200px;
 	}
 	.social {
+		margin-bottom: 60px;
 		a {
 			color: #303030;
 			font-size: 1.8rem;
@@ -378,15 +384,6 @@ footer {
 				color: #fff;
 			}
 		}
-	}
-	.end {
-		color: #303030;
-		font-family: $font-bold;
-		font-size: 1.5rem;
-		font-weight: 700;
-		@include single-text-shadow(1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3));
-		margin-bottom: 3rem;
-		margin-top: -0.4rem;
 	}
 }
 

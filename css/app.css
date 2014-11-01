@@ -4591,7 +4591,7 @@ footer {
   padding: 4.85rem 0 0.5rem;
 }
 /* line 329, ../scss/_custom.scss */
-footer h4 {
+footer h5 {
   color: #f1f1f1;
   font-family: texgyreadventorbold;
   font-size: 1.7rem;
@@ -4602,7 +4602,7 @@ footer h4 {
 }
 @media only screen and (min-width: 64.063em) {
   /* line 329, ../scss/_custom.scss */
-  footer h4 {
+  footer h5 {
     font-size: 1.9rem;
   }
 }

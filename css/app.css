@@ -4385,7 +4385,7 @@ header nav a :active {
 }
 /* line 154, ../scss/_custom.scss */
 header.sticky {
-  background: #fafafa;
+  background: #e8e8e8;
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);

@@ -152,7 +152,7 @@ header {
 	}
 
 	&.sticky {
-		background: #fafafa;
+		background: #e8e8e8;
 		@include box-shadow(0 0 8px rgba(0, 0, 0, 0.1));
 		position: fixed;
 		top: 0;	

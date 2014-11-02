@@ -238,15 +238,12 @@ header {
 .featured-projects {
 		margin: -110px 0 100px 0;
 		padding: 65px 0 0 0;
-		@media #{$large-up} {
-	
-		}
 		.project {
 			//@include background(linear-gradient(320deg, transparent 13px, #ffffff 13px));
 			background: #fff;
 			@include box-shadow(0 3px 5px rgba(0, 0, 0, 0.1));
 			@include border-radius(5px);
-	   		margin: auto;
+	   		margin: auto auto 20px;
 		    padding: 5px;
 		    max-width: 400px;
 			display: block;

@@ -4623,7 +4623,7 @@ footer .email {
 /* line 344, ../scss/_custom.scss */
 footer .email a {
   color: #a0a0a0;
-  font-family: texgyreadventorbold;
+  font-family: texgyreadventorregular;
   font-size: 1.1rem;
 }
 @media only screen and (min-width: 40.063em) {

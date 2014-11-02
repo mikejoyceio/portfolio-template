@@ -4596,7 +4596,7 @@ footer {
 }
 /* line 326, ../scss/_custom.scss */
 footer h5 {
-  color: #f1f1f1;
+  color: #888;
   font-family: texgyreadventorbold;
   font-size: 1.7rem;
   font-weight: 700;
@@ -4662,7 +4662,7 @@ footer .social {
 }
 /* line 375, ../scss/_custom.scss */
 footer .social a {
-  color: #303030;
+  color: #888;
   font-size: 1.8rem;
 }
 /* line 378, ../scss/_custom.scss */

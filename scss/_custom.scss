@@ -216,7 +216,6 @@ header {
 		:active {
 			@include background(linear-gradient(320deg, transparent 5px, #3f3f3f 5px));
 			color: #fff;
-			@include animation(buzz-out .55s .1s linear 1);
 		}
 	}
 	.social {

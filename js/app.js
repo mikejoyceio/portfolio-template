@@ -65,7 +65,7 @@ $(window).on('scroll touchmove', function(event){
             $(".sticky").animate({
                 top: 0
             }, 800);
-            $nav.prepend('<li><a id="start">Start.</a></li>');
+            $nav.prepend('<li><a id="start">Start</a></li>');
             $toggleIcon.removeClass('icon-toggle right-off-canvas-toggle').addClass('icon-up');
         }
     }

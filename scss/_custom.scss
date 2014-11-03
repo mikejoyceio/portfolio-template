@@ -320,11 +320,11 @@ header {
 // Footer
 
 footer {
-	background: #3d3d3d;
-	color: #444;
+	background: #444444;
+	color: #666;
 	padding: 4.85rem 0 0.5rem;
 	h5 {
-		color: #a0a0a0;
+		color: #888888;
 		font-family: $font-bold;
 		font-size: 1.7rem;
 		@media #{$large-up} {
@@ -342,7 +342,7 @@ footer {
 	.email {
 		margin-bottom: 40px;
 		a {
-			color: #a0a0a0;
+			color: #888888;
 			font-family: $font-normal;
 			font-size: 1.1rem;
 			@media #{$medium-up} {
@@ -373,7 +373,7 @@ footer {
 	.social {
 		margin-bottom: 60px;
 		a {
-			color: #888;
+			color: #666;
 			font-size: 1.8rem;
 			&:hover,
 			:focus,

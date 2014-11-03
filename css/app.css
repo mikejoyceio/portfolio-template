@@ -4590,13 +4590,13 @@ header.sticky a {
 
 /* line 322, ../scss/_custom.scss */
 footer {
-  background: #3d3d3d;
-  color: #444;
+  background: #444444;
+  color: #666;
   padding: 4.85rem 0 0.5rem;
 }
 /* line 326, ../scss/_custom.scss */
 footer h5 {
-  color: #a0a0a0;
+  color: #888888;
   font-family: texgyreadventorbold;
   font-size: 1.7rem;
   font-weight: 700;
@@ -4622,7 +4622,7 @@ footer .email {
 }
 /* line 344, ../scss/_custom.scss */
 footer .email a {
-  color: #a0a0a0;
+  color: #888888;
   font-family: texgyreadventorregular;
   font-size: 1.1rem;
 }
@@ -4662,7 +4662,7 @@ footer .social {
 }
 /* line 375, ../scss/_custom.scss */
 footer .social a {
-  color: #888;
+  color: #666;
   font-size: 1.8rem;
 }
 /* line 378, ../scss/_custom.scss */

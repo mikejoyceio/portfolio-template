@@ -5,10 +5,6 @@
 
 **CSS Preprocessor:** SASS with Compass
 
-I started the project by using Boostrap which in the end matched the provided mockup, but decided to do something a little more challenging with Foundation. The switch to Foundation and all further updates and changes are detailed in the commit history.
-
-Ideally, I would like to have separate pages for each individual featured project as opposed to providing further information on each in a modal, but I wasn't 100% sure if it was a project requirement to include modals or not. For brevity I have included them in the meantime.
-
 ###Resources
 
 **Foundation Docs**

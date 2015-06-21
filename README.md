@@ -4,15 +4,13 @@ Project #1 of the [Front-End Web Developer Nanodegree](https://www.udacity.com/c
 
 The task was to replicate a design mockup in HTML and CSS and develop a responsive website that will display images, descriptions and links to each of the portfolio projects completed throughout the course of the Front-End Web Developer Nanodegree.
 
-<br>
-
 ##Resources
 
-#####ZURB Foundation
+######ZURB Foundation
 
 - [Foundation: Docs](http://foundation.zurb.com/docs/)
 
-#####HTML
+######HTML
 
 - [Social Meta Tags](http://moz.com/blog/meta-data-templates-123)
 - [HTML5 Figure Element](http://html5doctor.com/the-figure-figcaption-elements/)

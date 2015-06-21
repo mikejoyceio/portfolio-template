@@ -2,7 +2,9 @@
 
 Project #1 of the [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001).
 
-The task was to replicate a design mockup in HTML and CSS and develop a responsive website that will display images, descriptions and links to each of the portfolio projects completed throughout the course of the Front-End Web Developer Nanodegree.
+######Project Overview
+
+Replicate a design mockup in HTML and CSS and develop a responsive website that will display images, descriptions and links to each of the portfolio projects completed throughout the course of the Front-End Web Developer Nanodegree.
 
 ##Resources
 

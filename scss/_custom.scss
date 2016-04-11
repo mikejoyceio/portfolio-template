@@ -85,8 +85,12 @@ header {
 		color: black;
 		text-transform: uppercase;
 		font-size: 40px;
-		margin: 30px 0;
+		margin: 10px 0;
 		width: 100px;
+		
+		@media #{$large-up} {
+			margin: 30px 0;
+		}
 		
 		&:hover {
 			-webkit-transform:rotateY(180deg);
@@ -222,7 +226,7 @@ header {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	height: 580px;
-	padding-top: 140px;
+	padding-top: 185px;
 	@media #{$medium-up} {
 		height: 700px;
 		padding-top: 180px;
@@ -369,7 +373,7 @@ footer {
 	h5 {
 		color: #888888;
 		font-family: $font-family;
-		font-size: 1.7rem;
+		font-size: 2.1rem;
 		@media #{$large-up} {
 			font-size: 2.5rem;
 		}
@@ -389,7 +393,7 @@ footer {
 		a {
 			color: #888888;
 			font-family: $font-family;
-			font-size: 1.1rem;
+			font-size: 1.5rem;
 			@media #{$medium-up} {
 				font-size: 1.8rem;
 			}

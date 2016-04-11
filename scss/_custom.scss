@@ -17,7 +17,7 @@ $base-line-height: $rem-base * 1.5;
 
 body {
 	background: #e8e8e8;
-	font-family: $font-normal, sans-serif;
+	font-family: $font-family;
 	//@include debug-vertical-alignment;
 }
 
@@ -77,8 +77,29 @@ header {
 	@media #{$large-up} {
 		padding: 0 15px;
 	}
+
+	.logo {
+		text-align: left;
+		letter-spacing: 5px;
+		font-weight: 400;
+		color: black;
+		text-transform: uppercase;
+		font-size: 40px;
+		margin: 30px 0;
+		width: 100px;
+		
+		&:hover {
+			-webkit-transform:rotateY(180deg);
+			-moz-transform:rotateY(180deg);
+			-o-transform:rotateY(180deg);
+			-ms-transform:rotateY(180deg);
+			unicode-bidi:bidi-override;
+			direction:rtl;
+		}
+	}
+
 	h1 {
-		font-family: $font-bold;
+		font-family: $font-family;
 		font-size: 3rem;
 		font-weight: 700;
 		margin: 0;
@@ -124,7 +145,7 @@ header {
 			list-style: none;
 			a {
 				@include link-colors(#222, #222);
-				font-family: $font-bold;
+				font-family: $font-family;
 				font-size: 0.9rem;
 				font-weight: 700;
 				&:hover,
@@ -141,7 +162,7 @@ header {
 		top: 57px;
 		a {
 			@include link-colors(#222, #222);
-			font-family: $font-bold;
+			font-family: $font-family;
 			font-size: 1.1rem;
 			font-weight: 700;
 			@include transition(border .3s, ease-in-out); 
@@ -154,11 +175,20 @@ header {
 	}
 
 	&.sticky {
-		background: #e8e8e8;
+		background: #fafafa;
+		height: 40px;
 		@include box-shadow(0 0 8px rgba(0, 0, 0, 0.1));
 		position: fixed;
 		top: 0;	
 		z-index: 9999;
+		padding: 4px;
+		
+		.logo {
+			font-size: 22px;
+			margin: 0;		
+			width: 70px;
+		}
+
 		h1 {
 			font-size: 1.5rem;
 			margin-top: -3px;	
@@ -199,17 +229,28 @@ header {
 	}
 	@media #{$large-up} {
 		margin: 13px;
-		padding-top: 190px;
+		padding-top: 220px;
 	}
 	@media #{$xlarge-up} {
 		padding-top: 200px;
 	}
+
+	h1 {
+		margin-bottom: 1rem;		
+		
+		@media #{$medium-up} {
+			font-size: 3.75rem;
+		}
+	}
+
 	p {
   	max-width: 400px;
   	margin-left: auto;
   	margin-right: auto;
   	@media #{$medium-up} {
-  		margin: 1.9rem auto;
+		margin: 1rem auto 2.5rem;
+		line-height: 0.9;
+		font-size: 20px;
   	}
 	}
 	button {
@@ -266,7 +307,7 @@ header {
 				}
 				.project-hover .content {
 					color: #fff;
-					font-family: $font-bold;
+					font-family: $font-family;
 					font-size: 1rem;
 					line-height: 1.2;
 					margin-top: 38%;
@@ -327,16 +368,18 @@ footer {
 	padding: 4.85rem 0 0.5rem;
 	h5 {
 		color: #888888;
-		font-family: $font-bold;
+		font-family: $font-family;
 		font-size: 1.7rem;
 		@media #{$large-up} {
-			font-size: 1.9rem;
+			font-size: 2.5rem;
 		}
 		font-weight: 700;
-		margin-bottom: 1.8rem;
-		@include single-text-shadow(1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3));
+		//@include single-text-shadow(1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3));
 	}
 	p {
+		color: #999999;
+		font-size: 1.1rem;
+		line-height: 2;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 450px;
@@ -345,10 +388,10 @@ footer {
 		margin-bottom: 40px;
 		a {
 			color: #888888;
-			font-family: $font-normal;
+			font-family: $font-family;
 			font-size: 1.1rem;
 			@media #{$medium-up} {
-				font-size: 1.2rem;
+				font-size: 1.8rem;
 			}
 			&:hover,
 			:focus,
@@ -391,18 +434,18 @@ footer {
 .reveal-modal {	
 	h2 {
 		color: #fff;
-		font-family: $font-bold;
+		font-family: $font-family;
 		font-weight: 700;
 		margin-left: 15px;
 	}
 	.technical {
 		color: #fff;
-		font-family: $font-normal;
+		font-family: $font-family;
 		margin-left: 15px;
 	}
 	p {
 		color: #fff;
-		font-family: $font-normal;
+		font-family: $font-family;
 		font-size: .96rem;
 	}
 	.button {	

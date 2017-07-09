@@ -10,7 +10,7 @@ Project #1 of Udacity's [Front-End Web Developer Nanodegree](https://www.udacity
 
 Point your browser to http://portfolio.mikejoyce.io
 
-###### Locally
+###### Local
 
 ###### 1. Clone this repo
 

@@ -82,7 +82,7 @@ gulp.task('scripts', function() {
         config.package + '/foundation-sites-5/js/foundation/foundation.js',
         config.package + '/foundation-sites-5/js/foundation/foundation.offcanvas.js',
         config.package + '/foundation-sites-5/js/foundation/foundation.reveal.js',
-        config.source + '/js/app.js'
+        config.source + '/js/**/*.js'
       ])
 
 			/**

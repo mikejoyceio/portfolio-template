@@ -80,6 +80,8 @@ gulp.task('scripts', function() {
 	gulp.src([
         config.package + '/jquery/dist/jquery.js',
         config.package + '/foundation-sites-5/js/foundation/foundation.js',
+        config.package + '/foundation-sites-5/js/foundation/foundation.offcanvas.js',
+        config.package + '/foundation-sites-5/js/foundation/foundation.reveal.js',
         config.source + '/js/app.js'
       ])
 
@@ -176,7 +178,7 @@ gulp.task('images', function() {
  * @see {@link https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md}
  */
 gulp.task('fonts', function() {
-	gulp.src(config.source + '/fonts/**/*')
+	gulp.src(config.package + '/font-awesome/fonts/*')
 			.pipe(gulp.dest(config.dist + '/fonts'))
 });
 

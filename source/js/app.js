@@ -9,25 +9,6 @@ $(document).foundation({
     }
 });
 
-// Greyscale Images
-
-$('.greyscale').BlackAndWhite({
-    hoverEffect : true, // default true
-    // set the path to BnWWorker.js for a superfast implementation
-    webworkerPath : 'js/',
-    // to invert the hover effect
-    invertHoverEffect: false,
-    // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
-    intensity:0.5,
-    speed: { //this property could also be just speed: value for both fadeIn and fadeOut
-        fadeIn: 5000, // 200ms for fadeIn animations
-        fadeOut: 800 // 800ms for fadeOut animations
-    },
-    onImageReady:function(img) {
-        // this callback gets executed anytime an image is converted
-    }
-});
-
 // JQuery Objects
 
 var $toggle = $('#toggle');
@@ -63,7 +44,7 @@ $(window).on('scroll touchmove', function(event){
             $header.addClass('sticky');
             $(".sticky").show();
             $nav.prepend('<li><a id="start">Start</a></li>');
-            $toggleIcon.removeClass('icon-toggle right-off-canvas-toggle').addClass('icon-up');
+            $toggleIcon.removeClass('fa-bars right-off-canvas-toggle').addClass('fa-arrow-circle-up');
         }
     }
     else
@@ -73,8 +54,8 @@ $(window).on('scroll touchmove', function(event){
             $header.data('size','big');
             $header.removeClass('sticky');
             $nav.children('li:first').remove();
-            $toggleIcon.removeClass('icon-up').addClass('icon-toggle right-off-canvas-toggle');
-        }  
+            $toggleIcon.removeClass('fa-arrow-circle-up').addClass('fa-bars right-off-canvas-toggle');
+        }
     }
 });
 
@@ -89,11 +70,11 @@ $toggle.click(function() {
 // Toggle Mobile Menu Icon
 
 $(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
-    $toggleIcon.removeClass('icon-toggle').addClass('icon-cancel');
+    $toggleIcon.removeClass('fa-bars').addClass('fa-times');
 });
 
 $(document).on('close.fndtn.offcanvas', '[data-offcanvas]', function () {
-    $toggleIcon.removeClass('icon-cancel').addClass('icon-toggle');
+    $toggleIcon.removeClass('fa-times').addClass('fa-bars');
 });
 
 // Scroll to Anchor

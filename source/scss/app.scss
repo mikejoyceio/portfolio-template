@@ -1,11 +1,18 @@
 
-@import "../../node_modules/foundation-sites-5/scss/foundation/functions";
+// Centralize Imports
 
+// Foundation
+@import "../../node_modules/foundation-sites-5/scss/foundation/functions";
 @import "../../node_modules/foundation-sites-5/scss/foundation";
 
+// Base
+@import "base/all";
 
-// Paritals
+// Components
+@import "components/all";
 
-@import "typography";
-@import "icons";
-@import "custom";
+// Layout
+@import "layout/all";
+
+// Sections
+@import "sections/all";

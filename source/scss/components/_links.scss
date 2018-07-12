@@ -1,0 +1,11 @@
+
+// Links
+
+a {
+  transition: all .3s ease;
+  &:active,
+  &:focus {
+    outline: none;
+    -moz-outline-style: none;
+  }
+}

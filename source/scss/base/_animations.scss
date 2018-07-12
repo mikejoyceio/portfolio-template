@@ -1,0 +1,27 @@
+
+// Animations
+
+@keyframes slide-up {
+  0%   { top:   13%; }
+  100% { top: 10%; }
+}
+
+.cssanimations {
+
+  @media #{$large-up} {
+
+    .featured-projects {
+
+      .project {
+
+        &:hover .project-hover,
+        &:focus .project-hover,
+        &:active .project-hover {
+          cursor: pointer;
+          display: block;
+          animation: slide-up .5s forwards;
+        }
+      }
+    }
+  }
+}

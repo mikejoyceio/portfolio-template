@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+
+$font-family: 'Lato', sans-serif;
+
+$font-normal: texgyreadventorregular;
+$font-bold: texgyreadventorbold;
+
+body {
+  background: #e8e8e8;
+  font-family: $font-family;
+  //@include debug-vertical-alignment;
+}
+
+#{ headings(all) } {
+  font-family: $font-bold, sans-serif;
+  font-weight: 700;
+  //margin-bottom: rhythm(1);
+}
+
+p {
+  // @include leader;
+  // @include trailer;
+}

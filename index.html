@@ -4,42 +4,36 @@
 
   	<!-- Meta -->
     <meta charset="utf-8">
-    <title>Mike Joyce</title>
-    <meta name="description" content="Passionate about web development and user experience design.">
+    <title>Website Title</title>
+    <meta name="description" content="Website description.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 		<!-- Set canonical URL -->
-		<link rel="canonical" href="http://portfolio.mikejoyce.io">
+		<link rel="canonical" href="http://www.example.com">
 
 		<!-- Run IE in the highest mode available -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<!-- Run in full-screen mode on iOS Safari -->
-		<meta content="yes" name="apple-mobile-web-app-capable">
-
-		<!-- Set style of the status bar on iOS Safari -->
-	  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
 	 	<!-- Schema.org markup for Google+ -->
-		<meta itemprop="name" content="The Name or Title Here">
-		<meta itemprop="description" content="This is the page description">
+		<meta itemprop="name" content="Name or title">
+		<meta itemprop="description" content="Website description">
 		<meta itemprop="image" content="http://www.example.com/image.jpg">
 
     <!-- Twitter Card Data -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="mikejoyceio">
-    <meta name="twitter:title" content="UX Conscious Front-End Developer">
-    <meta name="twitter:description" content="Passionate about web development and user experience design.">
-    <meta name="twitter:url" content="http://portfolio.mikejoyce.io">
-    <meta name="twitter:image" content="http://portfolio.mikejoyce.io/dist/images/meta-twitter.jpg">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:title" content="Title">
+    <meta name="twitter:description" content="Description">
+    <meta name="twitter:url" content="http://www.example.com">
+    <meta name="twitter:image" content="http://www.example.com/image.jpg">
 
     <!-- Facebook Open Graph Data -->
     <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="UX Conscious Front-End Developer" />
+    <meta property="og:title" content="Title" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://portfolio.mikejoyce.io" />
-    <meta property="og:image" content="http://portfolio.mikejoyce.io/dist/images/meta-facebook.jpg" />
-    <meta property="og:description" content="Passionate about web development and user experience design." />
+    <meta property="og:url" content="http://www.example.com" />
+    <meta property="og:image" content="http://www.example.com/image.jpg" />
+    <meta property="og:description" content="Description" />
 
     <!-- App CSS -->
     <link rel="stylesheet" href="dist/css/app.css" />
@@ -59,43 +53,47 @@
         <!-- Off Canvas Menu -->
         <aside class="right-off-canvas-menu">
           <ul class="off-canvas-list">
-            <li><label>Menu</label></li>
-            <li><a id="start">Start</a></li>
-            <li><a class="projects">Projects</a></li>
-            <li><a class="contact">Contact</a></li>
+            <li>
+              <label>Menu</label>
+            </li>
+            <li>
+              <a class="anchor-link" href="#feature">Start</a>
+            </li>
+            <li>
+              <a class="anchor-link" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="anchor-link" href="#footer">Contact</a>
+            </li>
           </ul>
         </aside>
         <!-- /Off Canvas Menu -->
 
         <!-- Header -->
-        <header>
+        <header id="header">
           <div class="row">
-
             <div class="small-6 medium-6 large-6 columns">
               <a href="/">
-
                 <div class="logo">
-                  Mike
+                  <img src="//placehold.it/200x100?text=LOGO" alt="Alt text">
                 </div>
-
               </a>
             </div>
-
             <div class="small-6 medium-6 large-6 columns">
-
-              <div class="toggle hide-for-large-up" id="toggle">
-                <span class="icon-toggle right-off-canvas-toggle" aria-label="Menu Toggle"></span>
+              <div id="toggle" class="toggle hide-for-large-up">
+                <span id="toggleIcon" class="fa fa-bars right-off-canvas-toggle" aria-label="Menu Toggle"></span>
               </div>
-
-              <nav class="show-for-large-up">
+              <nav id="headerNav" class="show-for-large-up">
                 <ul class="inline-list">
-                  <li><a class="projects">Projects</a></li>
-                  <li><a class="contact">Contact</a></li>
+                  <li>
+                    <a class="anchor-link" href="#projects">Projects</a>
+                  </li>
+                  <li>
+                    <a class="anchor-link" href="#footer">Contact</a>
+                  </li>
                 </ul>
               </nav>
-
             </div>
-
           </div>
         </header>
         <!-- /Header -->
@@ -103,15 +101,13 @@
         <!-- Feature -->
         <div class="feature" id="feature">
           <div class="row">
-
             <div class="small-12 medium-12 large-12 column text-center">
               <section>
-                <h1>Front-End Developer</h1>
-                <p>Passionate about web development and UXD.</p>
-                <button id="view">View Projects</button>
+                <h1>Heading</h1>
+                <p>Sub Heading</p>
+                <a class="button anchor-link" href="#projects">View Projects</a>
               </section>
             </div>
-
           </div>
         </div>
         <!-- /Feature -->
@@ -126,60 +122,120 @@
                   <div class="small-12 medium-6 large-3 columns">
                     <article class="project" data-reveal-id="modal-01">
                       <div class="greyscale">
-                        <img src="dist/images/here-now.jpg" alt="The Here Now logo">
+                        <img src="//placehold.it/800x800" alt="Alt text">
                       </div>
                       <div class="project-hover">
                         <div class="content">
                           View Project
-                          <span class="icon-eye" aria-label="Eye"></span>
+                          <span class="fa fa-eye" aria-label="Eye"></span>
                         </div>
                       </div>
-                      <h4>Here Now</h4>
+                      <h4>Project</h4>
                     </article>
                   </div>
 
                   <div class="small-12 medium-6 large-3 columns">
                     <article class="project" data-reveal-id="modal-02">
                       <div class="greyscale">
-                        <img src="dist/images/route-a-bus.jpg" alt="The routeAbus logo">
+                        <img src="//placehold.it/800x800" alt="Alt text">
                       </div>
                       <div class="project-hover">
                         <div class="content">
                           View Project
-                          <span class="icon-eye" aria-label="Eye"></span>
+                          <span class="fa fa-eye" aria-label="Eye"></span>
                         </div>
                       </div>
-                      <h4>RouteAbus</h4>
+                      <h4>Project</h4>
                     </article>
                   </div>
 
                   <div class="small-12 medium-6 large-3 columns">
                     <article class="project" data-reveal-id="modal-03">
                       <div class="greyscale">
-                        <img src="dist/images/date-asia.jpg" alt="The Date Asia logo">
+                        <img src="//placehold.it/800x800" alt="Alt text">
                       </div>
                       <div class="project-hover">
-                         <div class="content">
+                        <div class="content">
                           View Project
-                          <span class="icon-eye" aria-label="Eye"></span>
+                          <span class="fa fa-eye" aria-label="Eye"></span>
                         </div>
                       </div>
-                      <h4>Date Asia</h4>
+                      <h4>Project</h4>
                     </article>
                   </div>
 
                   <div class="small-12 medium-6 large-3 columns">
                     <article class="project" data-reveal-id="modal-04">
                       <div class="greyscale">
-                        <img src="dist/images/retro-frogger.jpg" alt="The Retro Frogger logo">
+                        <img src="//placehold.it/800x800" alt="Alt text">
                       </div>
                       <div class="project-hover">
-                         <div class="content">
+                        <div class="content">
                           View Project
-                          <span class="icon-eye" aria-label="Eye"></span>
+                          <span class="fa fa-eye" aria-label="Eye"></span>
                         </div>
                       </div>
-                      <h4>Retro Frogger</h4>
+                      <h4>Project</h4>
+                    </article>
+                  </div>
+
+                  <div class="small-12 medium-6 large-3 columns">
+                    <article class="project" data-reveal-id="modal-05">
+                      <div class="greyscale">
+                        <img src="//placehold.it/800x800" alt="Alt text">
+                      </div>
+                      <div class="project-hover">
+                        <div class="content">
+                          View Project
+                          <span class="fa fa-eye" aria-label="Eye"></span>
+                        </div>
+                      </div>
+                      <h4>Project</h4>
+                    </article>
+                  </div>
+
+                  <div class="small-12 medium-6 large-3 columns">
+                    <article class="project" data-reveal-id="modal-06">
+                      <div class="greyscale">
+                        <img src="//placehold.it/800x800" alt="Alt text">
+                      </div>
+                      <div class="project-hover">
+                        <div class="content">
+                          View Project
+                          <span class="fa fa-eye" aria-label="Eye"></span>
+                        </div>
+                      </div>
+                      <h4>Project</h4>
+                    </article>
+                  </div>
+
+                  <div class="small-12 medium-6 large-3 columns">
+                    <article class="project" data-reveal-id="modal-07">
+                      <div class="greyscale">
+                        <img src="//placehold.it/800x800" alt="Alt text">
+                      </div>
+                      <div class="project-hover">
+                        <div class="content">
+                          View Project
+                          <span class="fa fa-eye" aria-label="Eye"></span>
+                        </div>
+                      </div>
+                      <h4>Project</h4>
+                    </article>
+                  </div>
+
+                  <div class="small-12 medium-6 large-3 columns">
+                    <article class="project" data-reveal-id="modal-08">
+                      <div class="greyscale">
+                        <img src="//placehold.it/800x800" alt="Alt text">
+                      </div>
+                      <div class="project-hover">
+                        <div class="content">
+                          View Project
+                          <span class="fa fa-eye" aria-label="Eye"></span>
+                        </div>
+                      </div>
+                      <h4>Project</h4>
                     </article>
                   </div>
 
@@ -190,26 +246,29 @@
         <!-- /Featured Projects -->
 
         <!-- Footer -->
-        <footer>
+        <footer id="footer">
           <div class="row">
-
             <div class="small-12 medium-12 large-12 column text-center">
               <section>
-                <h5>Contact Me</h5>
                 <div class="email">
-                  <a href="mailto:hello@mikejoyce.io">hello@mikejoyce.io</a>
+                  <a href="mailto:contact@email.com">contact@email.com</a>
                 </div>
                 <div class="social">
-                  <a href="http://github.com/mikejoyceio" target="_blank">
-                    <span class="icon-github" aria-label="Github"></span>
+                  <a href="#" target="_blank">
+                    <span class="fa fa-github-alt" aria-label="Github"></span>
                   </a>
-                  <a href="http://twitter.com/mikejoyceio" target="_blank">
-                    <span class="icon-twitter" aria-label="Twitter"></span>
+                  <a href="#" target="_blank">
+                    <span class="fa fa-twitter" aria-label="Twitter"></span>
+                  </a>
+                  <a href="#" target="_blank">
+                    <span class="fa fa-codepen" aria-label="Codepen"></span>
+                  </a>
+                  <a href="#" target="_blank">
+                    <span class="fa fa-behance" aria-label="Behance"></span>
                   </a>
                 </div>
               </section>
             </div>
-
           </div>
         </footer>
         <!-- /Footer -->
@@ -222,137 +281,243 @@
     </div>
     <!-- /Off Canvas Wrap -->
 
-    <!-- Modals -->
+    <!-- Modal 01 -->
     <div id="modal-01" class="reveal-modal xlarge" data-reveal>
-
       <a class="close-reveal-modal">
-        <span class="icon-cancel" aria-label="Cancel"></span>
+        <span class="fa fa-times" aria-label="Cancel"></span>
       </a>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <h2>Here Now</h2>
+          <h2>Project</h2>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <span class="technical">CSS / HTML / JQuery</span>
+          <span class="technical">CSS / HTML / JavaScript</span>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-6 large-6 columns">
-          <p>PSD to HTML.</p>
-          <a class="button" href="http://weareherenow.com" target="_blank">View Live</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
         </div>
         <div class="small-12 medium-6 large-6 columns">
           <figure>
-            <img src="dist/images/here-now-screenshot.jpg" alt="Screenshot of Here Now website">
+            <img src="//placehold.it/800x561" alt="Alt text">
           </figure>
         </div>
       </div>
-
     </div>
+    <!-- /Modal 01 -->
 
+    <!-- Modal 02 -->
     <div id="modal-02" class="reveal-modal xlarge" data-reveal>
-
       <a class="close-reveal-modal">
-        <span class="icon-cancel" aria-label="Cancel"></span>
+        <span class="fa fa-times" aria-label="Cancel"></span>
       </a>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <h2>RouteAbus</h2>
+          <h2>Project</h2>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <span class="technical">CSS / HTML / JQuery</span>
+          <span class="technical">CSS / HTML / JavaScript</span>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-6 large-6 columns">
-          <p>Currently in development. UX Pin mockup to HTML. Built with Foundation 5.</p>
-          <a class="button" href="http://ebus.conryservices.com" target="_blank">View Live</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
         </div>
         <div class="small-12 medium-6 large-6 columns">
           <figure>
-            <img src="dist/images/route-a-bus-screenshot.jpg" alt="Screenshot of routeAbus website">
+            <img src="//placehold.it/800x561" alt="Alt text">
           </figure>
         </div>
       </div>
-
     </div>
+    <!-- /Modal 02 -->
 
+    <!-- Modal 03 -->
     <div id="modal-03" class="reveal-modal xlarge" data-reveal>
-
       <a class="close-reveal-modal">
-        <span class="icon-cancel" aria-label="Cancel"></span>
+        <span class="fa fa-times" aria-label="Cancel"></span>
       </a>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <h2>Date Asia</h2>
+          <h2>Project</h2>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <span class="technical">CSS / HTML / JQuery</span>
+          <span class="technical">CSS / HTML / JavaScript</span>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-6 large-6 columns">
-          <p>Currently in development. A reponsive reboot of Date Asia. Developed with Bootstrap.</p>
-          <a class="button" href="http://date-asia.com/?skin=def_mobile" target="_blank">View Live</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
         </div>
         <div class="small-12 medium-6 large-6 columns">
           <figure>
-            <img src="dist/images/date-asia-screenshot.jpg" alt="Screenshot of Date Asia.">
+            <img src="//placehold.it/800x561" alt="Alt text">
           </figure>
         </div>
       </div>
-
     </div>
+    <!-- /Modal 03 -->
 
+    <!-- Modal 04 -->
     <div id="modal-04" class="reveal-modal xlarge" data-reveal>
-
       <a class="close-reveal-modal">
-        <span class="icon-cancel" aria-label="Cancel"></span>
+        <span class="fa fa-times" aria-label="Cancel"></span>
       </a>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <h2>Retro Frogger Arcade Game Clone</h2>
+          <h2>Project</h2>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-12 large-12">
-          <span class="technical">CSS / HTML / HTML5 Canvas / OOJS</span>
+          <span class="technical">CSS / HTML / JavaScript</span>
         </div>
       </div>
-
       <div class="row">
         <div class="small-12 medium-6 large-6 columns">
-          <p>An HTML5 canvas clone of the classic Frogger arcade game.</p>
-          <a class="button" href="http://www.retrofrogger.com" target="_blank">View Live</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
         </div>
         <div class="small-12 medium-6 large-6 columns">
           <figure>
-            <img src="dist/images/retro-frogger-screenshot.jpg" alt="Screensho of Retro Frogger">
+            <img src="//placehold.it/800x561" alt="Alt text">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal 04 -->
+
+    <!-- Modal 05 -->
+    <div id="modal-05" class="reveal-modal xlarge" data-reveal>
+      <a class="close-reveal-modal">
+        <span class="fa fa-times" aria-label="Cancel"></span>
+      </a>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JavaScript</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">
+          <figure>
+            <img src="//placehold.it/800x561" alt="Alt text">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal 05 -->
+
+    <!-- Modal 06 -->
+    <div id="modal-06" class="reveal-modal xlarge" data-reveal>
+      <a class="close-reveal-modal">
+        <span class="fa fa-times" aria-label="Cancel"></span>
+      </a>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JavaScript</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">
+          <figure>
+            <img src="//placehold.it/800x561" alt="Alt text">
           </figure>
         </div>
       </div>
 
     </div>
-    <!-- /Modals -->
+    <!-- /Modal 06 -->
+
+    <!-- Modal 07 -->
+    <div id="modal-07" class="reveal-modal xlarge" data-reveal>
+      <a class="close-reveal-modal">
+        <span class="fa fa-times" aria-label="Cancel"></span>
+      </a>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JavaScript</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">
+          <figure>
+            <img src="//placehold.it/800x561" alt="Alt text">
+          </figure>
+        </div>
+      </div>
+
+    </div>
+    <!-- /Modal 07 -->
+
+    <!-- Modal 08 -->
+    <div id="modal-08" class="reveal-modal xlarge" data-reveal>
+      <a class="close-reveal-modal">
+        <span class="fa fa-times" aria-label="Cancel"></span>
+      </a>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <h2>Project</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-12 large-12">
+          <span class="technical">CSS / HTML / JavaScript</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 medium-6 large-6 columns">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eaque nostrum voluptatibus perspiciatis soluta, illo repellat, quis hic, totam necessitatibus quaerat unde veritatis assumenda sit fuga magni iste. Accusantium, sunt.</p>
+          <a class="button" href="#" target="_blank">View Live</a>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">
+          <figure>
+            <img src="//placehold.it/800x561" alt="Alt text">
+          </figure>
+        </div>
+      </div>
+
+    </div>
+    <!-- /Modal 08 -->
 
     <!-- App JS -->
     <script src="dist/js/app.js"></script>
+
   </body>
 </html>

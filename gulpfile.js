@@ -1,6 +1,5 @@
 /**
- * @file Gulpfile
- * @file overview Gulp build configuration
+ * @file Gulp build configuration
  * @author Mike Joyce [hello@mikejoyce.io]
  */
 
@@ -78,35 +77,35 @@ gulp.task('clean', function(c) {
 gulp.task('scripts', function() {
 
 	gulp.src([
-        config.package + '/jquery/dist/jquery.js',
-        config.package + '/foundation-sites-5/js/foundation/foundation.js',
-        config.package + '/foundation-sites-5/js/foundation/foundation.offcanvas.js',
-        config.package + '/foundation-sites-5/js/foundation/foundation.reveal.js',
-        config.source + '/js/**/*.js'
-      ])
+    config.package + '/jquery/dist/jquery.js',
+    config.package + '/foundation-sites-5/js/foundation/foundation.js',
+    config.package + '/foundation-sites-5/js/foundation/foundation.offcanvas.js',
+    config.package + '/foundation-sites-5/js/foundation/foundation.reveal.js',
+    config.source + '/js/**/*.js'
+  ])
 
-			/**
-			 * Gulp Filter
-			 * @external '.filter'
-			 * @see {@link https://www.npmjs.com/package/gulp-filter}
-			 */
-			.pipe(plugins.filter('*.js'))
+  /**
+   * Gulp Filter
+   * @external '.filter'
+   * @see {@link https://www.npmjs.com/package/gulp-filter}
+   */
+  .pipe(plugins.filter('*.js'))
 
-			/**
-			 * Gulp Concat
-			 * @external '.concat'
-			 * @see {@link https://www.npmjs.com/package/gulp-concat}
-			 */
-			.pipe(plugins.concat('app.js'))
+  /**
+   * Gulp Concat
+   * @external '.concat'
+   * @see {@link https://www.npmjs.com/package/gulp-concat}
+   */
+  .pipe(plugins.concat('app.js'))
 
-			/**
-			 * Gulp Uglify
-			 * @external '.uglify'
-			 * @see {@link https://www.npmjs.com/package/gulp-uglify}
-			 */
-			//.pipe(plugins.uglify())
+  /**
+   * Gulp Uglify
+   * @external '.uglify'
+   * @see {@link https://www.npmjs.com/package/gulp-uglify}
+   */
+  .pipe(plugins.uglify())
 
-			.pipe(gulp.dest(config.dist + '/js'))
+  .pipe(gulp.dest(config.dist + '/js'))
 });
 
 /**
@@ -117,34 +116,34 @@ gulp.task('scripts', function() {
 gulp.task('styles', function() {
   gulp.src(config.source + '/scss/app.scss')
 
-	  	/**
-	  	 * Gulp Sass
-	  	 * @external '.sass'
-	  	 * @see {@link https://www.npmjs.com/package/gulp-sass}
-	  	 */
-      .pipe(plugins.sass({
-        css: './',
-        style: 'expanded',
-        sourceMap: false
-      }).on('error', plugins.sass.logError))
+  	/**
+  	 * Gulp Sass
+  	 * @external '.sass'
+  	 * @see {@link https://www.npmjs.com/package/gulp-sass}
+  	 */
+    .pipe(plugins.sass({
+      css: './',
+      style: 'expanded',
+      sourceMap: false
+    }).on('error', plugins.sass.logError))
 
-      /**
-       * Gulp Autoprefixer
-       * @external '.autoprefixer'
-       * @see {@link https://www.npmjs.com/package/gulp-autoprefixer}
-       */
-	    .pipe(plugins.autoprefixer({
-        browsers: ['last 2 versions', 'ie >= 9', 'and_chr >= 2.3']
-      }))
+    /**
+     * Gulp Autoprefixer
+     * @external '.autoprefixer'
+     * @see {@link https://www.npmjs.com/package/gulp-autoprefixer}
+     */
+    .pipe(plugins.autoprefixer({
+      browsers: ['last 2 versions', 'ie >= 9', 'and_chr >= 2.3']
+    }))
 
-       /**
-       * Gulp Clean CSS
-       * @external '.cleanCss'
-       * @see {@link https://www.npmjs.com/package/gulp-clean-css}
-       */
-      //.pipe(plugins.cleanCss())
+     /**
+     * Gulp Clean CSS
+     * @external '.cleanCss'
+     * @see {@link https://www.npmjs.com/package/gulp-clean-css}
+     */
+    .pipe(plugins.cleanCss())
 
-	    .pipe(gulp.dest(config.dist + '/css'))
+    .pipe(gulp.dest(config.dist + '/css'))
 });
 
 /**
@@ -155,21 +154,21 @@ gulp.task('styles', function() {
 gulp.task('images', function() {
 	gulp.src(config.source + '/images/*')
 
-			/**
-			 * Gulp Imagemin
-			 * @external '.imagemin()'
-			 * @see {@link https://www.npmjs.com/package/gulp-imagemin}
-			 */
-			.pipe(plugins.imagemin([
-        imageminJpegRecompress({
-          loops: 4,
-          min: 50,
-          max: 95,
-          quality: 'high'
-        })
-      ]))
+		/**
+		 * Gulp Imagemin
+		 * @external '.imagemin()'
+		 * @see {@link https://www.npmjs.com/package/gulp-imagemin}
+		 */
+		.pipe(plugins.imagemin([
+      imageminJpegRecompress({
+        loops: 4,
+        min: 50,
+        max: 95,
+        quality: 'high'
+      })
+    ]))
 
-			.pipe(gulp.dest(config.dist + '/images'))
+		.pipe(gulp.dest(config.dist + '/images'))
 });
 
 /**
@@ -179,7 +178,7 @@ gulp.task('images', function() {
  */
 gulp.task('fonts', function() {
 	gulp.src(config.package + '/font-awesome/fonts/*')
-			.pipe(gulp.dest(config.dist + '/fonts'))
+	 .pipe(gulp.dest(config.dist + '/fonts'))
 });
 
 /**
@@ -197,4 +196,11 @@ gulp.task('watch', function() {
  * @external 'gulp.task'
  * @see {@link https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md}
  */
-gulp.task('default', ['clean', 'scripts', 'styles', 'images', 'fonts', 'watch']);
+gulp.task('default', [
+  'clean',
+  'scripts',
+  'styles',
+  'images',
+  'fonts',
+  'watch'
+]);

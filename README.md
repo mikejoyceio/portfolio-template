@@ -62,7 +62,7 @@ $ yarn install
 
 [Gulp](http://gulpjs.com/) minifies, concatenates and moves files to the appropriate directories by utilizing pre-defined [tasks](https://github.com/gulpjs/gulp/blob/master/docs/CLI.md#tasks) which can be found in [gulpfile.js](gulpfile.js). The following commands need to be ran from the root of the project.
 
-###### Gulp Tasks
+###### Default Task
 
 ```
 $ gulp
@@ -70,17 +70,21 @@ $ gulp
 
 Runs the default Gulp task in [gulpfile.js](gulpfile.js). 
 
+###### Styles Task
+
 ```
 $ gulp styles
 ```
 
-Runs the styles task, which concatenates and minifies all of the [Sass](http://sass-lang.com/) partials in [source/sass](source/sass) and compiles to a single file ([app.css](dist/css/app.css)) in [dist/css](dist/css).
+Concatenates and minifies all of the [Sass](http://sass-lang.com/) partials in [source/sass](source/sass) and compiles to a single file ([app.css](dist/css/app.css)) in [dist/css](dist/css).
+
+###### Scripts Task
 
 ```
 $ gulp scripts
 ```
 
-Runs the scripts task, which concatenates and minifies all JavaScript files in [source/js](source/js) and compiles to a single file ([app.js](dist/js/app.js)) in [dist/js](dist/js).
+Concatenates and minifies all JavaScript files in [source/js](source/js) and compiles to a single file ([app.js](dist/js/app.js)) in [dist/js](dist/js).
 
 ###### Watch Task
 
@@ -88,7 +92,7 @@ Runs the scripts task, which concatenates and minifies all JavaScript files in [
 $ gulp watch
 ```
 
-Runs the watch task, which watches both the [source/sass](source/sass) and [source/js](source/js) directories for changes and runs their respective tasks.
+Watches both the [source/sass](source/sass) and [source/js](source/js) directories for changes and runs their respective tasks.
 
 ###### Images Task
 
@@ -96,7 +100,7 @@ Runs the watch task, which watches both the [source/sass](source/sass) and [sour
 $ gulp images
 ```
 
-Runs the images task in [gulpfile.js](gulpfile.js). Images in [source/images](source/images) will be optimized and moved to [dist/images](dist/images).
+Images in [source/images](source/images) will be optimized and moved to [dist/images](dist/images).
 
 ###### Fonts Task
 
@@ -104,7 +108,7 @@ Runs the images task in [gulpfile.js](gulpfile.js). Images in [source/images](so
 $ gulp fonts
 ```
 
-Runs the fonts task, which transfers the Font Awesome font files to [dist/fonts](dist/fonts).
+Transfers the Font Awesome font files to [dist/fonts](dist/fonts).
 
 ## Resources
 

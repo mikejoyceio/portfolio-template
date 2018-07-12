@@ -1,0 +1,34 @@
+{
+  "name": "Portfolio-Site",
+  "version": "1.0.0",
+  "description": "Portfolio site description.",
+  "private": true,
+  "main": "gulpfile.js",
+  "repository": "https://github.com/mikejoyceio/portfolio-site.git",
+  "author": "Mike Joyce <contact@mikejoyce.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikejoyceio/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/mikejoyceio/portfolio-site",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-filter": "^2.0.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-uglify": "^1.1.0"
+  },
+  "dependencies": {
+    "bower": "^1.8.4",
+    "foundation-sites-5": "^5.5.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-sass": "^4.0.1",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "jquery": "^3.3.1",
+    "modernizr": "^3.6.0"
+  }
+}

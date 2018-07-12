@@ -2,18 +2,18 @@
 // Buttons
 
 button, .button {
-  background: linear-gradient(320deg, transparent 5px, #fff 5px);
-  transition: all .3s ease;
+  background: linear-gradient(320deg, transparent 5px, color(white) 5px);
+  border-radius: 5px;
   border: none;
-  color: #222;
+  color: color(black);
+  font-family: $font-family-primary;
+  font-size: 0.9rem;
+  font-weight: 300;
+  opacity: 0.9;
   padding: 5px 20px;
   text-transform: uppercase;
-  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  transition: all .3s ease;
   word-spacing: 0.04rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  opacity: 0.9;
 
   &:hover,
   &:focus,

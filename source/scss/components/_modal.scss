@@ -4,27 +4,13 @@
 .reveal-modal {
 
   h2 {
-    color: #fff;
-    font-family: $font-family;
     font-weight: 700;
     margin-left: 15px;
   }
 
-  .technical {
-    color: #fff;
-    font-family: $font-family;
-    margin-left: 15px;
-  }
-
   p {
-    color: #fff;
-    font-family: $font-family;
     font-size: .96rem;
-  }
-
-  .button {
-      color: #fff;
-      background: linear-gradient(320deg, transparent 5px, #7cc576 5px);
+    margin: 25px 0;
   }
 
   figure {
@@ -36,17 +22,25 @@
     }
   }
 
+  .technical {
+    margin-left: 15px;
+  }
+
+  .button {
+      color: color(white);
+      background: linear-gradient(320deg, transparent 5px, color(de-york) 5px);
+  }
+
   .close-reveal-modal {
     font-size: 1.5rem;
-    color: #f25e4f;
-    top: 45px;
-    right: 25px;
+    color: color(burnt-sienna);
+    top: 5px;
+    right: 10px;
     opacity: 0.8;
   }
 }
 
 .reveal-modal-bg {
-  background: image-url('pattern.png');
   background-color: rgba(0, 0, 0, 0.85);
 }
 

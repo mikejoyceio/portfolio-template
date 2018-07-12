@@ -2,37 +2,14 @@
 // Footer
 
 footer {
-  background: #444444;
-  color: #666;
+  background: color(charcoal);
   padding: 4.85rem 0 0.5rem;
-
-  h5 {
-    color: #888888;
-    font-family: $font-family;
-    font-size: 2.1rem;
-    font-weight: 700;
-    //text-shadow: 1px, 1px, 1px, inset, rgba(127, 127, 127, 0.3);
-
-    @media #{$large-up} {
-      font-size: 2.5rem;
-    }
-  }
-
-  p {
-    color: #999999;
-    font-size: 1.1rem;
-    line-height: 2;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 450px;
-  }
 
   .email {
     margin-bottom: 40px;
 
     a {
-      color: #888888;
-      font-family: $font-family;
+      color: color(suva-grey);
       font-size: 1.5rem;
 
       @media #{$medium-up} {
@@ -42,8 +19,7 @@ footer {
       &:hover,
       &:focus,
       &:active {
-        border-bottom: 2px solid #f9f9f9;
-        color: white;
+        color: color(white);
       }
     }
   }
@@ -54,12 +30,12 @@ footer {
     max-width: 200px;
 
     a {
-      color: #888;
+      color: color(suva-grey);
 
       &:hover,
       &:focus,
       &:active {
-        color: #fff;
+        color: color(white);
         cursor: pointer;
       }
     }
@@ -69,13 +45,14 @@ footer {
     margin-bottom: 60px;
 
     a {
-      color: #666;
+      color: color(suva-grey);
       font-size: 1.8rem;
+      margin: 0 10px;
 
       &:hover,
       &:focus,
       &:active {
-        color: #fff;
+        color: color(white);
       }
     }
   }

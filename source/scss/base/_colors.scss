@@ -1,0 +1,25 @@
+
+// Colors
+
+$colors: (
+  black: #222,
+  burnt-sienna: #f25e4f,
+  charcoal: #3f3f3f,
+  de-york: #7cc576,
+  night-rider: #303030,
+  norway-light: #AFB997,
+  norway: #A4B889,
+  off-white: #fafafa,
+  suva-grey: #888,
+  white-lilac: #E8E8E8,
+  white: #fff
+);
+
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $colors.";
+  @return null;
+}

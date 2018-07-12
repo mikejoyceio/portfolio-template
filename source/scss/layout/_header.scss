@@ -10,38 +10,22 @@ header {
   }
 
   .logo {
-    text-align: left;
-    letter-spacing: 5px;
-    font-weight: 400;
-    color: black;
-    text-transform: uppercase;
-    font-size: 40px;
     margin: 10px 0;
     width: 100px;
 
     @media #{$large-up} {
-      margin: 30px 0;
-    }
-
-    &:hover {
-      -webkit-transform:rotateY(180deg);
-      -moz-transform:rotateY(180deg);
-      -o-transform:rotateY(180deg);
-      -ms-transform:rotateY(180deg);
-      unicode-bidi:bidi-override;
-      direction:rtl;
+      margin: 45px 0;
     }
   }
 
   h1 {
-    font-family: $font-family;
     font-size: 3rem;
     font-weight: 700;
     margin: 0;
     padding: 0;
 
     a {
-      color: #222;
+      color: color(black);
     }
 
     @media #{$large-up} {
@@ -64,17 +48,17 @@ header {
   }
 
   .toggle-menu {
-    background: #fff;
+    background: color(white);
     border-radius: 5px;
-    position: absolute;
-    top: -100px;
-    right: 10px;
     height: 75px;
-    width: 100px;
     padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: -100px;
+    width: 100px;
 
     .toggle-close {
-      background: #fff;
+      background: color(white);
       border-radius: 999px;
       font-size: 1.3rem;
       position: absolute;
@@ -86,15 +70,14 @@ header {
       list-style: none;
 
       a {
-        color: #222;
-        font-family: $font-family;
+        color: color(black);
         font-size: 0.9rem;
         font-weight: 700;
 
         &:hover,
         &:focus,
         &:active {
-          border-bottom: 3px solid #222;
+          border-bottom: 3px solid color(black);
         }
       }
     }
@@ -106,8 +89,7 @@ header {
     top: 57px;
 
     a {
-      color: #222;
-      font-family: $font-family;
+      color: color(black);
       font-size: 1.1rem;
       font-weight: 700;
       transition: border .3s ease;
@@ -115,24 +97,24 @@ header {
       &:hover,
       &:focus,
       &:active{
-        border-bottom: 3px solid #222;
+        border-bottom: 3px solid color(black);
+        color: color(black);
       }
     }
   }
 
   &.sticky {
-    background: #fafafa;
-    height: 40px;
+    background: color(off-white);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    padding: 2px;
     position: fixed;
     top: 0;
     z-index: 9999;
-    padding: 4px;
 
     .logo {
-      font-size: 22px;
       margin: 0;
-      width: 70px;
+      width: 73px;
     }
 
     h1 {
@@ -141,7 +123,7 @@ header {
     }
 
     .toggle {
-      color: #303030;
+      color: color(night-rider);
       font-size: 1.7rem;
       top: -5px;
       right: 0;
@@ -157,7 +139,7 @@ header {
     }
 
     a {
-      color: #3f3f3f;
+      color: color(charcoal);
     }
   }
 }

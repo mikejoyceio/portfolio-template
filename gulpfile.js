@@ -188,7 +188,7 @@ gulp.task('fonts', function() {
  * @see {@link https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulpwatchglobs-opts-fn}
  */
 gulp.task('watch', function() {
-  gulp.watch(config.source + '/sass/**/*.scss', ['styles']);
+  gulp.watch(config.source + '/scss/**/*.scss', ['styles']);
   gulp.watch(config.source + '/js/**/*.js', ['scripts']);
 });
 

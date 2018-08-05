@@ -1,21 +1,21 @@
-# Portfolio Site
+# Portfolio Template
 
 ###### Project Overview
 
-Project #1 of Udacity's [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001). The task was to replicate a design mockup in HTML and CSS and develop a responsive website that displays images, descriptions and links to each of the portfolio projects completed throughout the course of the Front-End Web Developer Nanodegree.
+A fully-response portfolio website template that can be used to display images, descriptions and links to projects.
 
 ## Getting Started
 
 ###### Live
 
-Point your browser to http://portfolio.mikejoyce.io
+Point your browser to https://portfolio.mikejoyce.io
 
 ###### Local
 
 ###### 1. Clone this repo
 
 ```
-$ git clone https://github.com/mikejoyceio/portfolio-site
+$ git clone https://github.com/mikejoyceio/portfolio-template
 ````
 
 ###### 2. Serve the website

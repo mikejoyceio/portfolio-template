@@ -6,12 +6,6 @@ A fully-response portfolio website template that can be used to display images, 
 
 ## Getting Started
 
-###### Live
-
-Point your browser to https://portfolio.mikejoyce.io
-
-###### Local
-
 ###### 1. Clone this repo
 
 ```
@@ -55,7 +49,7 @@ $ yarn -v
 ###### Install Dependencies
 
 ```
-$ yarn install 
+$ yarn install
 ```
 
 ## Running the Build
@@ -68,7 +62,7 @@ $ yarn install
 $ gulp
 ```
 
-Runs the default Gulp task in [gulpfile.js](gulpfile.js). 
+Runs the default Gulp task in [gulpfile.js](gulpfile.js).
 
 ###### Styles Task
 
@@ -112,7 +106,7 @@ Transfers the Font Awesome font files to [dist/fonts](dist/fonts).
 
 ## Resources
 
-###### ZURB Foundation 
+###### ZURB Foundation
 
 - [Foundation 5 Docs](https://foundation.zurb.com/sites/docs/v/5.5.3/)
 
